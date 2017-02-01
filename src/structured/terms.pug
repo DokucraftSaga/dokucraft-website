@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+  head
+    title Terms of Use | Dokucraft
+    include /src/templates/metadata.pug
+    //- Library stylesheets and scripts
+    script
+      include /src/libraries/jquery-3.1.1.min.js
+    //- Custom stylesheets and scripts
+    style
+      include /dist/css/info.css
+    //- Google Analytics code
+    script
+      include /src/scripts/ga.js
+  body
+    include /src/templates/menubar.pug
+    #content
+      h2 You may...
+      ul
+        li: p Use this pack in a YouTube video, providing a link to this website or our forum thread.
+        li: p Edit any textures for your own private use.
+        li: p Edit any textures for use in an custom map, however a link to this website or our forum thread must be provided and the download must not be behind adf.ly or similar ad links.
+        li: p Use this pack as an official resource pack for your server, however a link to this website or our forum thread must be provided and the download must not be behind adf.ly or similar ad links.
+      h2 You may <b>not</b>...
+      ul
+        li: p Use this pack for any commercial purposes or put it behind adf.ly or similar ad links.
+        li: p Reupload any textures created for the project, or use them in your own pack, without permission.

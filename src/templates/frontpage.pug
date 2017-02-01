@@ -1,0 +1,63 @@
+doctype html
+html(lang="en")
+  head
+    title Dokucraft, The Saga Continues
+    include /src/templates/metadata.pug
+    //- Library stylesheets and scripts
+    script
+      include /src/libraries/jquery-3.1.1.min.js
+    script
+      include /src/libraries/blazy.min.js
+    //- Custom stylesheets and scripts
+    style
+      include /dist/css/frontpage.css
+    script var packList = !{JSON.stringify(packs)}
+    script
+      include /dist/scripts/frontpage.min.js
+    //- Google Analytics code
+    script
+      include /src/scripts/ga.js
+  body
+    include /src/templates/menubar.pug
+    #page
+      #main-packs
+        - var mainPacks = ['light', 'high', 'dark']
+        each i in [0, 1, 2]
+          - var pack = packs[i]
+          a.pack(href=pack.page, style='background-image: url(/resources/frontpage/' + mainPacks[i] + '.jpg)')
+            .cover
+              p= pack.name
+              p.sub= pack.category
+              p.version
+                span.hover-to-show For Minecraft 
+                = pack.downloads[0].version||''
+                br/
+                span.hover-to-show Visit page for more versions
+      #content
+        h2 Featured Packs
+        .paged-showcase
+          span.prev.page-button(onclick='prevFeaturedPage()')
+            include /src/resources/icons/chevron-left.svg
+          span.tabs-wrapper
+            ul.tabs
+              li: a.tab.active(onclick=('showTab(event,\'popular\')')) Most Popular
+              li: a.tab(onclick=('showTab(event,\'recent\')')) Most Recently Updated
+            #popular.tab-content.default-tab
+              .spinner-container: .spinner
+            #recent.tab-content
+          span.next.page-button.active(onclick='nextFeaturedPage()')
+            include /src/resources/icons/chevron-right.svg
+        h2 More Packs
+          span#search-container
+            span#search-icon
+              include /src/resources/icons/magnify.svg
+            input#search-box(type='text' placeholder='Search...' onfocus='this.placeholder = \'\'' onblur='this.placeholder = \'Search...\'' onkeyup='if (event.which == 13) this.blur()')
+        #all-packs
+          each pack in packs
+            a.pack.b-lazy(href=pack.page, data-src='/resources' + pack.page + '/tn/' + pack.screenshots[pack.preview || 0])
+              .spinner-container: .spinner
+              .cover
+                p.pack-name= pack.name
+                p.sub= pack.category
+                p.version= pack.downloads[0].version||''
+          #no-results-hint: p Oh no! I didn't find anything matching that! :O

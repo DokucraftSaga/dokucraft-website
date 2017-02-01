@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #161210;
+  color: #FFF;
+  font-family: "Roboto", "Arial";
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: color 0.215s ease-in-out 0s;
+  transition: color 0.215s ease-in-out 0s;
+  cursor: pointer;
+}
+
+#content {
+  margin-left: 60px;
+  min-height: 100%;
+}

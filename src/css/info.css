@@ -1,0 +1,42 @@
+#content {
+  margin-left: 60px;
+  min-height: 100%;
+}
+
+#content h2 {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+#content h2:first-of-type {
+  margin-top: 60px;
+}
+
+#content>p {
+  display: block;
+  position: relative;
+  margin: 0px 60px;
+  left: 0px;
+  right: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#content ul {
+  display: block;
+  position: relative;
+  padding-left: 60px;
+  margin-right: 60px;
+  left: 0px;
+  right: 0px;
+}
+
+#content li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}

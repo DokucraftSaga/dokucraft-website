@@ -1,0 +1,36 @@
+if pack.downloads.length > 0
+  .downloads-section
+    - var dlBase = 'https://bitbucket.org/DokucraftSaga/dokucraft-website/downloads/'
+    each dl in pack.downloads
+      - var dlLink = dl.file
+      - if (!dlLink.match(/^https?:\/\//i)) dlLink = dlBase + dlLink
+      .download-wrapper(file=dl.file, offset=dl.offset||0)
+        a(href=dlLink)
+          .left
+            .icon-wrapper
+              img.icon(src='/resources/icons/download.svg')
+              b.size
+          .right
+            .top
+              h4.title(title=dl.note)= dl.version
+              if dl.hasOwnProperty('tags')
+                each tag in dl.tags
+                  -
+                    var tagText = ''
+                    var tagInfo = {css:[]}
+                    if (tags[tag]) {
+                      tagInfo = tags[tag]
+                      tagText = tagInfo.text
+                    } else {
+                      tagText = tag
+                    }
+                  i.tag(title=tagInfo.note, style=tagInfo.css.join(';'))= tagText
+              b.count
+            .bottom
+              i.last-update
+        if dl.hasOwnProperty('mirror')
+          a.mirror(href=dl.mirror) Mirror
+else
+  i No downloads are available right now, come back later!
+script
+  include /dist/scripts/downloads.min.js
