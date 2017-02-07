@@ -1,65 +1,69 @@
 module.exports = function(grunt) {
-  var data = grunt.file.readJSON('src/data.json');
+  var data = grunt.file.readJSON('../resources/data.json');
+  var resourceRepo = 'https://dokucraftsaga.github.io/dokucraft-website-resources/'
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     pug: {
       frontpage: {
         options: {
-          basedir: './',
+          basedir: '../',
           data: {
             menu: data.menu,
-            packs: data.packs
+            packs: data.packs,
+            resources: resourceRepo
           }
         },
-        src: 'src/templates/frontpage.pug',
-        dest: 'dist/index.html'
+        src: 'templates/frontpage.pug',
+        dest: '../dist/index.html'
       },
       structured: {
         options: {
-          basedir: './',
+          basedir: '../',
           data: {
-            menu: data.menu
+            menu: data.menu,
+            noYAML: grunt.option('no-yaml') || false,
+            resources: resourceRepo
           }
         },
         expand: true,
         src: '**/*.pug',
-        dest: 'dist/',
-        cwd: 'src/structured',
+        dest: '../dist/',
+        cwd: 'structured',
         ext: '.html'
       }
     },
     concat: {
       panorama: {
         src: [
-          'src/libraries/threejs/Three.js',
-          'src/libraries/threejs/PointerLockControls.js',
-          'src/libraries/ResizeSensor.js',
-          'src/scripts/panorama.js'
+          'libraries/threejs/Three.js',
+          'libraries/threejs/PointerLockControls.js',
+          'libraries/ResizeSensor.js',
+          'scripts/panorama.js'
         ],
-        dest: 'dist/scripts/panorama.js'
+        dest: '../dist/scripts/panorama.js'
       }
     },
     uglify: {
       frontpage: {
-        src: 'src/scripts/frontpage.js',
-        dest: 'dist/scripts/frontpage.min.js'
+        src: 'scripts/frontpage.js',
+        dest: '../dist/scripts/frontpage.min.js'
       },
       menubar: {
-        src: 'src/scripts/menubar.js',
-        dest: 'dist/scripts/menubar.min.js'
+        src: 'scripts/menubar.js',
+        dest: '../dist/scripts/menubar.min.js'
       },
       downloads: {
-        src: 'src/scripts/downloads.js',
-        dest: 'dist/scripts/downloads.min.js'
+        src: 'scripts/downloads.js',
+        dest: '../dist/scripts/downloads.min.js'
       },
       panoramaLoader: {
-        src: 'src/scripts/panorama-loader.js',
-        dest: 'dist/scripts/panorama-loader.min.js'
+        src: 'scripts/panorama-loader.js',
+        dest: '../dist/scripts/panorama-loader.min.js'
       },
       panorama: {
-        src: 'dist/scripts/panorama.js',
-        dest: 'dist/scripts/panorama.min.js'
+        src: '../dist/scripts/panorama.js',
+        dest: '../dist/scripts/panorama.min.js'
       }
     },
     cssmin: {
@@ -69,60 +73,68 @@ module.exports = function(grunt) {
       },
       base: {
         files: {
-          'dist/css/base.css': [
-            'src/css/base.css',
-            'src/css/menubar.css'
+          '../dist/css/base.css': [
+            'css/base.css',
+            'css/menubar.css'
           ]
         }
       },
       info: {
         files: {
-          'dist/css/info.css': [
-            'src/css/base.css',
-            'src/css/menubar.css',
-            'src/css/info.css'
+          '../dist/css/info.css': [
+            'css/base.css',
+            'css/menubar.css',
+            'css/info.css'
           ]
         }
       },
       frontpage: {
         files: {
-          'dist/css/frontpage.css': [
-            'src/css/base.css',
-            'src/css/menubar.css',
-            'src/css/spinner.css',
-            'src/css/frontpage.css'
+          '../dist/css/frontpage.css': [
+            'css/base.css',
+            'css/menubar.css',
+            'css/spinner.css',
+            'css/frontpage.css'
           ]
         }
       },
       pack: {
         files: {
-          'dist/css/pack.css': [
-            'src/css/base.css',
-            'src/css/menubar.css',
-            'src/css/pack.css'
+          '../dist/css/pack.css': [
+            'css/base.css',
+            'css/menubar.css',
+            'css/pack.css'
           ]
         }
       },
-      structured: {
-        expand: true,
-        src: '**/*.css',
-        dest: 'dist/',
-        cwd: 'src/structured'
+      error404: {
+        files: {
+          '../dist/css/404.css': [
+            'css/base.css',
+            'css/menubar.css',
+            'css/404.css'
+          ]
+        }
       }
     },
     copy: {
       resources: {
         expand: true,
-        cwd: 'src/resources/',
+        cwd: 'resources/',
         src: '**',
-        dest: 'dist/resources/'
+        dest: '../dist/resources/'
       },
       structured: {
         expand: true,
-        cwd: 'src/structured/',
+        cwd: 'structured/',
         src: [ '**', '!**/*.{pug,css}' ],
-        dest: 'dist/'
+        dest: '../dist/'
       }
+    },
+    clean: {
+      options: { force: true },
+      build: ['../dist/*', '!../dist/.git/*'],
+      temp: ['../dist/scripts/*.js', '!../dist/scripts/panorama.min.js']
     }
   });
 
@@ -131,17 +143,17 @@ module.exports = function(grunt) {
 
     var o = {
       options: {
-        basedir: './',
+        basedir: '../',
         data: {
           menu: data.menu,
           tags: data.tags,
-          pack: pack
+          pack: pack,
+          resources: resourceRepo
         }
       },
-      files: {}
+      src: 'templates/pack.pug',
+      dest: '../dist' + pack.page + '.html'
     };
-    
-    o.files['dist' + pack.page + '.html'] = 'src/templates/pack.pug';
 
     grunt.config(['pug', pack.page], o);
   }
@@ -151,6 +163,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('default', ['concat', 'uglify', 'cssmin', 'copy', 'pug']);
+  grunt.registerTask('default', ['clean:build', 'concat', 'uglify', 'cssmin', 'copy', 'pug', 'clean:temp']);
 };
