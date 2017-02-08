@@ -134,7 +134,11 @@ module.exports = function(grunt) {
     clean: {
       options: { force: true },
       build: ['../dist/*', '!../dist/.git/*'],
-      temp: ['../dist/scripts/*.js', '!../dist/scripts/panorama.min.js']
+      temp: [
+        '../dist/scripts/*.js',
+        '!../dist/scripts/panorama.min.js',
+        '../dist/css'
+      ]
     }
   });
 
