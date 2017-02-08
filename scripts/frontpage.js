@@ -67,6 +67,7 @@ function widthUpdate(w) {
   }
   $('.tab-content .pack').hide()
   $('.tab-content .pack:nth-child(n+'+(cfp*ppp+1)+'):nth-child(-n+'+((cfp+1)*ppp)+')').show()
+  bLazy.revalidate()
 }
 
 function formatBytes(bytes) {
@@ -108,6 +109,7 @@ $(document).ready(function() {
         scrollTop: $('#all-packs').offset().top - 80
       }, 250)
     }
+    bLazy.revalidate()
   })
 
   var getAllDLs = function(url, arr, cb) {
