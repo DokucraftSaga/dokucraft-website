@@ -153,7 +153,7 @@ $(document).ready(function() {
       var pack = featurablePacks[popular[i].idx]
       $('#popular.tab-content').append(
         $('<a></a>').addClass('pack')
-          .addClass('b-lazy').attr('data-src', __resources+pack.page+'/tn/'+pack.screenshots[pack.preview||0])
+          .addClass('b-lazy').attr('data-src', __resources+pack.page+'/tn/'+pack.gallery[pack.preview||0])
           .append($('<div></div>').addClass('spinner-container').append($('<div></div>').addClass('spinner')))
           .attr('href', pack.page).append(
             $('<div></div>').addClass('cover').append(
@@ -188,7 +188,7 @@ $(document).ready(function() {
       var pack = featurablePacks[recent[i].idx]
       $('#recent.tab-content').append(
         $('<a></a>').addClass('pack')
-          .addClass('b-lazy').attr('data-src', __resources+pack.page+'/tn/'+pack.screenshots[pack.preview||0])
+          .addClass('b-lazy').attr('data-src', __resources+pack.page+'/tn/'+pack.gallery[pack.preview||0])
           .append($('<div></div>').addClass('spinner-container').append($('<div></div>').addClass('spinner')))
           .attr('href', pack.page).append(
             $('<div></div>').addClass('cover').append(

@@ -11,7 +11,9 @@ if ('pointerLockElement' in document || 'mozPointerLockElement' in document || '
   var pointerlockchange = function (event) {
     if (document.pointerLockElement === element || document.mozPointerLockElement === element || document.webkitPointerLockElement === element) {
       if ($('#panorama-viewer').length == 0) {
-        $('#pack-header').append($('<div></div>').attr('id', 'panorama-viewer'))
+        $('body').append($('<div>').addClass('fullscreen-blocker').append(
+          $('<div>').attr('id', 'panorama-viewer')
+        ))
         loadJS('/scripts/panorama.min.js')
       }
     }
@@ -21,12 +23,10 @@ if ('pointerLockElement' in document || 'mozPointerLockElement' in document || '
   document.addEventListener('mozpointerlockchange', pointerlockchange, false)
   document.addEventListener('webkitpointerlockchange', pointerlockchange, false)
 
-  $('#pack-header').append(
-    $('#panorama-button').click(function() {
-      element.requestPointerLock = element.requestPointerLock || element.mozRequestPointerLock || element.webkitRequestPointerLock
-      element.requestPointerLock()
-    })
-  )
+  $('#panorama-button').click(function() {
+    element.requestPointerLock = element.requestPointerLock || element.mozRequestPointerLock || element.webkitRequestPointerLock
+    element.requestPointerLock()
+  })
 } else {
   $('#panorama-button').remove()
 }

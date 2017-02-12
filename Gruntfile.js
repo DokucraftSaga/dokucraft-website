@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-  var data = grunt.file.readJSON('../resources/data.json');
+  var data = grunt.file.readJSON('data.json');
   var resourceRepo = 'https://dokucraftsaga.github.io/dokucraft-website-resources/'
 
   grunt.initConfig({
@@ -52,6 +52,10 @@ module.exports = function(grunt) {
       menubar: {
         src: 'scripts/menubar.js',
         dest: '../dist/scripts/menubar.min.js'
+      },
+      gallery: {
+        src: 'scripts/gallery.js',
+        dest: '../dist/scripts/gallery.min.js'
       },
       downloads: {
         src: 'scripts/downloads.js',
@@ -150,9 +154,10 @@ module.exports = function(grunt) {
         basedir: '../',
         data: {
           menu: data.menu,
-          tags: data.tags,
+          tagStyles: data.tagStyles,
           pack: pack,
-          resources: resourceRepo
+          resources: resourceRepo,
+          fileRepo: 'https://bitbucket.org/DokucraftSaga/dokucraft-website/downloads/'
         }
       },
       src: 'templates/pack.pug',

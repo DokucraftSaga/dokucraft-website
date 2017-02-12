@@ -4,61 +4,94 @@ html(lang='en')
     title #{pack.name} | Dokucraft
     include /src/templates/metadata.pug
     //- Library stylesheets and scripts
-    script
-      include /src/libraries/jquery-3.1.1.min.js
+    script: include /src/libraries/jquery-3.1.1.min.js
     //- Custom stylesheets and scripts
-    style
-      include /dist/css/pack.css
+    style: include /dist/css/pack.css
     script dokucraft_pack_path = '#{pack.page}';
     //- Google Analytics code
-    script
-      include /src/scripts/ga.js
+    script: include /src/scripts/ga.js
   body
     include /src/templates/menubar.pug
     #content
-      #pack-header(style='background-image: url(' + resources + pack.page + '/' + pack.screenshots[pack.preview || 0] + ')')
-        .overlay
-        #pack-title
-          h3= pack.name
-          h4= pack.category
-        if pack.modPage
-          a.mod-link(href=pack.modPage) Visit mod page
-        if pack.enablePanorama
-          a#panorama-button Panorama view
-          script
-            include /dist/scripts/panorama-loader.min.js
+      #pack-header(style='background-image: url(' + resources + pack.page + '/' + pack.gallery[pack.preview || 0] + ')')
+        #header-overlay
+          #info-tile
+            h1#pack-title= pack.name
+            h3#pack-category= pack.category
+            if pack.downloads.length > 0
+              - var dl = pack.downloads[pack.featuredFile || 0]
+              - var dlLink = dl.file
+              - if (!dlLink.match(/^https?:\/\//i)) dlLink = fileRepo + dl.file
+              a.header-button(href=dlLink)
+                .icon: include /src/resources/icons/download.svg
+                .text
+                  h4 Download Pack
+                  = pack.featuredText || 'For Minecraft ' + pack.downloads[pack.featuredFile || 0].version
+              br.toggle-nl
+            if pack.enablePanorama
+              a#panorama-button.header-button
+                .icon: include /src/resources/icons/panorama.svg
+                .text
+                  h4 Preview
+                  | 360° Panorama
+              script: include /dist/scripts/panorama-loader.min.js
+              br.toggle-nl
+            if pack.modPage
+              a.header-button(href=pack.modPage)
+                .icon: include /src/resources/icons/mod.svg
+                .text
+                  h4 Mod
+                  = 'Get ' + pack.name
+          if pack.gallery.length > 1
+            #gallery-tile
+              #gallery
+                each gi in pack.gallery
+                  .gallery-image(style='background-image: url('+resources+pack.page+'/tn/'+gi+')', image=resources+pack.page+'/'+gi)
+                    img(src='/resources/16x9.png')
+                    .overlay
+              script: include /dist/scripts/gallery.min.js
       #pack-info
-        h2 Downloads
-        include /src/templates/downloads.pug
-        h2 Installation
-        i Installing <b>MCPatcher</b> or <b>Optifine</b> is optional, but recommended.
-        ol
-          li: p Download the pack from one of the links above.
-          li: p Start Minecraft.
-          li: p Go to Options -&gt; Resource Packs.
-          li: p Click Open resource pack folder.
-          li: p Place the pack you downloaded in this folder.
-          li: p Select the pack from the Resource Packs menu.
-          li: p Enjoy!
-        if pack.screenshots.length > 1
-          h2 Screenshots
-          #screenshots
-            each ss in pack.screenshots
-              a.screenshot(style='background-image: url('+resources+pack.page+'/tn/'+ss+')', image=resources+pack.page+'/'+ss)
-                .overlay
-          script.
-            function showFullscreen(path) {
-              $('body').append($('<div></div>').addClass('fullscreen-blocker').append(
-                $('<img></img>').addClass('fullscreen-image').attr('src', path)
-              ).click(function() {
-                $('.fullscreen-blocker').fadeOut(250, function() {
-                  $(this).remove()
-                })
-              }).fadeIn(250))
-            }
-
-            $(document).ready(function() {
-              $('.screenshot').click(function(e) {
-                showFullscreen($(e.currentTarget).attr('image'))
-              })
-            })
+        h2 All Downloads
+        .dl-section
+          if pack.downloads.length > 0
+            table
+              tr
+                th File
+                th Date
+                th Downloads
+                th Size
+                th Mirror
+              each dl in pack.downloads
+                - var dlLink = dl.file
+                - if (!dlLink.match(/^https?:\/\//i)) dlLink = fileRepo + dl.file
+                tr.download-row(file=dl.file, offset=dl.offset || 0, onclick='window.location = \'!{dlLink}\'')
+                  td 
+                    = dl.name || pack.name
+                    - var versionStyle = tagStyles['neutral']
+                    if dl.hasOwnProperty('tags')
+                      each tag in dl.tags
+                        if ~tag.indexOf('=')
+                          if tag.indexOf('=') == 0
+                            - versionStyle = tagStyles[tag.substring(1)]
+                          else
+                            - var tagText = tag.split('=')[0]
+                            - var tagStyle = tag.split('=')[1]
+                            - versionStyle = tagStyles[tagStyle]
+                            span.tag(style=tagStyles[tagStyle].join(';'))= tagText
+                        else
+                          - versionStyle = tagStyles[tag]
+                          span.tag(style=tagStyles[tag].join(';'))= tag
+                    span.tag(style=versionStyle.join(';'))= dl.version
+                    if dl.hasOwnProperty('note')
+                      .note= dl.note
+                  td.date
+                  td.count
+                  td.size
+                  if dl.hasOwnProperty('mirror')
+                    td: a(href=dl.mirror): include /src/resources/icons/download.svg
+                  else
+                    td.n-a n/a
+            script: include /dist/scripts/downloads.min.js
+          else
+            i No downloads are available right now, come back later!
+        include /src/templates/install-instructions.pug

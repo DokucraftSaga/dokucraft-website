@@ -3,19 +3,17 @@ if !noYAML
   | permalink: /404.html
   | ---
   | 
+doctype html
 html(lang="en")
   head
     title 404 | Dokucraft
     include /src/templates/metadata.pug
     //- Library stylesheets and scripts
-    script
-      include /src/libraries/jquery-3.1.1.min.js
+    script: include /src/libraries/jquery-3.1.1.min.js
     //- Custom stylesheets and scripts
-    style
-      include /dist/css/404.css
+    style: include /dist/css/404.css
     //- Google Analytics code
-    script
-      include /src/scripts/ga.js
+    script: include /src/scripts/ga.js
   body
     include /src/templates/menubar.pug
     #content

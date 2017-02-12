@@ -13,9 +13,13 @@ body {
 
 a {
   text-decoration: none;
-  -webkit-transition: color 0.215s ease-in-out 0s;
-  transition: color 0.215s ease-in-out 0s;
+  transition: color 250ms;
+  color: #3aa3ff;
   cursor: pointer;
+}
+
+a:hover {
+  color: #ffcf01;
 }
 
 #content {

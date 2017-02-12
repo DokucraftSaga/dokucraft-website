@@ -164,6 +164,10 @@ body {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
+/*#content .tab {
+  color: #fff;
+}*/
+
 #content .tab-content .pack {
   margin: 0 4px;
   flex: 1 1 400px;
@@ -274,6 +278,7 @@ ul.tabs {
 ul.tabs li {float: left;}
 
 ul.tabs li a {
+  color: #fff;
   display: inline-block;
   text-align: center;
   padding: 4px 12px;
@@ -282,13 +287,16 @@ ul.tabs li a {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  opacity: 0.75;
   cursor: pointer;
 }
 
 ul.tabs li a:hover,
-ul.tabs li a:focus, .active {
+ul.tabs li a:focus,
+ul.tabs li a.active {
   background-color: #291f18;
   color: #FFCF01;
+  opacity: 1;
 }
 
 #all-packs {

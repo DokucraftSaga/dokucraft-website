@@ -1,15 +1,18 @@
 var scene, camera, renderer, controls;
 var container = $('#panorama-viewer');
+var blocker = container.parent();
 
 var element = document.body;
 
 var pointerlockchange = function (event) {
   if (document.pointerLockElement === element || document.mozPointerLockElement === element || document.webkitPointerLockElement === element) {
     $('body').css('overflow-y', 'hidden');
+    blocker.css('display', 'block');
     container.css('display', 'block');
     controls.enabled = true;
   } else {
     $('body').css('overflow-y', 'auto');
+    blocker.css('display', 'none');
     container.css('display', 'none');
     controls.enabled = false;
   }

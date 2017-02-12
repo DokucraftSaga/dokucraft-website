@@ -54,10 +54,11 @@ html(lang="en")
             input#search-box(type='text' placeholder='Search...' onfocus='this.placeholder = \'\'' onblur='this.placeholder = \'Search...\'' onkeyup='if (event.which == 13) this.blur()')
         #all-packs
           each pack in packs
-            a.pack.b-lazy(href=pack.page, data-src=resources + pack.page + '/tn/' + pack.screenshots[pack.preview || 0])
+            a.pack.b-lazy(href=pack.page, data-src=resources + pack.page + '/tn/' + pack.gallery[pack.preview || 0])
               .spinner-container: .spinner
               .cover
                 p.pack-name= pack.name
                 p.sub= pack.category
-                p.version= pack.downloads[0].version||''
+                if pack.downloads.length > 0
+                  p.version= pack.downloads[0].version
           #no-results-hint: p Oh no! I didn't find anything matching that! :O

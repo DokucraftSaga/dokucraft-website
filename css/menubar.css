@@ -26,13 +26,13 @@
 
 #menu li>a {
   display: inline-block;
-  color: #FFF;
+  color: #fff;
   padding: 10px 30px 10px 40px;
   width: 230px;
 }
 
 #menu li>a:hover {
-  color: #FFCF01;
+  color: #ffcf01;
 }
 
 #header {
@@ -49,7 +49,7 @@
 #title {
   position: absolute;
   top: 50%;
-  color: #FFFFFF;
+  color: #fff;
   width: 200px;
   height: 60px;
   margin-top: 100px;
@@ -67,7 +67,7 @@
 }
 
 #title:hover {
-  color: #FFCF01;
+  color: #ffcf01;
 }
 
 #menu-button {
@@ -82,7 +82,7 @@
 }
 
 #header.menubarIsOpen #menu-button {
-  background: #FFCF01;
+  background: #ffcf01;
 }
 
 #open-menu-blocker {
@@ -152,7 +152,7 @@ svg .icon {
 }
 
 :hover>svg .icon {
-  fill: #FFCF01;
+  fill: #ffcf01;
 }
 
 #menu-button .close-icon .icon {
