@@ -64,7 +64,7 @@ html(lang='en')
               each dl in pack.downloads
                 - var dlLink = dl.file
                 - if (!dlLink.match(/^https?:\/\//i)) dlLink = fileRepo + dl.file
-                tr.download-row(file=dl.file, offset=dl.offset || 0, onclick='window.location = \'!{dlLink}\'')
+                tr.download-row(file=dl.file, offset=dl.offset || 0, onclick='window.location = \'' + dlLink + '\'')
                   td 
                     = dl.name || pack.name
                     - var versionStyle = tagStyles['neutral']
