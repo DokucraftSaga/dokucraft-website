@@ -44,7 +44,7 @@
       "name": "Dokucraft Light",
       "category": "32x Resource Pack",
       "preview": 1,
-      "page": "/resource-packs/light",
+      "page": "resource-packs/light",
       "gallery": [
         "4TKddFz.png",
         "frontpage.png",
@@ -83,7 +83,7 @@
       "name": "Dokucraft High",
       "category": "32x Resource Pack",
       "preview": 1,
-      "page": "/resource-packs/high",
+      "page": "resource-packs/high",
       "gallery": [
         "lAJ1qlo.png",
         "frontpage.png",
@@ -122,7 +122,7 @@
       "name": "Dokucraft Dark",
       "category": "32x Resource Pack",
       "preview": 1,
-      "page": "/resource-packs/dark",
+      "page": "resource-packs/dark",
       "gallery": [
         "bTbsW2c.png",
         "frontpage.png",
@@ -161,7 +161,7 @@
       "name": "Dokucraft Dwarven",
       "category": "32x Resource Pack",
       "preview": 1,
-      "page": "/resource-packs/dwarven",
+      "page": "resource-packs/dwarven",
       "gallery": [
         "dmoiWAJ.png",
         "frontpage.png",
@@ -194,7 +194,7 @@
       "name": "Advanced HUD",
       "category": "Mod Support",
       "preview": 1,
-      "page": "/mod-support/advanced-hud",
+      "page": "mod-support/advanced-hud",
       "gallery": [
         "2014-11-19_22.41.54.png",
         "2014-11-19_22.44.22.png"
@@ -227,7 +227,7 @@
     {
       "name": "Advanced Machines",
       "category": "Mod Support",
-      "page": "/mod-support/advanced-machines",
+      "page": "mod-support/advanced-machines",
       "gallery": ["Advanced-Machines-01.jpg"],
       "modPage": "http://atomicstryker.net/advancedmachines.php",
       "downloads": [
@@ -243,7 +243,7 @@
     {
       "name": "Ancient Warfare",
       "category": "Mod Support",
-      "page": "/mod-support/ancient-warfare",
+      "page": "mod-support/ancient-warfare",
       "gallery": ["xZNYnvp.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1441547-1-7-10-ancient-warfare-forge-smp-wip-d-l",
       "downloads": [
@@ -259,7 +259,7 @@
     {
       "name": "Backpack",
       "category": "Mod Support",
-      "page": "/mod-support/backpack",
+      "page": "mod-support/backpack",
       "gallery": ["Backpack-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286124-1-6-x-1-7-x-backpacks-v-2-0-1",
       "downloads": [
@@ -273,7 +273,7 @@
       "name": "Balkon’s Weapon",
       "category": "Mod Support",
       "preview": 1,
-      "page": "/mod-support/balkons-weapon",
+      "page": "mod-support/balkons-weapon",
       "gallery": [
         "BWM-01.jpg",
         "BWM-02.jpg"
@@ -300,7 +300,7 @@
       "name": "Battle Towers",
       "category": "Mod Support",
       "preview": 1,
-      "page": "/mod-support/battle-towers",
+      "page": "mod-support/battle-towers",
       "gallery": [
         "2014-10-28_10.24.32.jpg",
         "2014-10-27_21.20.12.jpg"
@@ -316,7 +316,7 @@
     {
       "name": "Better Foliage",
       "category": "Mod Support",
-      "page": "/mod-support/better-foliage",
+      "page": "mod-support/better-foliage",
       "gallery": ["635490683108214550.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2119722-better-foliage",
       "downloads": [
@@ -333,7 +333,7 @@
     {
       "name": "Better Furnaces",
       "category": "Mod Support",
-      "page": "/mod-support/better-furnaces",
+      "page": "mod-support/better-furnaces",
       "gallery": ["BFurnaces-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279439-better-furnaces-mod",
       "downloads": [
@@ -346,7 +346,7 @@
     {
       "name": "Big Reactors",
       "category": "Mod Support",
-      "page": "/mod-support/big-reactors",
+      "page": "mod-support/big-reactors",
       "gallery": ["Big-Reactors-001.jpg"],
       "modPage": "http://www.big-reactors.com/",
       "downloads": [
@@ -360,7 +360,7 @@
       "name": "Biomes O’ Plenty",
       "category": "Mod Support",
       "preview": 3,
-      "page": "/mod-support/biomes-o-plenty",
+      "page": "mod-support/biomes-o-plenty",
       "gallery": [
         "635455253270329491.jpg",
         "635455253099317930.jpg",
@@ -395,7 +395,7 @@
     {
       "name": "Buildcraft",
       "category": "Mod Support",
-      "page": "/mod-support/buildcraft",
+      "page": "mod-support/buildcraft",
       "gallery": ["Buildcraft-02.jpg"],
       "modPage": "http://www.mod-buildcraft.com/pages/download.html",
       "downloads": [
@@ -406,9 +406,25 @@
       ]
     },
     {
+      "name": "Carpenter's Blocks",
+      "category": "Mod Support",
+      "page": "mod-support/carpenters-blocks",
+      "gallery": ["UhapFgL.jpg"],
+      "modPage": "http://www.carpentersblocks.com/index.html",
+      "downloads": [
+        {
+          "version": "1.7.10",
+          "file": "Carpenters_Blocks-Dokucraft-v2.zip",
+          "tags": [
+            "Light"
+          ]
+        }
+      ]
+    },
+    {
       "name": "ChickenChunks",
       "category": "Mod Support",
-      "page": "/mod-support/chickenchunks",
+      "page": "mod-support/chickenchunks",
       "gallery": ["2014-11-19_22.10.33.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods",
       "downloads": [
@@ -431,7 +447,7 @@
     {
       "name": "Chisels and Bits",
       "category": "Mod Support",
-      "page": "/mod-support/chisels-and-bits",
+      "page": "mod-support/chisels-and-bits",
       "gallery": ["636177518539575023.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2576750-chisels-bits-flat-colored-blocks",
       "downloads": [
@@ -445,7 +461,7 @@
     {
       "name": "CompactSolars",
       "category": "Mod Support",
-      "page": "/mod-support/compactsolars",
+      "page": "mod-support/compactsolars",
       "gallery": ["CompactSolars-01.jpg"],
       "modPage": "http://forum.industrial-craft.net/?page=Thread&threadID=4827",
       "downloads": [
@@ -462,7 +478,7 @@
     {
       "name": "ComputerCraft",
       "category": "Mod Support",
-      "page": "/mod-support/computercraft",
+      "page": "mod-support/computercraft",
       "gallery": ["ComputerCraft-02.jpg"],
       "modPage": "http://www.computercraft.info/",
       "downloads": [
@@ -478,7 +494,7 @@
     {
       "name": "Custom NPCs",
       "category": "Mod Support",
-      "page": "/mod-support/custom-npcs",
+      "page": "mod-support/custom-npcs",
       "gallery": ["CustomNPC-002.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1278956-custom-npcs",
       "downloads": [
@@ -494,7 +510,7 @@
     {
       "name": "Davinci's Vessels",
       "category": "Mod Support",
-      "page": "/mod-support/davincis-vessels",
+      "page": "mod-support/davincis-vessels",
       "gallery": ["JkTLOb0.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2364835-davincis-vessels-previously-archimedes-ships-plus",
       "downloads": [
@@ -510,7 +526,7 @@
     {
       "name": "Elemental Creepers",
       "category": "Mod Support",
-      "page": "/mod-support/elemental-creepers",
+      "page": "mod-support/elemental-creepers",
       "gallery": ["Elemental-Creepers-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2111959-1-7-x-1-8-elemental-creepers-rebooted",
       "downloads": [
@@ -523,7 +539,7 @@
     {
       "name": "Ender Storage",
       "category": "Mod Support",
-      "page": "/mod-support/ender-storage",
+      "page": "mod-support/ender-storage",
       "gallery": ["ES-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods",
       "downloads": [
@@ -537,7 +553,7 @@
       "name": "Enhanced Biomes",
       "category": "Mod Support",
       "preview": 3,
-      "page": "/mod-support/enhanced-biomes",
+      "page": "mod-support/enhanced-biomes",
       "gallery": [
         "635452629896927773.jpg",
         "635452629742636178.jpg",
@@ -554,7 +570,7 @@
     {
       "name": "Extra Doors",
       "category": "Mod Support",
-      "page": "/mod-support/extra-doors",
+      "page": "mod-support/extra-doors",
       "gallery": ["ExtraDoors-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288372-1-7-x-1-6-x-extra-doors-more-doors-for-minecraft",
       "downloads": [
@@ -577,7 +593,7 @@
     {
       "name": "ExtrabiomesXL",
       "category": "Mod Support",
-      "page": "/mod-support/extrabiomesxl",
+      "page": "mod-support/extrabiomesxl",
       "gallery": ["EBXL-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1282126-extrabiomesxl-universal-3-16-0-for-mc-1-7-10",
       "downloads": [
@@ -590,7 +606,7 @@
     {
       "name": "Flower Tea",
       "category": "Mod Support",
-      "page": "/mod-support/flower-tea",
+      "page": "mod-support/flower-tea",
       "gallery": ["PaQQgS8.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294215-flower-tea-new-drinks-that-can-heal-feed-or-poison",
       "downloads": [
@@ -603,7 +619,7 @@
     {
       "name": "Forestry",
       "category": "Mod Support",
-      "page": "/mod-support/forestry",
+      "page": "mod-support/forestry",
       "gallery": ["Forestry-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1277638-forestry-for-minecraft-trees-bees-and-more",
       "downloads": [
@@ -616,7 +632,7 @@
     {
       "name": "Forge",
       "category": "Mod Support",
-      "page": "/mod-support/forge",
+      "page": "mod-support/forge",
       "gallery": ["636177518569647937.png"],
       "modPage": "https://files.minecraftforge.net/",
       "downloads": [
@@ -630,7 +646,7 @@
     {
       "name": "Galacticraft",
       "category": "Mod Support",
-      "page": "/mod-support/galacticraft",
+      "page": "mod-support/galacticraft",
       "gallery": [
         "uPyEKb3.jpg",
         "hmbmvs8.png"
@@ -647,7 +663,7 @@
       "name": "Highlands",
       "category": "Mod Support",
       "preview": 3,
-      "page": "/mod-support/highlands",
+      "page": "mod-support/highlands",
       "gallery": [
         "635452697031015831.jpg",
         "635452696825516963.jpg",
@@ -666,7 +682,7 @@
     {
       "name": "Hopper Ducts",
       "category": "Mod Support",
-      "page": "/mod-support/hopper-ducts",
+      "page": "mod-support/hopper-ducts",
       "gallery": ["Hopper-Ducts-02.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-hopper-ducts-mod",
       "downloads": [
@@ -679,7 +695,7 @@
     {
       "name": "Iron Chest",
       "category": "Mod Support",
-      "page": "/mod-support/iron-chest",
+      "page": "mod-support/iron-chest",
       "gallery": ["Iron-Chest-02.jpg"],
       "modPage": "http://files.minecraftforge.net/IronChests2/",
       "downloads": [
@@ -716,7 +732,7 @@
     {
       "name": "Just Enough Items",
       "category": "Mod Support",
-      "page": "/mod-support/just-enough-items",
+      "page": "mod-support/just-enough-items",
       "gallery": ["636176818539475744.png"],
       "modPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei",
       "downloads": [
@@ -733,7 +749,7 @@
     {
       "name": "Lucky Block",
       "category": "Mod Support",
-      "page": "/mod-support/lucky-block",
+      "page": "mod-support/lucky-block",
       "gallery": ["brImglm.jpg"],
       "modPage": "http://www.minecraftascending.com/projects/lucky_block/lucky_block.html",
       "downloads": [
@@ -763,7 +779,7 @@
     {
       "name": "Mekanism",
       "category": "Mod Support",
-      "page": "/mod-support/mekanism",
+      "page": "mod-support/mekanism",
       "gallery": ["Mekanism-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1284681-mekanism-v8-1-0-fusion-reactors-5x-ore-duplication",
       "downloads": [
@@ -776,7 +792,7 @@
     {
       "name": "Metallurgy IV",
       "category": "Mod Support",
-      "page": "/mod-support/metallurgy-iv",
+      "page": "mod-support/metallurgy-iv",
       "gallery": ["MIV-00.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1295123-metallurgy-4",
       "downloads": [
@@ -789,7 +805,7 @@
     {
       "name": "Millenaire",
       "category": "Mod Support",
-      "page": "/mod-support/millenaire",
+      "page": "mod-support/millenaire",
       "gallery": ["Millenaire-05.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272755-millenaire-npc-village-new-villagers-in-players",
       "downloads": [
@@ -802,7 +818,7 @@
     {
       "name": "Minions",
       "category": "Mod Support",
-      "page": "/mod-support/minions",
+      "page": "mod-support/minions",
       "gallery": ["Minions-02.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280951-1-8-minecraft-minions-evil-always-finds-a-way",
       "downloads": [
@@ -853,7 +869,7 @@
     {
       "name": "Moolands",
       "category": "Mod Support",
-      "page": "/mod-support/moolands",
+      "page": "mod-support/moolands",
       "gallery": ["LRRm598.png"],
       "modPage": "https://mods.curse.com/mc-mods/minecraft/253571-moolands",
       "downloads": [
@@ -869,7 +885,7 @@
     {
       "name": "More Swords",
       "category": "Mod Support",
-      "page": "/mod-support/more-swords",
+      "page": "mod-support/more-swords",
       "gallery": ["kh9d5F6.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1282601-more-swords-mod",
       "downloads": [
@@ -885,7 +901,7 @@
     {
       "name": "Mystcraft",
       "category": "Mod Support",
-      "page": "/mod-support/mystcraft",
+      "page": "mod-support/mystcraft",
       "gallery": ["9z6gaSk.png"],
       "modPage": "http://xcompwiz.com/mystcraft-dev-page/",
       "downloads": [
@@ -902,7 +918,7 @@
     {
       "name": "Not Enough Items",
       "category": "Mod Support",
-      "page": "/mod-support/not-enough-items",
+      "page": "mod-support/not-enough-items",
       "gallery": ["2014-11-19_23.21.111.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods",
       "downloads": [
@@ -915,7 +931,7 @@
     {
       "name": "Olympia",
       "category": "Mod Support",
-      "page": "/mod-support/olympia",
+      "page": "mod-support/olympia",
       "gallery": ["Olympia-03.jpg"],
       "modPage": "http://robinomicon.com/olympia/downloads/olympia/",
       "downloads": [
@@ -933,7 +949,7 @@
     {
       "name": "Progressive Automation",
       "category": "Mod Support",
-      "page": "/mod-support/progressive-automation",
+      "page": "mod-support/progressive-automation",
       "gallery": ["PA-02.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076388-progressive-automation-upgradeable-machines",
       "downloads": [
@@ -946,7 +962,7 @@
     {
       "name": "Project E",
       "category": "Mod Support",
-      "page": "/mod-support/project-e",
+      "page": "mod-support/project-e",
       "gallery": ["Project-E.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2326684-projecte-equivalent-exchange-2-ee2-for-modern",
       "downloads": [
@@ -959,20 +975,35 @@
     {
       "name": "Railcraft",
       "category": "Mod Support",
-      "page": "/mod-support/railcraft",
-      "gallery": ["Railcraft-03.jpg"],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1277652-1-7-10-railcraft-9-2-2-0-forge",
+      "page": "mod-support/railcraft",
+      "preview": 1,
+      "gallery": [
+        "2017-02-05_00.19.22_zpsydfzkaxu.png",
+        "2017-02-05_00.24.04_zpsv7fgzmuj.png",
+        "2017-02-05_00.09.54_zpswqiq2hja.png"
+      ],
+      "modPage": "http://www.railcraft.info/",
       "downloads": [
         {
+          "version": "1.10.2",
+          "file": "Railcraft-10-Dokucraft.zip",
+          "tags": [
+            "Light"
+          ]
+        },
+        {
           "version": "1.7.10",
-          "file": "Railcraft-Dokucraft.zip"
+          "file": "Railcraft-Dokucraft.zip",
+          "tags": [
+            "Light"
+          ]
         }
       ]
     },
     {
       "name": "Redstone Paste",
       "category": "Mod Support",
-      "page": "/mod-support/redstone-paste",
+      "page": "mod-support/redstone-paste",
       "gallery": ["635616898273743382.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291890-redstone-paste-mod",
       "downloads": [
@@ -985,7 +1016,7 @@
     {
       "name": "Rei’s Minimap",
       "category": "Mod Support",
-      "page": "/mod-support/reis-minimap",
+      "page": "mod-support/reis-minimap",
       "gallery": ["minimaps-1.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1275219-jul-08-reis-minimap-v3-4_01",
       "downloads": [
@@ -998,7 +1029,7 @@
     {
       "name": "Simple Fluid Tanks",
       "category": "Mod Support",
-      "page": "/mod-support/simple-fluid-tanks",
+      "page": "mod-support/simple-fluid-tanks",
       "gallery": ["SFTanks-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294146-simple-fluid-tanks",
       "downloads": [
@@ -1011,7 +1042,7 @@
     {
       "name": "Solar Flux",
       "category": "Mod Support",
-      "page": "/mod-support/solar-flux",
+      "page": "mod-support/solar-flux",
       "gallery": ["ZZEin2Z.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2187592-solar-flux-a-k-a-compactsolars-for-redstone-flux",
       "downloads": [
@@ -1027,7 +1058,7 @@
     {
       "name": "Soul Shards: The Old Ways",
       "category": "Mod Support",
-      "page": "/mod-support/soul-shards-the-old-ways",
+      "page": "mod-support/soul-shards-the-old-ways",
       "gallery": ["2AT0PsR.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2329877-soul-shards-the-old-ways-rc9-update",
       "downloads": [
@@ -1043,7 +1074,7 @@
     {
       "name": "Survivalist",
       "category": "Mod Support",
-      "page": "/mod-support/survivalist",
+      "page": "mod-support/survivalist",
       "gallery": ["636042896719463502.png"],
       "modPage": "http://minecraft.curseforge.com/projects/survivalist",
       "downloads": [
@@ -1060,7 +1091,7 @@
     {
       "name": "Tainted Magic",
       "category": "Mod Support",
-      "page": "/mod-support/tainted-magic",
+      "page": "mod-support/tainted-magic",
       "gallery": ["GkZlZZc.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2437825-tainted-magic-1-1-6-4-a-thaumcraft-addon",
       "downloads": [
@@ -1074,7 +1105,7 @@
       "name": "Thaumcraft IV",
       "category": "Mod Support",
       "preview": 1,
-      "page": "/mod-support/thaumcraft-iv",
+      "page": "mod-support/thaumcraft-iv",
       "gallery": [
         "Thaumcraft-01.jpg",
         "frontpage.jpg",
@@ -1091,7 +1122,7 @@
     {
       "name": "Thaumic Exploration",
       "category": "Mod Support",
-      "page": "/mod-support/thaumic-exploration",
+      "page": "mod-support/thaumic-exploration",
       "gallery": ["FS0wxxo.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445786-1-6-4-1-7-10-thaumic-exploration-0-6-0-thaumcraft",
       "downloads": [
@@ -1104,7 +1135,7 @@
     {
       "name": "Tubes",
       "category": "Mod Support",
-      "page": "/mod-support/tubes",
+      "page": "mod-support/tubes",
       "gallery": ["2014-10-28_10.38.35.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292474-1-7-10-tubes-2-0-5-9-nov-2014",
       "downloads": [
@@ -1117,7 +1148,7 @@
     {
       "name": "Twilight Forest",
       "category": "Mod Support",
-      "page": "/mod-support/twilight-forest",
+      "page": "mod-support/twilight-forest",
       "gallery": ["TForest-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1276258-the-twilight-forest-v2-3-5-wrecking-block",
       "downloads": [
@@ -1130,7 +1161,7 @@
     {
       "name": "Ultra Compression",
       "category": "Mod Support",
-      "page": "/mod-support/ultra-compression",
+      "page": "mod-support/ultra-compression",
       "gallery": ["6JfFXKb.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2142800-1-7-10-ultra-block-compression-mod-v0-5-1",
       "downloads": [
@@ -1147,7 +1178,7 @@
       "name": "Underground Biomes Constructs",
       "category": "Mod Support",
       "preview": 3,
-      "page": "/mod-support/underground-biomes-constructs",
+      "page": "mod-support/underground-biomes-constructs",
       "gallery": [
         "UBC-01.jpg",
         "UBC-02.jpg",
@@ -1165,7 +1196,7 @@
     {
       "name": "VoxelMap",
       "category": "Mod Support",
-      "page": "/mod-support/voxelmap",
+      "page": "mod-support/voxelmap",
       "gallery": ["minimaps-1.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2261180-voxelmap-1-8-1-7-10-1-6-4-a-minimap-and-worldmap",
       "downloads": [
@@ -1181,7 +1212,7 @@
     {
       "name": "Warp Book",
       "category": "Mod Support",
-      "page": "/mod-support/warp-book",
+      "page": "mod-support/warp-book",
       "gallery": ["mWtaSSM.png"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1293310-teleportation-warp-book",
       "downloads": [
@@ -1194,7 +1225,7 @@
     {
       "name": "Waystones",
       "category": "Mod Support",
-      "page": "/mod-support/waystones",
+      "page": "mod-support/waystones",
       "gallery": ["636177518598503080.png"],
       "modPage": "https://minecraft.curseforge.com/projects/waystones",
       "downloads": [
@@ -1207,7 +1238,7 @@
     {
       "name": "WildCaves 3",
       "category": "Mod Support",
-      "page": "/mod-support/wildcaves-3",
+      "page": "mod-support/wildcaves-3",
       "gallery": ["Wildcaves-02.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287599-gotolink-updates-swordpedestal-fixes-2015-02-28#WildCaves",
       "downloads": [
@@ -1220,7 +1251,7 @@
     {
       "name": "Xaero’s Minimap",
       "category": "Mod Support",
-      "page": "/mod-support/xaeros-minimap",
+      "page": "mod-support/xaeros-minimap",
       "gallery": ["2015-03-13_15.55.03.png"],
       "modPage": "http://www.planetminecraft.com/mod/xaeros-minimap/",
       "downloads": [

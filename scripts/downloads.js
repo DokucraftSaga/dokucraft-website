@@ -30,6 +30,9 @@
       row.find('.count').text(value.downloads + parseInt(row.attr("offset")))
       var date = new Date(value.created_on)
       row.find('.date').text(months[date.getMonth()] + ' ' + date.getDate() + ', ' + date.getFullYear())
+      if (((new Date) - date) < 1209600000) { // Two weeks
+        row.find('.name').append($('<span>').addClass('tag new').text("New"))
+      }
     })
   })
 })()

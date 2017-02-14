@@ -161,7 +161,7 @@ module.exports = function(grunt) {
         }
       },
       src: 'templates/pack.pug',
-      dest: '../dist' + pack.page + '.html'
+      dest: '../dist/' + pack.page + '.html'
     };
 
     grunt.config(['pug', pack.page], o);
