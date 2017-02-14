@@ -28,6 +28,8 @@ function showTab(e, tabID) {
   cfp = 0
   $('.tab-content .pack:nth-child(n+'+(ppp+1)+')').hide()
   $('.tab-content .pack:nth-child(-n+'+ppp+')').fadeIn(250)
+  $('.next.page-button').addClass('active')
+  $('.prev.page-button').removeClass('active')
   bLazy.revalidate()
 }
 
