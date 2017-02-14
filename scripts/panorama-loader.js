@@ -14,6 +14,11 @@ if ('pointerLockElement' in document || 'mozPointerLockElement' in document || '
         $('body').append($('<div>').addClass('fullscreen-blocker').append(
           $('<div>').attr('id', 'panorama-viewer')
         ))
+        $(document).click(function(e) {
+          if ($(e.target).closest('#panorama-button').length === 0) {
+            document.exitPointerLock()
+          }
+        })
         loadJS('/scripts/panorama.min.js')
       }
     }
