@@ -1,6 +1,10 @@
 module.exports = function(grunt) {
+  // Build options
+  var noYAML = grunt.option('no-yaml') || false
+  var useLocalResources = grunt.option('local-resources') || false
+
   var data = grunt.file.readJSON('data.json')
-  var resourceRepo = 'http://dokucraft.co.uk/dokucraft-website-resources/'
+  var resourceRepo = useLocalResources ? '/resources/' : 'http://dokucraft.co.uk/dokucraft-website-resources/'
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -22,7 +26,7 @@ module.exports = function(grunt) {
           basedir: '../',
           data: {
             menu: data.menu,
-            noYAML: grunt.option('no-yaml') || false,
+            noYAML: noYAML,
             resources: resourceRepo
           }
         },
@@ -169,6 +173,15 @@ module.exports = function(grunt) {
     }
 
     grunt.config(['pug', pack.page], o)
+  }
+
+  if (useLocalResources) {
+    grunt.config(['copy', 'local-resources'], {
+      expand: true,
+      cwd: '../resources/',
+      src: '**',
+      dest: '../dist/resources/'
+    })
   }
 
   grunt.loadNpmTasks('grunt-contrib-pug')

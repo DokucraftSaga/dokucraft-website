@@ -1,8 +1,7 @@
 {
   "version": "1.0.0",
   "scripts": {
-    "build": "grunt",
-    "build-no-yaml": "grunt --no-yaml=true"
+    "build": "grunt"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
