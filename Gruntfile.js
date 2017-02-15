@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
-  var data = grunt.file.readJSON('data.json');
-  var resourceRepo = 'https://dokucraftsaga.github.io/dokucraft-website-resources/'
+  var data = grunt.file.readJSON('data.json')
+  var resourceRepo = 'http://dokucraft.co.uk/dokucraft-website-resources/'
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -148,10 +148,10 @@ module.exports = function(grunt) {
         '../dist/css'
       ]
     }
-  });
+  })
 
   for (var i = 0; i < data.packs.length; i++) {
-    var pack = data.packs[i];
+    var pack = data.packs[i]
 
     var o = {
       options: {
@@ -166,17 +166,17 @@ module.exports = function(grunt) {
       },
       src: 'templates/pack.pug',
       dest: '../dist/' + pack.page + '.html'
-    };
+    }
 
-    grunt.config(['pug', pack.page], o);
+    grunt.config(['pug', pack.page], o)
   }
 
-  grunt.loadNpmTasks('grunt-contrib-pug');
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-pug')
+  grunt.loadNpmTasks('grunt-contrib-concat')
+  grunt.loadNpmTasks('grunt-contrib-uglify')
+  grunt.loadNpmTasks('grunt-contrib-cssmin')
+  grunt.loadNpmTasks('grunt-contrib-copy')
+  grunt.loadNpmTasks('grunt-contrib-clean')
 
-  grunt.registerTask('default', ['clean:build', 'concat', 'uglify', 'cssmin', 'copy', 'pug', 'clean:temp']);
+  grunt.registerTask('default', ['clean:build', 'concat', 'uglify', 'cssmin', 'copy', 'pug', 'clean:temp'])
 };
