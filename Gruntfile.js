@@ -115,6 +115,15 @@ module.exports = function(grunt) {
           ]
         }
       },
+      unavailable: {
+        files: {
+          '../dist/css/unavailable.css': [
+            'css/base.css',
+            'css/menubar.css',
+            'css/unavailable.css'
+          ]
+        }
+      },
       error404: {
         files: {
           '../dist/css/404.css': [
@@ -154,25 +163,40 @@ module.exports = function(grunt) {
     }
   })
 
-  for (var i = 0; i < data.packs.length; i++) {
-    var pack = data.packs[i]
+  for (var key in data.packs) {
+    var pack = data.packs[key]
 
-    var o = {
+    grunt.config(['pug', key], {
       options: {
         basedir: '../',
         data: {
           menu: data.menu,
           tagStyles: data.tagStyles,
+          page: key,
           pack: pack,
           resources: resourceRepo,
           fileRepo: 'https://bitbucket.org/DokucraftSaga/dokucraft-website/downloads/'
         }
       },
       src: 'templates/pack.pug',
-      dest: '../dist/' + pack.page + '.html'
-    }
+      dest: '../dist/' + key + '.html'
+    })
+  }
 
-    grunt.config(['pug', pack.page], o)
+  for (var key in data.unavailable) {
+    var name = data.unavailable[key]
+
+    grunt.config(['pug', key], {
+      options: {
+        basedir: '../',
+        data: {
+          menu: data.menu,
+          name: name
+        }
+      },
+      src: 'templates/unavailable.pug',
+      dest: '../dist/' + key + '.html'
+    })
   }
 
   if (useLocalResources) {

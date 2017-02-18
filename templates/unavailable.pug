@@ -1,0 +1,22 @@
+doctype html
+html(lang='en')
+  head
+    title Unavailable | Dokucraft
+    include /src/templates/metadata.pug
+    //- Library stylesheets and scripts
+    script: include /src/libraries/jquery-3.1.1.min.js
+    //- Custom stylesheets and scripts
+    style: include /dist/css/unavailable.css
+    //- Google Analytics code
+    script: include /src/scripts/ga.js
+  body
+    include /src/templates/menubar.pug
+    #content
+      .center-on-screen
+        h2 #{name} is currently unavailable
+        br
+        p You must have come here using an old link, this empty page is all that is left of #{name}...
+        p You might still find something you like on our home page:
+        a#home-page-button(href='/')
+          .icon: include /src/resources/icons/home.svg
+          .text Go to the home page

@@ -135,72 +135,93 @@ $(document).ready(function() {
   var months = [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ]
 
   getAllDLs('https://api.bitbucket.org/2.0/repositories/DokucraftSaga/dokucraft-website/downloads', [], function(files) {
-    var featurablePacks = packList.slice(3)
+    var nonFeaturablePacks = [
+      'resource-packs/light',
+      'resource-packs/high',
+      'resource-packs/dark'
+    ]
+
+    featurablePacks = JSON.parse(JSON.stringify(packList))
+    for (var i = nonFeaturablePacks.length - 1; i >= 0; i--) {
+      delete featurablePacks[nonFeaturablePacks[i]]
+    }
     $('.tab-content .spinner-container').remove()
 
     var totalDLs = []
-    for (var i = featurablePacks.length - 1; i >= 0; i--) {
+    for (var key in featurablePacks) {
       var dls = 0
-      for (var j = featurablePacks[i].downloads.length - 1; j >= 0; j--) {
-        var file = getFile(files, featurablePacks[i].downloads[j].file)||{downloads:0}
-        dls += file.downloads + (featurablePacks[i].downloads[j].offset||0)
+      for (var i = featurablePacks[key].downloads.length - 1; i >= 0; i--) {
+        var file = getFile(files, featurablePacks[key].downloads[i].file)||{downloads:0}
+        dls += file.downloads + (featurablePacks[key].downloads[i].offset||0)
       }
-      totalDLs.push({idx: i, dls: dls})
+      totalDLs.push({key: key, dls: dls})
     }
     totalDLs.sort(function(a, b) { 
-      return b.dls - a.dls;
+      return b.dls - a.dls
     })
     var popular = totalDLs.slice(0, 12)
     for (var i = 0; i < popular.length; i++) {
-      var pack = featurablePacks[popular[i].idx]
+      var page = popular[i].key
+      var pack = featurablePacks[page]
       $('#popular.tab-content').append(
-        $('<a></a>').addClass('pack')
-          .addClass('b-lazy').attr('data-src', __resources+pack.page+'/tn/'+pack.gallery[pack.preview||0])
-          .append($('<div></div>').addClass('spinner-container').append($('<div></div>').addClass('spinner')))
-          .attr('href', pack.page).append(
-            $('<div></div>').addClass('cover').append(
-              $('<p></p>').text(pack.name)
+        $('<a>').addClass('pack')
+          .addClass('b-lazy').attr('data-src', __resources+page+'/tn/'+pack.gallery[pack.preview||0])
+          .append($('<div>').addClass('spinner-container').append($('<div>').addClass('spinner')))
+          .attr('href', '/' + page).append(
+            $('<div>').addClass('cover').append(
+              $('<p>').text(pack.name)
             ).append(
-              $('<p></p>').addClass('sub').text(pack.category)
+              $('<p>').addClass('sub').text(pack.category)
             ).append(
-              $('<p></p>').addClass('sub').text('Downloaded '+popular[i].dls+' times')
+              $('<p>').addClass('sub').text('Downloaded '+popular[i].dls+' times')
             ).append(
-              $('<p></p>').addClass('version').text(pack.downloads[0].version||'')
+              $('<p>').addClass('version').text(pack.downloads[0].version||'')
             )
         )
       )
     }
 
-    featurablePacks = packList.slice(4)
+    nonFeaturablePacks = [
+      'resource-packs/light',
+      'resource-packs/high',
+      'resource-packs/dark',
+      'resource-packs/dwarven'
+    ]
+
+    featurablePacks = JSON.parse(JSON.stringify(packList))
+    for (var i = nonFeaturablePacks.length - 1; i >= 0; i--) {
+      delete featurablePacks[nonFeaturablePacks[i]]
+    }
     var dates = []
-    for (var i = featurablePacks.length - 1; i >= 0; i--) {
+    for (var key in featurablePacks) {
       var date = new Date(0)
-      for (var j = featurablePacks[i].downloads.length - 1; j >= 0; j--) {
-        var file = getFile(files, featurablePacks[i].downloads[j].file)||{created_on:0}
+      for (var i = featurablePacks[key].downloads.length - 1; i >= 0; i--) {
+        var file = getFile(files, featurablePacks[key].downloads[i].file)||{created_on:0}
         var fileDate = new Date(file.created_on)
         date = date < fileDate ? fileDate : date
       }
-      dates.push({idx: i, date: date})
+      dates.push({key: key, date: date})
     }
     dates.sort(function(a, b) { 
-      return b.date - a.date;
+      return b.date - a.date
     })
     var recent = dates.slice(0, 12)
     for (var i = 0; i < recent.length; i++) {
-      var pack = featurablePacks[recent[i].idx]
+      var page = recent[i].key
+      var pack = featurablePacks[page]
       $('#recent.tab-content').append(
-        $('<a></a>').addClass('pack')
-          .addClass('b-lazy').attr('data-src', __resources+pack.page+'/tn/'+pack.gallery[pack.preview||0])
-          .append($('<div></div>').addClass('spinner-container').append($('<div></div>').addClass('spinner')))
-          .attr('href', pack.page).append(
-            $('<div></div>').addClass('cover').append(
-              $('<p></p>').text(pack.name)
+        $('<a>').addClass('pack')
+          .addClass('b-lazy').attr('data-src', __resources+page+'/tn/'+pack.gallery[pack.preview||0])
+          .append($('<div>').addClass('spinner-container').append($('<div>').addClass('spinner')))
+          .attr('href', '/' + page).append(
+            $('<div>').addClass('cover').append(
+              $('<p>').text(pack.name)
             ).append(
-              $('<p></p>').addClass('sub').text(pack.category)
+              $('<p>').addClass('sub').text(pack.category)
             ).append(
-              $('<p></p>').addClass('sub').text('Updated ' + months[recent[i].date.getMonth()] + ' ' + recent[i].date.getDate() + ', ' + recent[i].date.getFullYear())
+              $('<p>').addClass('sub').text('Updated ' + months[recent[i].date.getMonth()] + ' ' + recent[i].date.getDate() + ', ' + recent[i].date.getFullYear())
             ).append(
-              $('<p></p>').addClass('version').text(pack.downloads[0].version||'')
+              $('<p>').addClass('version').text(pack.downloads[0].version||'')
             )
         )
       )

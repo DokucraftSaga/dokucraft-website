@@ -1,0 +1,68 @@
+.center-on-screen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#content h2 {
+  margin: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 1px 3px rgba(0,0,0,.32);
+  cursor: default;
+}
+
+#content p {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0px 40px 60px;
+}
+
+#home-page-button {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  margin-top: 40px;
+  padding: 8px 24px 12px 24px;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#home-page-button h4 {
+  font-size: 24px;
+}
+
+#home-page-button>.icon {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  width: 44px;
+  height: 24px;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+#home-page-button>.text {
+  display: inline-block;
+  margin-left: 32px;
+  color: #fff;
+  transition: color 250ms;
+}
+
+#home-page-button:hover>.text {
+  color: #ffcf01;
+}
+
+#home-page-button>.icon path {
+  fill: #fff;
+  transition: fill 250ms;
+}
+
+#home-page-button:hover>.icon path {
+  fill: #ffcf01;
+}

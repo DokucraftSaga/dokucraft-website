@@ -1,10 +1,3 @@
-#content {
-  position: absolute;
-  width: calc(100% - 60px);
-  margin-left: 60px;
-  min-height: 100%;
-}
-
 #pack-header {
   position: relative;
   width: 100%;

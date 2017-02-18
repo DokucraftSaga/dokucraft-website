@@ -21,10 +21,9 @@ html(lang="en")
     include /src/templates/menubar.pug
     #page
       #main-packs
-        - var mainPacks = ['light', 'high', 'dark']
-        each i in [0, 1, 2]
-          - var pack = packs[i]
-          a.pack(href=pack.page, style='background-image: url('+resources+'frontpage/' + mainPacks[i] + '.jpg)')
+        each page in ['resource-packs/light', 'resource-packs/high', 'resource-packs/dark']
+          - var pack = packs[page]
+          a.pack(href='/'+page, style='background-image: url('+resources+'frontpage/' + page.split('/')[1] + '.jpg)')
             .cover
               p= pack.name
               p.sub= pack.category
@@ -53,8 +52,8 @@ html(lang="en")
               include /src/resources/icons/magnify.svg
             input#search-box(type='text' placeholder='Search...' onfocus='this.placeholder = \'\'' onblur='this.placeholder = \'Search...\'' onkeyup='if (event.which == 13) this.blur()')
         #all-packs
-          each pack in packs
-            a.pack.b-lazy(href=pack.page, data-src=resources + pack.page + '/tn/' + pack.gallery[pack.preview || 0])
+          each pack, page in packs
+            a.pack.b-lazy(href='/'+page, data-src=resources + page + '/tn/' + pack.gallery[pack.preview || 0])
               .spinner-container: .spinner
               .cover
                 p.pack-name= pack.name

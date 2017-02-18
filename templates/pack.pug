@@ -7,13 +7,13 @@ html(lang='en')
     script: include /src/libraries/jquery-3.1.1.min.js
     //- Custom stylesheets and scripts
     style: include /dist/css/pack.css
-    script dokucraft_pack_path = '#{pack.page}';
+    script dokucraft_pack_path = '#{page}';
     //- Google Analytics code
     script: include /src/scripts/ga.js
   body
     include /src/templates/menubar.pug
     #content
-      #pack-header(style='background-image: url(' + resources + pack.page + '/' + pack.gallery[pack.preview || 0] + ')')
+      #pack-header(style='background-image: url(' + resources + page + '/' + pack.gallery[pack.preview || 0] + ')')
         #header-overlay
           #info-tile
             h1#pack-title= pack.name
@@ -46,7 +46,7 @@ html(lang='en')
             #gallery-tile
               #gallery
                 each gi in pack.gallery
-                  .gallery-image(style='background-image: url('+resources+pack.page+'/tn/'+gi+')', image=resources+pack.page+'/'+gi)
+                  .gallery-image(style='background-image: url('+resources+page+'/tn/'+gi+')', image=resources+page+'/'+gi)
                     img(src='/resources/16x9.png')
                     .overlay
               script: include /dist/scripts/gallery.min.js
