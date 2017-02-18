@@ -195,7 +195,7 @@ module.exports = function(grunt) {
         }
       },
       src: 'templates/unavailable.pug',
-      dest: '../dist/' + key + '.html'
+      dest: '../dist/' + key + '/index.html'
     })
   }
 
