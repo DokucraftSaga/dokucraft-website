@@ -1228,5 +1228,20 @@
     "portfolio/creative-pack":          "Dokucraft Creative",
     "portfolio/dokucraft-light-music":  "Dokucraft Music Pack",
     "portfolio/dokucraft-lush":         "Dokucraft Lush"
+  },
+  "redirect": {
+    "faq": "about",
+    "downloads": "",
+    "home/download": "",
+    "resource-packs": "",
+    "mod-support": "",
+    "portfolio/dokucraft-light":   "resource-packs/light",
+    "portfolio/dokucraft-high":    "resource-packs/high",
+    "portfolio/dokucraft-dark":    "resource-packs/dark",
+    "portfolio/dokucraft-dwarven": "resource-packs/dwarven",
+    "downloads/dokucraft-light":   "resource-packs/light",
+    "downloads/dokucraft-high":    "resource-packs/high",
+    "downloads/dokucraft-dark":    "resource-packs/dark",
+    "downloads/dokucraft-dwarven": "resource-packs/dwarven"
   }
 }

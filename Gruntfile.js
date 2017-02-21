@@ -199,6 +199,22 @@ module.exports = function(grunt) {
     })
   }
 
+  for (var key in data.redirect) {
+    var redirTo = data.redirect[key]
+    if (!redirTo.match(/^https?:\/\//i)) redirTo = '/' + redirTo
+
+    grunt.config(['pug', key], {
+      options: {
+        basedir: '../',
+        data: {
+          redirectTo: redirTo
+        }
+      },
+      src: 'templates/redirect.pug',
+      dest: '../dist/' + key + '/index.html'
+    })
+  }
+
   if (useLocalResources) {
     grunt.config(['copy', 'local-resources'], {
       expand: true,
