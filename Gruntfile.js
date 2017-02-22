@@ -5,6 +5,7 @@ module.exports = function(grunt) {
 
   var data = grunt.file.readJSON('data.json')
   var resourceRepo = useLocalResources ? '/resources/' : 'http://dokucraft.co.uk/dokucraft-website-resources/'
+  var fileRepo = 'https://bitbucket.org/DokucraftSaga/dokucraft-website/downloads/'
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -35,6 +36,16 @@ module.exports = function(grunt) {
         dest: '../dist/',
         cwd: 'structured',
         ext: '.html'
+      },
+      dl: {
+        options: {
+          basedir: '../',
+          data: {
+            fileRepo: fileRepo
+          }
+        },
+        src: 'templates/dl.pug',
+        dest: '../dl/404.html'
       }
     },
     concat: {
@@ -175,7 +186,7 @@ module.exports = function(grunt) {
           page: key,
           pack: pack,
           resources: resourceRepo,
-          fileRepo: 'https://bitbucket.org/DokucraftSaga/dokucraft-website/downloads/'
+          fileRepo: fileRepo
         }
       },
       src: 'templates/pack.pug',
