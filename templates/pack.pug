@@ -42,14 +42,13 @@ html(lang='en')
                 .text
                   h4 Mod
                   = 'Get ' + pack.name
-          if pack.gallery.length > 1
-            #gallery-tile
-              #gallery
-                each gi in pack.gallery
-                  .gallery-image(style='background-image: url('+resources+page+'/tn/'+gi+')', image=resources+page+'/'+gi)
-                    img(src='/resources/16x9.png')
-                    .overlay
-              script: include /dist/scripts/gallery.min.js
+          #gallery-tile
+            #gallery
+              each gi in pack.gallery
+                .gallery-image(style='background-image: url('+resources+page+'/tn/'+gi+')', image=resources+page+'/'+gi)
+                  img(src='/resources/16x9.png')
+                  .overlay
+            script: include /dist/scripts/gallery.min.js
       #pack-info
         h2 All Downloads
         .dl-section

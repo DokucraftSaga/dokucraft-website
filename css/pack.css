@@ -123,6 +123,7 @@
   margin-right: 20px;
 }
 
+.gallery-image:nth-child(1):nth-last-child(1),
 .gallery-image:nth-child(1):nth-last-child(3) {
   width: calc(100% - 8px);
 }
