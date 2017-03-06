@@ -134,7 +134,7 @@ $(document).ready(function() {
 
   var months = [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ]
 
-  getAllDLs('https://api.bitbucket.org/2.0/repositories/DokucraftSaga/dokucraft-website/downloads', [], function(files) {
+  getAllDLs('https://api.bitbucket.org/2.0/repositories/DokucraftSaga/dokucraft-website/downloads/?pagelen=100', [], function(files) {
     var nonFeaturablePacks = [
       'resource-packs/light',
       'resource-packs/high',

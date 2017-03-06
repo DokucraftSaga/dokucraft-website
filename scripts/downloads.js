@@ -25,7 +25,7 @@
   $('.download-row').each(function(i, e) {
     var row = $(e)
     var file = row.attr('file')
-    checkPage('https://api.bitbucket.org/2.0/repositories/DokucraftSaga/dokucraft-website/downloads', file, function(value) {
+    checkPage('https://api.bitbucket.org/2.0/repositories/DokucraftSaga/dokucraft-website/downloads/?pagelen=100', file, function(value) {
       row.find('.size').text(formatBytes(value.size))
       row.find('.count').text(value.downloads + parseInt(row.attr("offset")))
       var date = new Date(value.created_on)
