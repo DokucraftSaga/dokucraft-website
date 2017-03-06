@@ -49,6 +49,20 @@ module.exports = function(grunt) {
       }
     },
     concat: {
+      frontpage: {
+        src: [
+          'scripts/download-info.js',
+          'scripts/frontpage.js'
+        ],
+        dest: '../dist/scripts/frontpage.js'
+      },
+      downloads: {
+        src: [
+          'scripts/download-info.js',
+          'scripts/downloads.js'
+        ],
+        dest: '../dist/scripts/downloads.js'
+      },
       panorama: {
         src: [
           'libraries/threejs/Three.js',
@@ -61,7 +75,7 @@ module.exports = function(grunt) {
     },
     uglify: {
       frontpage: {
-        src: 'scripts/frontpage.js',
+        src: '../dist/scripts/frontpage.js',
         dest: '../dist/scripts/frontpage.min.js'
       },
       menubar: {
@@ -73,7 +87,7 @@ module.exports = function(grunt) {
         dest: '../dist/scripts/gallery.min.js'
       },
       downloads: {
-        src: 'scripts/downloads.js',
+        src: '../dist/scripts/downloads.js',
         dest: '../dist/scripts/downloads.min.js'
       },
       panoramaLoader: {

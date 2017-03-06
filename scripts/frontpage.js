@@ -114,27 +114,9 @@ $(document).ready(function() {
     bLazy.revalidate()
   })
 
-  var getAllDLs = function(url, arr, cb) {
-    $.getJSON(url, function(data) {
-      arr.push.apply(arr, data.values)
-      if (data.hasOwnProperty('next')) {
-        getAllDLs(data.next, arr, cb)
-      } else {
-        cb(arr)
-      }
-    })
-  }
-
-  var getFile = function(files, name) {
-    for (var i = 0; i < files.length; i++) {
-      var file = files[i]
-      if (file.name == name) return file
-    }
-  }
-
   var months = [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ]
 
-  getAllDLs('https://api.bitbucket.org/2.0/repositories/DokucraftSaga/dokucraft-website/downloads/?pagelen=100', [], function(files) {
+  getDownloadsInfo(function(files) {
     var nonFeaturablePacks = [
       'resource-packs/light',
       'resource-packs/high',
@@ -151,7 +133,7 @@ $(document).ready(function() {
     for (var key in featurablePacks) {
       var dls = 0
       for (var i = featurablePacks[key].downloads.length - 1; i >= 0; i--) {
-        var file = getFile(files, featurablePacks[key].downloads[i].file)||{downloads:0}
+        var file = files[featurablePacks[key].downloads[i].file]||{downloads:0}
         dls += file.downloads + (featurablePacks[key].downloads[i].offset||0)
       }
       totalDLs.push({key: key, dls: dls})
@@ -196,7 +178,7 @@ $(document).ready(function() {
     for (var key in featurablePacks) {
       var date = new Date(0)
       for (var i = featurablePacks[key].downloads.length - 1; i >= 0; i--) {
-        var file = getFile(files, featurablePacks[key].downloads[i].file)||{created_on:0}
+        var file = files[featurablePacks[key].downloads[i].file]||{created_on:0}
         var fileDate = new Date(file.created_on)
         date = date < fileDate ? fileDate : date
       }
