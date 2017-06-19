@@ -167,6 +167,14 @@
       "enablePanorama": true,
       "downloads": [
         {
+          "version": "1.12",
+          "tags": [
+            "=Dwarven"
+          ],
+          "file": "1.12-Dokucraft_Dwarven.zip",
+          "mirror": "http://www.mediafire.com/file/4i4io69auiwzqcc/1.12-Dokucraft_Dwarven.zip"
+        },
+        {
           "version": "1.11",
           "tags": [
             "=Dwarven"
