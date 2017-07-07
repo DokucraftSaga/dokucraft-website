@@ -311,6 +311,30 @@
         }
       ]
     },
+    "mod-support/baubles": {
+      "name": "Baubles",
+      "category": "Mod Support",
+      "gallery": ["sFBuiJ5.jpg"],
+      "modPage": "https://minecraft.curseforge.com/projects/baubles",
+      "downloads": [
+        {
+          "version": "1.10",
+          "note": "8 bauble slots",
+          "file": "Post-1.3BETA8-Baubles-Dokucraft.zip",
+          "tags": [
+            "Light"
+          ]
+        },
+        {
+          "version": "1.9",
+          "note": "4 bauble slots",
+          "file": "Pre-1.3BETA8-Baubles-Dokucraft.zip",
+          "tags": [
+            "Light"
+          ]
+        }
+      ]
+    },
     "mod-support/better-foliage": {
       "name": "Better Foliage",
       "category": "Mod Support",
@@ -473,6 +497,28 @@
         {
           "version": "1.8.9",
           "file": "ComputerCraft 1.79 Support.zip",
+          "tags": [
+            "Light"
+          ]
+        }
+      ]
+    },
+    "mod-support/cosmetic-armor-reworked": {
+      "name": "Cosmetic Armor Reworked",
+      "category": "Mod Support",
+      "gallery": ["ey1btdM.jpg"],
+      "modPage": "https://minecraft.curseforge.com/projects/cosmetic-armor-reworked",
+      "downloads": [
+        {
+          "version": "1.9",
+          "file": "Post-1.9v2-Cosmetic-Armor-Reworked-Dokucraft.zip",
+          "tags": [
+            "Light"
+          ]
+        },
+        {
+          "version": "1.8",
+          "file": "Pre-1.9v2-Cosmetic-Armor-Reworked-Dokucraft.zip",
           "tags": [
             "Light"
           ]
