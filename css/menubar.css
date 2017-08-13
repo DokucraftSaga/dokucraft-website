@@ -167,3 +167,9 @@ svg .icon {
 #header.menubarIsOpen #menu-button .close-icon .icon {
   opacity: 1;
 }
+
+#discord-widget {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}

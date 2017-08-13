@@ -14,6 +14,7 @@
   ul
     each item in menu
       li: a(href=item.link)= item.text
+  iframe#discord-widget(src='https://discordapp.com/widget?id=137942949999804416&theme=dark' width='260' height='350' allowtransparency='true' frameborder='0')
 #open-menu-blocker(onclick='closeMenubar()')
 script
   include /dist/scripts/menubar.min.js
