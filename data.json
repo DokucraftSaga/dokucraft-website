@@ -962,8 +962,18 @@
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076388-progressive-automation-upgradeable-machines",
       "downloads": [
         {
+          "version": "1.10.2",
+          "file": "ProgressiveAutomation_1.10.2.zip",
+          "tags": [
+            "Light"
+          ]
+        },
+        {
           "version": "1.8",
-          "file": "Progressive-Automation-v3-Dokucraft.zip"
+          "file": "Progressive-Automation-v3-Dokucraft.zip",
+          "tags": [
+            "Light"
+          ]
         }
       ]
     },
