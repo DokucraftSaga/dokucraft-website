@@ -41,10 +41,6 @@ body {
   transition: opacity 250ms;
 }
 
-#page {
-  margin-left: 60px;
-}
-
 #main-packs {
   position: relative;
   height: 600px;
@@ -59,19 +55,20 @@ body {
   flex: 1 1 auto;
   background-size: 100%;
   background-attachment: fixed;
+  background-position-y: -90px;
   transition: flex-grow 250ms;
 }
 
 #main-packs .pack:nth-child(1) {
-  background-position: 0 -160px;
+  background-position-x: 0;
 }
 
 #main-packs .pack:nth-child(2) {
-  background-position: 50% -160px;
+  background-position-x: 50%;
 }
 
 #main-packs .pack:nth-child(3) {
-  background-position: 100% -160px;
+  background-position-x: 100%;
 }
 
 #main-packs .pack:hover {

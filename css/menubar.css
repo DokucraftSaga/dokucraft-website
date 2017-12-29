@@ -1,132 +1,110 @@
-.menubar {
-  -webkit-transition: left 0.215s cubic-bezier(0.785, 0.135, 0.150, 0.860);
-  transition: left 0.215s cubic-bezier(0.785, 0.135, 0.150, 0.860);
-}
-
-#menu {
-  position: fixed;
-  top: 0px;
-  left: -300px;
-  z-index: 999;
-  width: 300px;
-  height: 100%;
-  background: #211914;
-}
-
-#menu>ul {
-  margin-top: 60px;
-  width: 100%;
-}
-
-#menu li {
-  height: 40px;
-  font-size: 16px;
-  width: 100%;
-}
-
-#menu li>a {
-  display: inline-block;
-  color: #fff;
-  padding: 10px 30px 10px 40px;
-  width: 230px;
-}
-
-#menu li>a:hover {
-  color: #ffcf01;
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 4px transparent;
+  }
+  50% {
+    box-shadow: 0 0 4px #ffcf01;
+  }
+  100% {
+    box-shadow: 0 0 4px transparent;
+  }
 }
 
 #header {
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 60px;
-  height: 100%;
+  right: 0;
+  height: 60px;
   background: #291f18;
-  display: inline-block;
+  padding-right: 16px;
+  display: flex;
   z-index: 999;
+  align-items: center;
+  box-shadow: 0 0 2px #000;
 }
 
 #title {
-  position: absolute;
-  top: 50%;
-  color: #fff;
-  width: 200px;
   height: 60px;
-  margin-top: 100px;
-  text-align: center;
-  line-height: 60px;
-  font-size: 22px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
   font-weight: bold;
-  letter-spacing: 1px;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  -webkit-transform-origin: 0px 0px;
-  -ms-transform-origin: 0px 0px;
-  transform-origin: 0px 0px;
+  letter-spacing: 1.5px;
 }
 
 #title:hover {
   color: #ffcf01;
 }
 
-#menu-button {
-  position: relative;
-  display: block;
-  width: 100%;
+.menubar-button {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  color: #fff;
   height: 60px;
-  border-bottom: 1px solid #35281f;
-  cursor: pointer;
-  -webkit-transition: background 0.215s;
-  transition: background 0.215s;
+  border-top: 0 solid #291f18;
+  border-bottom: 0 solid #291f18;
+  transition: background-color 250ms, color 250ms, border 250ms;
 }
 
-#header.menubarIsOpen #menu-button {
-  background: #ffcf01;
+.menubar-button:hover {
+  background-color: #ffcf01;
+  color: #000;
+  border-top: 3px solid #ffcf01;
+  border-bottom: 3px solid #ffcf01;
 }
 
-#open-menu-blocker {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 900;
-  background: rgba(0, 0, 0, 0.4);
-  display: none;
+#join-discord-button {
+  border-radius: 2px;
+  height: 32px;
+  color: #fff;
+  padding: 0 16px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  animation: glowing 4s infinite;
+  transition: background-color 250ms, color 250ms;
+}
+
+#join-discord-button:hover {
+  background-color: #ffcf01;
+  color: #000;
 }
 
 #share-button {
-  position: absolute;
+  position: relative;
   display: block;
-  width: 100%;
+  width: 60px;
   height: 60px;
-  border-top: 1px solid #35281f;
-  bottom: 0;
+  border-right: 1px solid #35281f;
   cursor: pointer;
 }
 
 #share-popout {
   position: absolute;
-  bottom: 0;
-  left: 60px;
+  left: 0;
+  top: 60px;
   background: rgba(0, 0, 0, 0.85);
-  width: 120px;
-  height: 50px;
-  margin-left: 10px;
-  margin-bottom: 5px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 5px;
   text-align: center;
 }
 
 #share-popout::after {
-  content: " ";
+  content: '';
   position: absolute;
-  top: 50%;
-  right: 100%;
+  right: 20px;
+  bottom: 100%;
   margin-top: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent rgba(0, 0, 0, 0.85) transparent transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.85) transparent;
 }
 
 #share-popout a {
@@ -153,23 +131,4 @@ svg .icon {
 
 :hover>svg .icon {
   fill: #ffcf01;
-}
-
-#menu-button .close-icon .icon {
-  opacity: 0;
-  fill: #000;
-}
-
-#header.menubarIsOpen #menu-button .menu-icon .icon {
-  opacity: 0;
-}
-
-#header.menubarIsOpen #menu-button .close-icon .icon {
-  opacity: 1;
-}
-
-#discord-widget {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
 }

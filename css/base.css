@@ -22,7 +22,11 @@ a:hover {
   color: #ffcf01;
 }
 
+.filler {
+  flex: 1;
+}
+
 #content {
-  margin-left: 60px;
-  min-height: 100%;
+  margin-top: 60px;
+  min-height: calc(100% - 60px);
 }

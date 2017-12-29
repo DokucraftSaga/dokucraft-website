@@ -6,9 +6,8 @@
 #content {
   position: absolute;
   overflow: hidden;
-  margin-left: 60px;
-  width: calc(100% - 60px);
-  height: 100%;
+  width: 100%;
+  height: calc(100% - 60px);
   background: url(/resources/404/dirt.png) repeat;
   animation: 20s backgroundScroll linear infinite;
 }

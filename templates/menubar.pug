@@ -1,8 +1,4 @@
 #header.menubar
-  #menu-button(onclick='toggleMenubar()')
-    include /src/resources/icons/menu.svg
-    include /src/resources/icons/close.svg
-  a#title(href='/') Dokucraft
   #share-button(onclick='toggleShareIcons()')
     include /src/resources/icons/share.svg
   #share-popout(style='display:none')
@@ -10,11 +6,10 @@
       include /src/resources/icons/twitter.svg
     a#fb-button(title='Facebook', href='https://www.facebook.com/Dokucraftsaga/')
       include /src/resources/icons/facebook.svg
-#menu.menubar
-  ul
-    each item in menu
-      li: a(href=item.link)= item.text
-  iframe#discord-widget(src='https://discordapp.com/widget?id=137942949999804416&theme=dark' width='260' height='350' allowtransparency='true' frameborder='0')
-#open-menu-blocker(onclick='closeMenubar()')
+  a#title(href='/') Dokucraft
+  .filler
+  a#join-discord-button(href='https://discord.gg/jjg59ce') Join our Discord!
+  each item in menu
+      a.menubar-button(href=item.link)= item.text
 script
   include /dist/scripts/menubar.min.js
