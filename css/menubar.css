@@ -26,7 +26,7 @@
 
 #title {
   height: 60px;
-  padding: 0 24px;
+  width: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,21 +78,19 @@
 
 #share-button {
   position: relative;
-  display: block;
+  padding: 0;
   width: 60px;
-  height: 60px;
-  border-right: 1px solid #35281f;
   cursor: pointer;
 }
 
 #share-popout {
   position: absolute;
-  left: 0;
+  right: 16px;
   top: 60px;
   background: rgba(0, 0, 0, 0.85);
   width: 50px;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -131,4 +129,8 @@ svg .icon {
 
 :hover>svg .icon {
   fill: #ffcf01;
+}
+
+.menubar-button:hover>svg .icon {
+  fill: #000;
 }
