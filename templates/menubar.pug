@@ -1,7 +1,8 @@
 #header.menubar
   a#title(href='/') Dokucraft
   .filler
-  a#join-discord-button(href='https://discord.gg/jjg59ce') Join our Discord!
+  a.menubar-glow-button(href='https://docs.google.com/spreadsheets/d/1UtkLBmPryfgEeA8TLUGCCZaw_6AzkdfZlJkEAfxpT4M/edit?usp=sharing') 1.12 Update Status
+  a.menubar-glow-button(href='https://discord.gg/jjg59ce') Join our Discord!
   each item in menu
     a.menubar-button(href=item.link)= item.text
   #share-button.menubar-button(onclick='toggleShareIcons()')

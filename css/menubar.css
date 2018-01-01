@@ -58,7 +58,7 @@
   border-bottom: 3px solid #ffcf01;
 }
 
-#join-discord-button {
+.menubar-glow-button {
   border-radius: 2px;
   height: 32px;
   color: #fff;
@@ -71,7 +71,7 @@
   transition: background-color 250ms, color 250ms;
 }
 
-#join-discord-button:hover {
+.menubar-glow-button:hover {
   background-color: #ffcf01;
   color: #000;
 }
