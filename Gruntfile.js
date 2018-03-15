@@ -36,16 +36,6 @@ module.exports = function(grunt) {
         dest: '../dist/',
         cwd: 'structured',
         ext: '.html'
-      },
-      dl: {
-        options: {
-          basedir: '../',
-          data: {
-            fileRepo: fileRepo
-          }
-        },
-        src: 'templates/dl.pug',
-        dest: '../dl/404.html'
       }
     },
     concat: {
