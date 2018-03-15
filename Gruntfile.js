@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
   var data = grunt.file.readJSON('data.json')
   var resourceRepo = useLocalResources ? '/resources/' : 'https://dokucraft.co.uk/dokucraft-website-resources/'
-  var fileRepo = 'https://bitbucket.org/DokucraftSaga/dokucraft-website/downloads/'
+  var fileRepo = '/dl/' // Redirects to 'https://bitbucket.org/DokucraftSaga/dokucraft-website/downloads/'
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
