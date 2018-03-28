@@ -99,10 +99,9 @@
         {
           "version": "1.12",
           "tags": [
-            "Work in Progress=High",
             "=High"
           ],
-          "file": "WIP-1.12-Dokucraft-TSC-High.zip"
+          "file": "1.12-Dokucraft-TSC-High.zip"
         },
         {
           "version": "1.11",
@@ -145,10 +144,9 @@
         {
           "version": "1.12",
           "tags": [
-            "Work in Progress=Dark",
             "=Dark"
           ],
-          "file": "WIP-1.12-Dokucraft-TSC-Dark.zip"
+          "file": "1.12-Dokucraft-TSC-Dark.zip"
         },
         {
           "version": "1.11",
