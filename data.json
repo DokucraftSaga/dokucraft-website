@@ -480,6 +480,26 @@
         }
       ]
     },
+    "mod-support/chisel": {
+      "name": "Chisel",
+      "category": "Mod Support",
+      "preview": 1,
+      "gallery": [
+        "2018-04-06_01.13.33.jpg",
+        "2018-04-05_00.25.35.jpg"
+      ],
+      "modPage": "https://minecraft.curseforge.com/projects/chisel",
+      "downloads": [
+        {
+          "version": "1.12.2",
+          "file": "1.12-Dokucraft-Chisel.zip",
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ]
+        }
+      ]
+    },
     "mod-support/chisels-and-bits": {
       "name": "Chisels and Bits",
       "category": "Mod Support",
