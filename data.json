@@ -1123,6 +1123,22 @@
         }
       ]
     },
+    "mod-support/spartan": {
+      "name": "Spartan Weaponry & Shields",
+      "category": "Mod Support",
+      "gallery": ["2018-04-06_23.19.21.jpg"],
+      "modPage": "https://minecraft.curseforge.com/projects/spartan-weaponry",
+      "downloads": [
+        {
+          "version": "1.12.2",
+          "file": "1.12-Dokucraft-Spartan.zip",
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ]
+        }
+      ]
+    },
     "mod-support/survivalist": {
       "name": "Survivalist",
       "category": "Mod Support",
