@@ -363,12 +363,19 @@
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2119722-better-foliage",
       "downloads": [
         {
+          "version": "1.12",
+          "file": "1.12-BetterFoliage-Dokucraft-v3.zip",
+          "tags": [ "Light" ]
+        },
+        {
           "version": "1.11",
-          "file": "BetterFoliage-Dokucraft-v3.zip"
+          "file": "BetterFoliage-Dokucraft-v3.zip",
+          "tags": [ "Light" ]
         },
         {
           "version": "1.7.10",
-          "file": "Better-Foliage-v2-Dokucraft.zip"
+          "file": "Better-Foliage-v2-Dokucraft.zip",
+          "tags": [ "Light" ]
         }
       ]
     },
