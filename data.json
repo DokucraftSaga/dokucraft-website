@@ -339,20 +339,21 @@
       "modPage": "https://minecraft.curseforge.com/projects/baubles",
       "downloads": [
         {
+          "version": "1.12",
+          "file": "1.12-Baubles-Dokucraft.zip",
+          "tags": [ "Light" ]
+        },
+        {
           "version": "1.10",
           "note": "8 bauble slots",
           "file": "Post-1.3BETA8-Baubles-Dokucraft.zip",
-          "tags": [
-            "Light"
-          ]
+          "tags": [ "Light" ]
         },
         {
           "version": "1.9",
           "note": "4 bauble slots",
           "file": "Pre-1.3BETA8-Baubles-Dokucraft.zip",
-          "tags": [
-            "Light"
-          ]
+          "tags": [ "Light" ]
         }
       ]
     },
