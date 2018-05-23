@@ -282,11 +282,27 @@
       "name": "Backpack",
       "category": "Mod Support",
       "gallery": ["Backpack-01.jpg"],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286124-1-6-x-1-7-x-backpacks-v-2-0-1",
+      "modPage": "https://minecraft.curseforge.com/projects/forge-backpacks",
       "downloads": [
         {
+          "version": "1.12.2",
+          "file": "Backpack-Dokucraft-1.12.2.zip",
+          "tags": [ "Light" ]
+        },
+        {
+          "version": "1.10.2",
+          "file": "Backpack-Dokucraft-1.10.2.zip",
+          "tags": [ "Light" ]
+        },
+        {
+          "version": "1.8.9",
+          "file": "Backpack-Dokucraft-1.8.9.zip",
+          "tags": [ "Light" ]
+        },
+        {
           "version": "1.8",
-          "file": "Backpack-v2-Dokucraft.zip"
+          "file": "Backpack-v2-Dokucraft.zip",
+          "tags": [ "Light" ]
         }
       ]
     },
@@ -801,16 +817,24 @@
     "mod-support/just-enough-items": {
       "name": "Just Enough Items",
       "category": "Mod Support",
-      "gallery": ["636176818539475744.jpg"],
+      "preview": 1,
+      "gallery": [
+        "2018-05-23_22.57.43.jpg",
+        "2018-05-23_22.57.29.jpg",
+        "2018-05-23_22.58.02.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei",
       "downloads": [
+        {
+          "version": "1.12",
+          "file": "1.12-JEI-Dokucraft.zip",
+          "tags": [ "Light" ]
+        },
         {
           "version": "1.11",
           "note": "Compatible with 1.10.2",
           "file": "JEI-Dokucraft.zip",
-          "tags": [
-            "Light"
-          ]
+          "tags": [ "Light" ]
         }
       ]
     },
