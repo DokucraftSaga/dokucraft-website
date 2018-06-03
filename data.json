@@ -1107,6 +1107,19 @@
         }
       ]
     },
+    "mod-support/reforged": {
+      "name": "Reforged",
+      "category": "Mod Support",
+      "gallery": ["2018-06-03_11.17.19.jpg"],
+      "modPage": "https://minecraft.curseforge.com/projects/reforged",
+      "downloads": [
+        {
+          "version": "1.12",
+          "file": "1.12-Reforged-Dokucraft-light.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/reis-minimap": {
       "name": "Rei’s Minimap",
       "category": "Mod Support",
