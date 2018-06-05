@@ -340,11 +340,17 @@
         "2014-10-28_10.24.32.jpg",
         "2014-10-27_21.20.12.jpg"
       ],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1275201-atomicstrykers-battle-towers",
+      "modPage": "https://minecraft.curseforge.com/projects/atomicstrykers-battle-towers",
       "downloads": [
         {
+          "version": "1.12",
+          "file": "1.12-Battle-Towers-Dokucraft.zip",
+          "tags": [ "Light" ]
+        },
+        {
           "version": "1.7.10",
-          "file": "Battle-Towers-Dokucraft.zip"
+          "file": "Battle-Towers-Dokucraft.zip",
+          "tags": [ "Light" ]
         }
       ]
     },
