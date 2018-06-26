@@ -263,6 +263,19 @@
         }
       ]
     },
+    "mod-support/aether-legacy": {
+      "name": "Aether Legacy",
+      "category": "Mod Support",
+      "gallery": ["2018-06-26_13.41.48.jpg"],
+      "modPage": "https://minecraft.curseforge.com/projects/aether-legacy",
+      "downloads": [
+        {
+          "version": "1.12.2",
+          "file": "1.12.2-Dokucraft-Aether-Legacy.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/ancient-warfare": {
       "name": "Ancient Warfare",
       "category": "Mod Support",
