@@ -1082,6 +1082,18 @@
         }
       ]
     },
+    "mod-support/quark": {
+      "name": "Quark",
+      "category": "Mod Support",
+      "gallery": ["2018-06-26_15.17.34.jpg"],
+      "modPage": "https://minecraft.curseforge.com/projects/quark",
+      "downloads": [
+        { "version": "1.12.2",
+          "file": "1.12.2-Dokucraft-Quark.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        }
+      ]
+    },
     "mod-support/railcraft": {
       "name": "Railcraft",
       "category": "Mod Support",
