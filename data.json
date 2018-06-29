@@ -1085,7 +1085,7 @@
     "mod-support/quark": {
       "name": "Quark",
       "category": "Mod Support",
-      "gallery": ["2018-06-26_15.17.34.jpg"],
+      "gallery": ["2018-06-29_16.30.39.jpg"],
       "modPage": "https://minecraft.curseforge.com/projects/quark",
       "downloads": [
         { "version": "1.12.2",
@@ -1155,6 +1155,18 @@
         {
           "version": "1.8",
           "file": "ReiMinimap-Light-Dokucraft.zip"
+        }
+      ]
+    },
+    "mod-support/rustic": {
+      "name": "Rustic",
+      "category": "Mod Support",
+      "gallery": ["2018-06-29_17.16.09.jpg"],
+      "modPage": "https://minecraft.curseforge.com/projects/rustic",
+      "downloads": [
+        { "version": "1.12.2",
+          "file": "1.12.2-Dokucraft-Rustic.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
         }
       ]
     },
