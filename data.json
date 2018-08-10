@@ -215,6 +215,24 @@
         }
       ]
     },
+    "resource-packs/minidoku-light": {
+      "name": "MiniDoku Light",
+      "category": "16x Resource Pack",
+      "preview": 1,
+      "gallery": [
+        "IjWS07A.jpg",
+        "KWUOG7G.jpg",
+        "AEHK2Cn.jpg",
+        "RQTFu7Y.jpg"
+      ],
+      "enablePanorama": true,
+      "downloads": [
+        { "version": "1.13",
+          "tags": [ "Work In Progress=Light" ],
+          "file": "WIP-1.13-MiniDoku-Light.zip"
+        }
+      ]
+    },
     "mod-support/advanced-hud": {
       "name": "Advanced HUD",
       "category": "Mod Support",
@@ -1441,10 +1459,8 @@
     }
   },
   "unavailable": {
-    "portfolio/minidoku-light":         "Minidoku Light",
     "portfolio/minidoku-high":          "Minidoku High",
     "portfolio/minidoku-dark":          "Minidoku Dark",
-    "portfolio/minidoku":               "Minidoku",
     "portfolio/megadoku-light":         "MegaDoku Light",
     "portfolio/megadoku-high":          "MegaDoku High",
     "portfolio/megadoku-dark":          "MegaDoku Dark",
@@ -1469,6 +1485,8 @@
     "downloads/dokucraft-light":   "resource-packs/light",
     "downloads/dokucraft-high":    "resource-packs/high",
     "downloads/dokucraft-dark":    "resource-packs/dark",
-    "downloads/dokucraft-dwarven": "resource-packs/dwarven"
+    "downloads/dokucraft-dwarven": "resource-packs/dwarven",
+    "portfolio/minidoku-light":    "resource-packs/minidoku-light",
+    "portfolio/minidoku":          "resource-packs/minidoku-light"
   }
 }
