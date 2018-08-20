@@ -785,6 +785,21 @@
         }
       ]
     },
+    "mod-support/geolosys": {
+      "name": "Geolosys",
+      "category": "Mod Support",
+      "gallery": [
+        "ore_vein.jpg",
+        "wall_of_stuff.jpg"
+      ],
+      "modPage": "https://minecraft.curseforge.com/projects/geolosys",
+      "downloads": [
+        { "version": "1.12",
+          "file": "WIP-1.12-Dokucraft-Geolosys.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        }
+      ]
+    },
     "mod-support/highlands": {
       "name": "Highlands",
       "category": "Mod Support",
@@ -1271,6 +1286,23 @@
         {
           "version": "1.7.10",
           "file": "Tainted-Magic-v1.1-Dokucraft.zip"
+        }
+      ]
+    },
+    "mod-support/tinkers-construct": {
+      "name": "Tinkers Construct",
+      "category": "Mod Support",
+      "gallery": [
+        "aabshsck.jpg",
+        "blrcs.jpg",
+        "hles.jpg"
+      ],
+      "preview": 1,
+      "modPage": "https://minecraft.curseforge.com/projects/tinkers-construct",
+      "downloads": [
+        { "version": "1.12",
+          "file": "WIP-1.12-Dokucraft-TinkersConstruct.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
         }
       ]
     },
