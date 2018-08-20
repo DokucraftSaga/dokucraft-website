@@ -797,6 +797,14 @@
         { "version": "1.12",
           "file": "WIP-1.12-Dokucraft-Geolosys.zip",
           "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "version": "1.12",
+          "file": "WIP-1.12-Dokucraft-High-Geolosys.zip",
+          "tags": [ "High", "Work In Progress=High" ]
+        },
+        { "version": "1.12",
+          "file": "WIP-1.12-Dokucraft-Dark-Geolosys.zip",
+          "tags": [ "Dark", "Work In Progress=Dark" ]
         }
       ]
     },
