@@ -956,11 +956,15 @@
       "name": "Millenaire",
       "category": "Mod Support",
       "gallery": ["Millenaire-05.jpg"],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272755-millenaire-npc-village-new-villagers-in-players",
+      "modPage": "https://minecraft.curseforge.com/projects/millenaire",
       "downloads": [
-        {
-          "version": "1.7.10",
-          "file": "Millenaire-v2-Dokucraft.zip"
+        { "version": "1.12",
+          "file": "1.12-Dokucraft-Millenaire.zip",
+          "tags": [ "Light" ]
+        },
+        { "version": "1.7.10",
+          "file": "Millenaire-v2-Dokucraft.zip",
+          "tags": [ "Light" ]
         }
       ]
     },
@@ -1314,8 +1318,8 @@
         }
       ]
     },
-    "mod-support/thaumcraft-iv": {
-      "name": "Thaumcraft IV",
+    "mod-support/thaumcraft": {
+      "name": "Thaumcraft",
       "category": "Mod Support",
       "preview": 1,
       "gallery": [
@@ -1325,9 +1329,10 @@
       ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292130-thaumcraft-4-2-3-5-updated-2015-2-17",
       "downloads": [
-        {
+        { "name": "Thaumcraft IV",
           "version": "1.7.10",
-          "file": "Thaumcraft-IV-v3.2.1-Dokucraft.zip"
+          "file": "Thaumcraft-IV-v3.2.1-Dokucraft.zip",
+          "tags": [ "Light" ]
         }
       ]
     },
@@ -1527,6 +1532,7 @@
     "downloads/dokucraft-dark":    "resource-packs/dark",
     "downloads/dokucraft-dwarven": "resource-packs/dwarven",
     "portfolio/minidoku-light":    "resource-packs/minidoku-light",
-    "portfolio/minidoku":          "resource-packs/minidoku-light"
+    "portfolio/minidoku":          "resource-packs/minidoku-light",
+    "mod-support/thaumcraft-iv":   "mod-support/thaumcraft"
   }
 }
