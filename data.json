@@ -905,26 +905,21 @@
       "gallery": ["brImglm.jpg"],
       "modPage": "http://www.minecraftascending.com/projects/lucky_block/lucky_block.html",
       "downloads": [
-        {
-          "version": "1.9",
+        { "version": "1.12.2",
+          "file": "1.12.2-Dokucraft-Light-LuckyBlock.zip",
+          "tags": [ "Light" ]
+        },
+        { "version": "1.9",
           "file": "Dokucraft Light-LuckyBlock.zip",
-          "tags": [
-            "Light"
-          ]
+          "tags": [ "Light" ]
         },
-        {
-          "version": "1.9",
+        { "version": "1.9",
           "file": "Dokucraft High-LuckyBlock.zip",
-          "tags": [
-            "High"
-          ]
+          "tags": [ "High" ]
         },
-        {
-          "version": "1.9",
+        { "version": "1.9",
           "file": "Dokucraft Dark-LuckyBlock.zip",
-          "tags": [
-            "Dark"
-          ]
+          "tags": [ "Dark" ]
         }
       ]
     },
