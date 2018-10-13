@@ -1322,8 +1322,13 @@
         "frontpage.jpg",
         "Thaumcraft-03.jpg"
       ],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292130-thaumcraft-4-2-3-5-updated-2015-2-17",
+      "modPage": "https://minecraft.curseforge.com/projects/thaumcraft",
       "downloads": [
+        { "name": "Thaumcraft VI",
+          "version": "1.12.2",
+          "file": "WIP-1.12.2-Dokucraft-Thaumcraft-VI.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
         { "name": "Thaumcraft IV",
           "version": "1.7.10",
           "file": "Thaumcraft-IV-v3.2.1-Dokucraft.zip",
