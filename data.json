@@ -845,33 +845,28 @@
       "gallery": ["Iron-Chest-02.jpg"],
       "modPage": "http://files.minecraftforge.net/IronChests2/",
       "downloads": [
-        {
-          "version": "1.10.2",
+        { "version": "1.12",
+          "file": "WIP-1.12-Dokucraft-IronChests.zip",
+          "tags": [ "Light" "Work In Progress=Light" ]
+        },
+        { "version": "1.10.2",
           "file": "IronChest-Light-Dokucraft-v3.zip",
-          "tags": [
-            "Light"
-          ]
+          "tags": [ "Light" ]
         },
         {
           "version": "1.8",
           "file": "IronChest-Light-v2-Dokucraft.zip",
-          "tags": [
-            "Light"
-          ]
+          "tags": [ "Light" ]
         },
         {
           "version": "1.10.2",
           "file": "IronChest-High-Dokucraft-1.10.2.zip",
-          "tags": [
-            "High"
-          ]
+          "tags": [ "High" ]
         },
         {
           "version": "1.8",
           "file": "IronChest-High-v2-Dokucraft.zip",
-          "tags": [
-            "High"
-          ]
+          "tags": [ "High" ]
         }
       ]
     },
