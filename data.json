@@ -187,28 +187,24 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        {
-          "version": "1.12",
-          "tags": [
-            "=Dwarven"
-          ],
+        { "version": "1.13",
+          "tags": [ "=Dwarven", "Work In Progress=Dwarven" ],
+          "file": "WIP-1.13-Dokucraft-Dwarven.zip",
+          "mirror": "http://www.mediafire.com/file/8tj7gxzjkduez5n/1.13-Dokucraft_Dwarven+-+%28wip%29.zip"
+        },
+        { "version": "1.12",
+          "tags": [ "=Dwarven" ],
           "file": "1.12-Dokucraft_Dwarven.zip",
           "mirror": "http://www.mediafire.com/file/4i4io69auiwzqcc/1.12-Dokucraft_Dwarven.zip"
         },
-        {
-          "version": "1.11",
-          "tags": [
-            "=Dwarven"
-          ],
+        { "version": "1.11",
+          "tags": [ "=Dwarven" ],
           "file": "1.11.2-Dokucraft_Dwarven.zip",
           "mirror": "http://www.mediafire.com/file/og3recccx38v7bg/1.11.2-Dokucraft_Dwarven.zip"
         },
-        {
-          "version": "1.8",
+        { "version": "1.8",
           "note": "Compatible with 1.7.x and 1.6.x",
-          "tags": [
-            "=Dwarven"
-          ],
+          "tags": [ "=Dwarven" ],
           "offset": 26627,
           "file": "1.8.7-Dokucraft-Dwarven.zip",
           "mirror": "http://www.mediafire.com/download/i4lfv6ti7f13u54/1.8.7+-Dokucraft_Dwarven.zip"
