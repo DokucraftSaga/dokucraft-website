@@ -51,35 +51,27 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        {
-          "version": "1.12",
-          "tags": [
-            "=Light"
-          ],
+        { "version": "1.13",
+          "tags": [ "=Light" ],
+          "file": "1.13-Dokucraft-TSC-Light.zip"
+        },
+        { "version": "1.12",
+          "tags": [ "=Light" ],
           "file": "1.12-Dokucraft-TSC-Light.zip"
         },
-        {
-          "version": "1.11",
-          "tags": [
-            "=Light"
-          ],
+        { "version": "1.11",
+          "tags": [ "=Light" ],
           "offset": 386,
           "file": "1.11-Dokucraft-TSC-Light.zip"
         },
-        {
-          "version": "1.10",
+        { "version": "1.10",
           "note": "Compatible with 1.9, but not 1.8 and down",
-          "tags": [
-            "=Light"
-          ],
+          "tags": [ "=Light" ],
           "file": "1.10-Dokucraft-TSC-Light.zip"
         },
-        {
-          "version": "1.8",
+        { "version": "1.8",
           "note": "Compatible with 1.7.x and 1.6.x",
-          "tags": [
-            "=Light"
-          ],
+          "tags": [ "=Light" ],
           "file": "1.8.6-Dokucraft-TSC-Light.zip",
           "mirror": "http://www.mediafire.com/download/bf1lex7npzweg65/1.8.6-Dokucraft-TSC-Light.zip"
         }
