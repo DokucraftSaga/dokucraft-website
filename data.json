@@ -88,35 +88,27 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        {
-          "version": "1.12",
-          "tags": [
-            "=High"
-          ],
+        { "version": "1.13",
+          "tags": [ "=High" ],
+          "file": "1.13-Dokucraft-TSC-High.zip"
+        },
+        { "version": "1.12",
+          "tags": [ "=High" ],
           "file": "1.12-Dokucraft-TSC-High.zip"
         },
-        {
-          "version": "1.11",
-          "tags": [
-            "=High"
-          ],
+        { "version": "1.11",
+          "tags": [ "=High" ],
           "offset": 274,
           "file": "1.11-Dokucraft-TSC-High.zip"
         },
-        {
-          "version": "1.10",
+        { "version": "1.10",
           "note": "Compatible with 1.9, but not 1.8 and down",
-          "tags": [
-            "=High"
-          ],
+          "tags": [ "=High" ],
           "file": "1.10-Dokucraft-TSC-High.zip"
         },
-        {
-          "version": "1.8",
+        { "version": "1.8",
           "note": "Compatible with 1.7.x and 1.6.x",
-          "tags": [
-            "=High"
-          ],
+          "tags": [ "=High" ],
           "file": "1.8.6-Dokucraft-TSC-High.zip",
           "mirror": "http://www.mediafire.com/download/374jxeyy1c1462x/1.8.6-Dokucraft-TSC-High.zip"
         }
@@ -133,35 +125,27 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        {
-          "version": "1.12",
-          "tags": [
-            "=Dark"
-          ],
+        { "version": "1.13",
+          "tags": [ "=Dark" ],
+          "file": "1.13-Dokucraft-TSC-Dark.zip"
+        },
+        { "version": "1.12",
+          "tags": [ "=Dark" ],
           "file": "1.12-Dokucraft-TSC-Dark.zip"
         },
-        {
-          "version": "1.11",
-          "tags": [
-            "=Dark"
-          ],
+        { "version": "1.11",
+          "tags": [ "=Dark" ],
           "offset": 188,
           "file": "1.11-Dokucraft-TSC-Dark.zip"
         },
-        {
-          "version": "1.10",
+        { "version": "1.10",
           "note": "Compatible with 1.9, but not 1.8 and down",
-          "tags": [
-            "=Dark"
-          ],
+          "tags": [ "=Dark" ],
           "file": "1.10-Dokucraft-TSC-Dark.zip"
         },
-        {
-          "version": "1.8",
+        { "version": "1.8",
           "note": "Compatible with 1.7.x and 1.6.x",
-          "tags": [
-            "=Dark"
-          ],
+          "tags": [ "=Dark" ],
           "file": "1.8.6-Dokucraft-TSC-Dark.zip",
           "mirror": "http://www.mediafire.com/download/73epeiowryzoyze/1.8.6-Dokucraft-TSC-Dark.zip"
         }
