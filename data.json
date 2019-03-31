@@ -40,6 +40,7 @@
       "name": "Dokucraft Light",
       "category": "32x Resource Pack",
       "preview": 1,
+      "bedrock": true,
       "gallery": [
         "4TKddFz.jpg",
         "frontpage.jpg",
@@ -70,6 +71,10 @@
           "tags": [ "=Light" ],
           "file": "1.8.6-Dokucraft-TSC-Light.zip",
           "mirror": "http://www.mediafire.com/download/bf1lex7npzweg65/1.8.6-Dokucraft-TSC-Light.zip"
+        },
+        { "version": "1.10.1",
+          "tags": [ "Bedrock=Light" ],
+          "file": "WIP-Dokucraft-Bedrock-Light-v1.10.0.mcpack"
         }
       ]
     },
@@ -77,6 +82,7 @@
       "name": "Dokucraft High",
       "category": "32x Resource Pack",
       "preview": 1,
+      "bedrock": true,
       "gallery": [
         "lAJ1qlo.jpg",
         "frontpage.jpg",
@@ -107,6 +113,10 @@
           "tags": [ "=High" ],
           "file": "1.8.6-Dokucraft-TSC-High.zip",
           "mirror": "http://www.mediafire.com/download/374jxeyy1c1462x/1.8.6-Dokucraft-TSC-High.zip"
+        },
+        { "version": "1.10.1",
+          "tags": [ "Bedrock=High" ],
+          "file": "WIP-Dokucraft-Bedrock-High-v1.10.0.mcpack"
         }
       ]
     },
@@ -114,6 +124,7 @@
       "name": "Dokucraft Dark",
       "category": "32x Resource Pack",
       "preview": 1,
+      "bedrock": true,
       "gallery": [
         "bTbsW2c.jpg",
         "frontpage.jpg",
@@ -144,6 +155,10 @@
           "tags": [ "=Dark" ],
           "file": "1.8.6-Dokucraft-TSC-Dark.zip",
           "mirror": "http://www.mediafire.com/download/73epeiowryzoyze/1.8.6-Dokucraft-TSC-Dark.zip"
+        },
+        { "version": "1.10.1",
+          "tags": [ "Bedrock=Dark" ],
+          "file": "WIP-Dokucraft-Bedrock-Dark-v1.10.0.mcpack"
         }
       ]
     },

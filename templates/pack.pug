@@ -94,3 +94,5 @@ html(lang='en')
           else
             i No downloads are available right now, come back later!
         include /src/templates/install-instructions.pug
+        if pack.bedrock
+          include /src/templates/install-instructions-bedrock.pug

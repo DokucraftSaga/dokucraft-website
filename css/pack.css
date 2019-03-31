@@ -333,7 +333,6 @@ tr:hover .note {
 #pack-info i {
   color: #AAA;
   font-size: 16px;
-  margin-left: 60px;
   letter-spacing: 1px;
 }
 
@@ -345,12 +344,12 @@ tr:hover .note {
   color: #CCC;
   font-size: 16px;
   font-weight: 400;
-  margin: 10px 0px 40px 60px;
+  margin: 10px 0px 10px 60px;
 }
 
 #pack-info ol {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding-left: 60px;
 }
 
@@ -363,6 +362,10 @@ tr:hover .note {
 #pack-info li>p {
   margin: 0px;
   color: #CCC;
+}
+
+#pack-info>:last-child {
+  margin-bottom: 60px;
 }
 
 br.toggle-nl {
