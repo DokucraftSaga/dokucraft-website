@@ -52,6 +52,10 @@
           "tags": [ "=Light" ],
           "file": "1.13-Dokucraft-TSC-Light.zip"
         },
+        { "version": "1.10.1",
+          "tags": [ "Bedrock=Light" ],
+          "file": "WIP-Dokucraft-Bedrock-Light-v1.10.0.mcpack"
+        },
         { "version": "1.12",
           "tags": [ "=Light" ],
           "file": "1.12-Dokucraft-TSC-Light.zip"
@@ -71,10 +75,6 @@
           "tags": [ "=Light" ],
           "file": "1.8.6-Dokucraft-TSC-Light.zip",
           "mirror": "http://www.mediafire.com/download/bf1lex7npzweg65/1.8.6-Dokucraft-TSC-Light.zip"
-        },
-        { "version": "1.10.1",
-          "tags": [ "Bedrock=Light" ],
-          "file": "WIP-Dokucraft-Bedrock-Light-v1.10.0.mcpack"
         }
       ]
     },
@@ -93,6 +93,10 @@
         { "version": "1.13",
           "tags": [ "=High" ],
           "file": "1.13-Dokucraft-TSC-High.zip"
+        },
+        { "version": "1.10.1",
+          "tags": [ "Bedrock=High" ],
+          "file": "WIP-Dokucraft-Bedrock-High-v1.10.0.mcpack"
         },
         { "version": "1.12",
           "tags": [ "=High" ],
@@ -113,10 +117,6 @@
           "tags": [ "=High" ],
           "file": "1.8.6-Dokucraft-TSC-High.zip",
           "mirror": "http://www.mediafire.com/download/374jxeyy1c1462x/1.8.6-Dokucraft-TSC-High.zip"
-        },
-        { "version": "1.10.1",
-          "tags": [ "Bedrock=High" ],
-          "file": "WIP-Dokucraft-Bedrock-High-v1.10.0.mcpack"
         }
       ]
     },
@@ -135,6 +135,10 @@
         { "version": "1.13",
           "tags": [ "=Dark" ],
           "file": "1.13-Dokucraft-TSC-Dark.zip"
+        },
+        { "version": "1.10.1",
+          "tags": [ "Bedrock=Dark" ],
+          "file": "WIP-Dokucraft-Bedrock-Dark-v1.10.0.mcpack"
         },
         { "version": "1.12",
           "tags": [ "=Dark" ],
@@ -155,10 +159,6 @@
           "tags": [ "=Dark" ],
           "file": "1.8.6-Dokucraft-TSC-Dark.zip",
           "mirror": "http://www.mediafire.com/download/73epeiowryzoyze/1.8.6-Dokucraft-TSC-Dark.zip"
-        },
-        { "version": "1.10.1",
-          "tags": [ "Bedrock=Dark" ],
-          "file": "WIP-Dokucraft-Bedrock-Dark-v1.10.0.mcpack"
         }
       ]
     },
