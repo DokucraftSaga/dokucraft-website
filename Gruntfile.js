@@ -161,6 +161,10 @@ module.exports = function(grunt) {
         cwd: 'structured/',
         src: [ '**', '!**/*.{pug,css}' ],
         dest: '../dist/'
+      },
+      dataJSON: {
+        src: 'data.json',
+        dest: '../dist/data.json'
       }
     },
     clean: {
