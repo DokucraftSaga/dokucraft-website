@@ -198,7 +198,7 @@ module.exports = function(grunt) {
         }
       },
       src: 'templates/pack.pug',
-      dest: '../dist/' + key + '.html'
+      dest: '../dist/' + key + '/index.html'
     })
   }
 
