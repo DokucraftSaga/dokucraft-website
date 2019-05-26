@@ -48,13 +48,17 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.13",
+        { "version": "1.14",
           "tags": [ "=Light" ],
-          "file": "1.13-Dokucraft-TSC-Light.zip"
+          "file": "1.14-Dokucraft-TSC-Light.zip"
         },
         { "version": "1.10.1",
           "tags": [ "Bedrock=Light" ],
           "file": "WIP-Dokucraft-Bedrock-Light-v1.10.0.mcpack"
+        },
+        { "version": "1.13",
+          "tags": [ "=Light" ],
+          "file": "1.13-Dokucraft-TSC-Light.zip"
         },
         { "version": "1.12",
           "tags": [ "=Light" ],
@@ -90,13 +94,17 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.13",
+        { "version": "1.14",
           "tags": [ "=High" ],
-          "file": "1.13-Dokucraft-TSC-High.zip"
+          "file": "1.14-Dokucraft-TSC-High.zip"
         },
         { "version": "1.10.1",
           "tags": [ "Bedrock=High" ],
           "file": "WIP-Dokucraft-Bedrock-High-v1.10.0.mcpack"
+        },
+        { "version": "1.13",
+          "tags": [ "=High" ],
+          "file": "1.13-Dokucraft-TSC-High.zip"
         },
         { "version": "1.12",
           "tags": [ "=High" ],
@@ -132,13 +140,17 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.13",
+        { "version": "1.14",
           "tags": [ "=Dark" ],
-          "file": "1.13-Dokucraft-TSC-Dark.zip"
+          "file": "1.14-Dokucraft-TSC-Dark.zip"
         },
         { "version": "1.10.1",
           "tags": [ "Bedrock=Dark" ],
           "file": "WIP-Dokucraft-Bedrock-Dark-v1.10.0.mcpack"
+        },
+        { "version": "1.13",
+          "tags": [ "=Dark" ],
+          "file": "1.13-Dokucraft-TSC-Dark.zip"
         },
         { "version": "1.12",
           "tags": [ "=Dark" ],
