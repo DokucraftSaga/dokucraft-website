@@ -1406,6 +1406,10 @@
       "gallery": ["minimaps-1.jpg"],
       "modPage": "https://minecraft.curseforge.com/projects/voxelmap",
       "downloads": [
+        { "version": "1.14.2",
+          "file": "1.14.2-Dokucraft-VoxelMap.zip",
+          "tags": [ "Light" ]
+        },
         { "version": "1.12.2",
           "file": "1.12.2-Dokucraft-VoxelMap.zip",
           "tags": [ "Light" ]
