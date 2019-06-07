@@ -641,14 +641,15 @@
       "name": "Davinci's Vessels",
       "category": "Mod Support",
       "gallery": ["JkTLOb0.jpg"],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2364835-davincis-vessels-previously-archimedes-ships-plus",
+      "modPage": "https://minecraft.curseforge.com/projects/davincis-vessels",
       "downloads": [
-        {
-          "version": "1.10",
+        { "version": "1.12",
+          "file": "1.12-Dokucraft-DaViniciVessels.zip",
+          "tags": [ "Light" ]
+        },
+        { "version": "1.10",
           "file": "Davinci's Vessels-Dokucraft.zip",
-          "tags": [
-            "Light"
-          ]
+          "tags": [ "Light" ]
         }
       ]
     },
