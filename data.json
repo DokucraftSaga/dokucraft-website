@@ -463,6 +463,10 @@
       ],
       "modPage": "https://minecraft.curseforge.com/projects/biomes-o-plenty",
       "downloads": [
+        { "version": "1.13.2",
+          "file": "1.13.2-BiomesOPlenty-Dokucraft.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
         { "version": "1.12.2",
           "file": "1.12.2-BiomesOPlenty.zip",
           "tags": [ "Light", "Work In Progress=Light" ]
