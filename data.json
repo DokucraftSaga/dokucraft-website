@@ -54,7 +54,7 @@
         },
         { "version": "1.12.0",
           "tags": [ "Bedrock=Light" ],
-          "file": "WIP-Light-v1.12.0.13.mcpack"
+          "file": "Dokucraft-Light-Bedrock-Edition.mcpack"
         },
         { "version": "1.13",
           "tags": [ "=Light" ],
@@ -100,7 +100,7 @@
         },
         { "version": "1.12.0",
           "tags": [ "Bedrock=High" ],
-          "file": "WIP-High-v1.12.0.13.mcpack"
+          "file": "Dokucraft-High-Bedrock-Edition.mcpack"
         },
         { "version": "1.13",
           "tags": [ "=High" ],
@@ -146,7 +146,7 @@
         },
         { "version": "1.12.0",
           "tags": [ "Bedrock=Dark" ],
-          "file": "WIP-Dark-v1.12.0.13.mcpack"
+          "file": "Dokucraft-Dark-Bedrock-Edition.mcpack"
         },
         { "version": "1.13",
           "tags": [ "=Dark" ],
