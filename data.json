@@ -227,6 +227,73 @@
         }
       ]
     },
+    "mod-support/works-in-progress": {
+      "name": "Works In Progress",
+      "category": "Mod Support",
+      "gallery": ["0.jpg"],
+      "downloads": [
+        { "name": "Actually Additions",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-ActuallyAdditions_WIP-020119.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "Astral Sorcery",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-AstralSorcery_WIP-190319_.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "Botania",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-Botania_WIP-160419.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "Galacticraft",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-Galacticraft-170619.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "Immersive Engineering",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-ImmersiveEngineering_WIP-170219.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "IndustrialCraft 2",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-IndustrialCraft2_WIP-070519.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "More Furnaces",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-MoreFurnaces_WIP-041018.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "Natura",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-Natura_WIP-240319.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "Pam's Harvestcraft",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-PamsHarvestcraft_WIP-300319.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "Primal Chests",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-PrimalChests.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "Refined Storage",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-RefinedStorage_WIP-111118.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
+        { "name": "Thermal Foundation",
+          "version": "1.12",
+          "file": "1.12-Dokucraft-ThermalFoundation_WIP-060119.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        }
+      ]
+    },
     "mod-support/advanced-hud": {
       "name": "Advanced HUD",
       "category": "Mod Support",
@@ -750,8 +817,11 @@
       "gallery": ["Forestry-01.jpg"],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1277638-forestry-for-minecraft-trees-bees-and-more",
       "downloads": [
-        {
-          "version": "1.7.10",
+        { "version": "1.12",
+          "file": "1.12-Dokucraft-Forestry-180619.zip",
+          "tags": [ "Work In Progress=Light" ]
+        },
+        { "version": "1.7.10",
           "file": "Forestry-Dokucraft.zip"
         }
       ]
@@ -844,6 +914,10 @@
       "gallery": ["Iron-Chest-02.jpg"],
       "modPage": "http://files.minecraftforge.net/IronChests2/",
       "downloads": [
+        { "version": "1.12",
+          "file": "1.12-Dokucraft-IronChests-231118.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
         { "version": "1.12",
           "file": "1.12-Dokucraft-IronChests.zip",
           "tags": [ "Light" ]
@@ -1320,7 +1394,7 @@
       "downloads": [
         { "name": "Thaumcraft VI",
           "version": "1.12.2",
-          "file": "WIP-1.12.2-Dokucraft-Thaumcraft-VI.zip",
+          "file": "1.12-Dokucraft-Thaumcraft_WIP-250519.zip",
           "tags": [ "Light", "Work In Progress=Light" ]
         },
         { "name": "Thaumcraft IV",
