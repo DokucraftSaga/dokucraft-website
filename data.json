@@ -237,6 +237,11 @@
           "file": "1.12-Dokucraft-ActuallyAdditions_WIP-020119.zip",
           "tags": [ "Light", "Work In Progress=Light" ]
         },
+        { "name": "Aether II",
+          "version": "1.12",
+          "file": "1.12.2-Dokucraft-AetherII_WIP.zip",
+          "tags": [ "Light", "Work In Progress=Light" ]
+        },
         { "name": "Astral Sorcery",
           "version": "1.12",
           "file": "1.12-Dokucraft-AstralSorcery_WIP-190319_.zip",
