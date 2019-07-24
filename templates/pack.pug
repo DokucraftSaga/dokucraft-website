@@ -18,7 +18,7 @@ html(lang='en')
           #info-tile
             h1#pack-title= pack.name
             h3#pack-category= pack.category
-            if pack.downloads.length > 0
+            if pack.downloads.length > 0 && !pack.disableDownloadButton
               - var dl = pack.downloads[pack.featuredFile || 0]
               - var dlLink = dl.file
               - if (!dlLink.match(/^https?:\/\//i)) dlLink = fileRepo + dl.file

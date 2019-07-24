@@ -231,6 +231,7 @@
       "name": "Works In Progress",
       "category": "Mod Support",
       "gallery": ["0.jpg"],
+      "disableDownloadButton": true,
       "downloads": [
         { "name": "Actually Additions",
           "version": "1.12",
