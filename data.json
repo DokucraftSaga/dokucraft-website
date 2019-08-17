@@ -268,11 +268,6 @@
           "file": "1.12-Dokucraft-IndustrialCraft2_WIP-070519.zip",
           "tags": [ "Light", "Work In Progress=Light" ]
         },
-        { "name": "More Furnaces",
-          "version": "1.12",
-          "file": "1.12-Dokucraft-MoreFurnaces_WIP-041018.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
-        },
         { "name": "Natura",
           "version": "1.12",
           "file": "1.12-Dokucraft-Natura_WIP-240319.zip",
@@ -481,7 +476,7 @@
       "name": "Better Foliage",
       "category": "Mod Support",
       "gallery": ["635490683108214550.jpg"],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2119722-better-foliage",
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/better-foliage",
       "downloads": [
         {
           "version": "1.12",
@@ -1106,6 +1101,18 @@
         }
       ]
     },
+    "mod-support/more-furnaces": {
+      "name": "More Furnaces",
+      "category": "Mod Support",
+      "gallery": ["mf.jpg"],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/more-furnaces",
+      "downloads": [
+        { "version": "1.12",
+          "file": "1.12-Dokucraft-MoreFurnaces-170819.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/more-swords": {
       "name": "More Swords",
       "category": "Mod Support",
@@ -1268,7 +1275,7 @@
       "name": "Rei’s Minimap",
       "category": "Mod Support",
       "gallery": ["minimaps-1.jpg"],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1275219-jul-08-reis-minimap-v3-4_01",
+      "modPage": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1275219-jul-08-reis-minimap-v3-4_01",
       "downloads": [
         {
           "version": "1.8",
