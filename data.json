@@ -923,10 +923,6 @@
           "file": "1.12-Dokucraft-IronChests-231118.zip",
           "tags": [ "Light", "Work In Progress=Light" ]
         },
-        { "version": "1.12",
-          "file": "1.12-Dokucraft-IronChests.zip",
-          "tags": [ "Light" ]
-        },
         { "version": "1.10.2",
           "file": "IronChest-Light-Dokucraft-v3.zip",
           "tags": [ "Light" ]
@@ -1411,7 +1407,7 @@
       "downloads": [
         { "name": "Thaumcraft VI",
           "version": "1.12.2",
-          "file": "1.12-Dokucraft-Thaumcraft_WIP-120819.zip",
+          "file": "1.12-Dokucraft-Thaumcraft.zip",
           "tags": [ "Light", "Work In Progress=Light" ]
         },
         { "name": "Thaumcraft IV",
