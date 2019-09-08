@@ -633,15 +633,19 @@
       ]
     },
     "mod-support/chisels-and-bits": {
-      "name": "Chisels and Bits",
+      "name": "Chisels & Bits",
       "category": "Mod Support",
       "gallery": ["636177518539575023.jpg"],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2576750-chisels-bits-flat-colored-blocks",
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/chisels-bits",
       "downloads": [
-        {
-          "version": "1.11",
+        { "version": "1.12",
+          "file": "1.12-Dokucraft-Chisels-and-Bits.zip",
+          "tags": [ "Light" ]
+        },
+        { "version": "1.11",
           "note": "Compatible with 1.10.2",
-          "file": "Chisels-and-Bits-Dokucraft.zip"
+          "file": "Chisels-and-Bits-Dokucraft.zip",
+          "tags": [ "Light" ]
         }
       ]
     },
