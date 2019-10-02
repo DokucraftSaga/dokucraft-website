@@ -1246,6 +1246,18 @@
         }
       ]
     },
+    "mod-support/realistic-torches": {
+      "name": "Realistic Torches",
+      "category": "Mod Support",
+      "gallery": [ "2019-10-02_18.24.15.jpg" ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/realistic-torches",
+      "downloads": [
+        { "version": "1.12.2",
+          "file": "1.12.2-Dokucraft-RealisticTorches.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/redstone-paste": {
       "name": "Redstone Paste",
       "category": "Mod Support",
