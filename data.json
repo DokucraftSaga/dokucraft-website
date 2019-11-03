@@ -52,7 +52,7 @@
           "tags": [ "=Light" ],
           "file": "1.14-Dokucraft-TSC-Light.zip"
         },
-        { "version": "1.12.0",
+        { "version": "1.14.0",
           "tags": [ "Bedrock=Light" ],
           "file": "Dokucraft-Light-Bedrock-Edition.mcpack"
         },
@@ -98,7 +98,7 @@
           "tags": [ "=High" ],
           "file": "1.14-Dokucraft-TSC-High.zip"
         },
-        { "version": "1.12.0",
+        { "version": "1.14.0",
           "tags": [ "Bedrock=High" ],
           "file": "Dokucraft-High-Bedrock-Edition.mcpack"
         },
@@ -144,7 +144,7 @@
           "tags": [ "=Dark" ],
           "file": "1.14-Dokucraft-TSC-Dark.zip"
         },
-        { "version": "1.12.0",
+        { "version": "1.14.0",
           "tags": [ "Bedrock=Dark" ],
           "file": "Dokucraft-Dark-Bedrock-Edition.mcpack"
         },
