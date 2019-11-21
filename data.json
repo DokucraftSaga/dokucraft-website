@@ -371,6 +371,18 @@
         }
       ]
     },
+    "mod-support/appleskin": {
+      "name": "AppleSkin",
+      "category": "Mod Support",
+      "gallery": ["saturation.jpg"],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+      "downloads": [
+        { "version": "1.14",
+          "file": "1.14-Dokucraft-AppleSkin.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/backpack": {
       "name": "Backpack",
       "category": "Mod Support",
