@@ -383,6 +383,23 @@
         }
       ]
     },
+    "mod-support/astikorcarts": {
+      "name": "AstikorCarts",
+      "category": "Mod Support",
+      "gallery": [
+        "2019-12-04_17.19.37.jpg",
+        "2019-12-04_17.13.35.jpg",
+        "2019-12-04_17.20.02.jpg",
+        "2019-12-04_17.20.13.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/astikorcarts",
+      "downloads": [
+        { "version": "1.12",
+          "file": "Dokucraft-1.12.2-AstikorCarts.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/backpack": {
       "name": "Backpack",
       "category": "Mod Support",
