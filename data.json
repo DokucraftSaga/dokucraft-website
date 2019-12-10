@@ -190,6 +190,10 @@
           "tags": [ "=Dwarven", "Work In Progress=Dwarven" ],
           "file": "WIP-1.13-Dokucraft-Dwarven-v2.zip"
         },
+        { "version": "1.14.0",
+          "tags": [ "Bedrock=Dwarven" ],
+          "file": "Dokucraft-Dwarven-Bedrock-Edition.mcpack"
+        },
         { "version": "1.12",
           "tags": [ "=Dwarven" ],
           "file": "1.12-Dokucraft_Dwarven.zip",
