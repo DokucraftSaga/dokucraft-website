@@ -48,13 +48,17 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.14",
+        { "version": "1.15",
           "tags": [ "=Light" ],
-          "file": "1.14-Dokucraft-TSC-Light.zip"
+          "file": "1.15-Dokucraft-TSC-Light.zip"
         },
         { "version": "1.14.0",
           "tags": [ "Bedrock=Light" ],
           "file": "Dokucraft-Light-Bedrock-Edition.mcpack"
+        },
+        { "version": "1.14",
+          "tags": [ "=Light" ],
+          "file": "1.14-Dokucraft-TSC-Light.zip"
         },
         { "version": "1.13",
           "tags": [ "=Light" ],
@@ -94,13 +98,17 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.14",
+        { "version": "1.15",
           "tags": [ "=High" ],
-          "file": "1.14-Dokucraft-TSC-High.zip"
+          "file": "1.15-Dokucraft-TSC-High.zip"
         },
         { "version": "1.14.0",
           "tags": [ "Bedrock=High" ],
           "file": "Dokucraft-High-Bedrock-Edition.mcpack"
+        },
+        { "version": "1.14",
+          "tags": [ "=High" ],
+          "file": "1.14-Dokucraft-TSC-High.zip"
         },
         { "version": "1.13",
           "tags": [ "=High" ],
@@ -140,13 +148,17 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.14",
+        { "version": "1.15",
           "tags": [ "=Dark" ],
-          "file": "1.14-Dokucraft-TSC-Dark.zip"
+          "file": "1.15-Dokucraft-TSC-Dark.zip"
         },
         { "version": "1.14.0",
           "tags": [ "Bedrock=Dark" ],
           "file": "Dokucraft-Dark-Bedrock-Edition.mcpack"
+        },
+        { "version": "1.14",
+          "tags": [ "=Dark" ],
+          "file": "1.14-Dokucraft-TSC-Dark.zip"
         },
         { "version": "1.13",
           "tags": [ "=Dark" ],
@@ -501,6 +513,18 @@
           "version": "1.9",
           "note": "4 bauble slots",
           "file": "Pre-1.3BETA8-Baubles-Dokucraft.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
+    "mod-support/baubley-heart-canisters": {
+      "name": "Baubley Heart Canisters",
+      "category": "Mod Support",
+      "gallery": ["2019-12-28_05.50.29.jpg"],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters",
+      "downloads": [
+        { "version": "1.12",
+          "file": "BaubleyHeartCanisters-Doku-1.12.zip",
           "tags": [ "Light" ]
         }
       ]
