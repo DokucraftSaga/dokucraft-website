@@ -1426,6 +1426,18 @@
         }
       ]
     },
+    "mod-support/speedy-ladders": {
+      "name": "Speedy Ladders",
+      "category": "Mod Support",
+      "gallery": ["2019-12-31_06.45.25.jpg"],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/speedy-ladders",
+      "downloads": [
+        { "version": "1.12",
+          "file": "SpeedyLadders-Doku-1.12.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/survivalist": {
       "name": "Survivalist",
       "category": "Mod Support",
