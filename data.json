@@ -706,6 +706,18 @@
         }
       ]
     },
+    "mod-support/cofh-vanilla-satchels": {
+      "name": "CoFH: Vanilla+ Satchels",
+      "category": "Mod Support",
+      "gallery": [ "2019-12-26_01.41.22.jpg" ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/cofh-vanilla-satchels",
+      "downloads": [
+        { "version": "1.12",
+          "file": "VanillaSatchels-Doku-1.12.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/compactsolars": {
       "name": "CompactSolars",
       "category": "Mod Support",
@@ -1033,6 +1045,21 @@
         }
       ]
     },
+    "mod-support/light-the-night": {
+      "name": "Light The Night",
+      "category": "Mod Support",
+      "gallery": [
+        "2020-01-21_03.23.27.jpg",
+        "2020-01-21_03.33.43.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/light-the-night",
+      "downloads": [
+        { "version": "1.12",
+          "file": "LightTheNight-Doku-1.12.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/lucky-block": {
       "name": "Lucky Block",
       "category": "Mod Support",
@@ -1231,6 +1258,18 @@
           "name": "Hephestus",
           "version": "1.7.10",
           "file": "Hephestus-DokuCraft.zip"
+        }
+      ]
+    },
+    "mod-support/oreberries": {
+      "name": "Oreberries",
+      "category": "Mod Support",
+      "gallery": [ "2020-01-21_06.47.14..jpg" ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/oreberries",
+      "downloads": [
+        { "version": "1.12",
+          "file": "OreBerries-Doku-1.12.zip",
+          "tags": [ "Light" ]
         }
       ]
     },
