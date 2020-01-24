@@ -529,6 +529,18 @@
         }
       ]
     },
+    "mod-support/better-builders-wands": {
+      "name": "Better Builder's Wands",
+      "category": "Mod Support",
+      "gallery": [ "2020-01-24_04.47.27.jpg" ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands",
+      "downloads": [
+        { "version": "1.12",
+          "file": "BetterBuildersWands-Doku-1.12.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/better-foliage": {
       "name": "Better Foliage",
       "category": "Mod Support",
