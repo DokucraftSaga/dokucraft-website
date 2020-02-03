@@ -763,6 +763,18 @@
         }
       ]
     },
+    "mod-support/coralreef": {
+      "name": "CoralReef",
+      "category": "Mod Support",
+      "gallery": [ "2020-02-03_04.43.47.jpg" ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/coralreef",
+      "downloads": [
+        { "version": "1.12",
+          "file": "CoralReef-Doku-1.12.zip",
+          "tags": [ "Light" ]
+        }
+      ]
+    },
     "mod-support/cosmetic-armor-reworked": {
       "name": "Cosmetic Armor Reworked",
       "category": "Mod Support",
