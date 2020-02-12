@@ -840,6 +840,23 @@
         }
       ]
     },
+    "mod-support/enchanting-plus": {
+      "name": "Enchanting Plus",
+      "category": "Mod Support",
+      "preview": 1,
+      "gallery": [
+        "2020-02-12_06.28.22.jpg",
+        "2020-02-12_06.28.41.jpg",
+        "2020-02-12_06.28.20.jpg",
+        "2020-02-12_06.28.00.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/enchanting-plus",
+      "downloads": [
+        { "version": "1.12",
+          "file": "EnchantingPlus-Doku-1.12.zip"
+        }
+      ]
+    },
     "mod-support/ender-storage": {
       "name": "Ender Storage",
       "category": "Mod Support",
