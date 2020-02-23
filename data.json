@@ -48,40 +48,79 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.15",
-          "tags": [ "=Light" ],
-          "file": "1.15-Dokucraft-TSC-Light.zip"
+        {
+          "version": "1.15",
+          "tags": [
+            "=Light"
+          ],
+          "file": "1.15-Dokucraft-TSC-Light.zip",
+          "date": "2020-01-08T17:26:21.956601+00:00",
+          "offset": 13465
         },
-        { "version": "1.14.0",
-          "tags": [ "Bedrock=Light" ],
-          "file": "Dokucraft-Light-Bedrock-Edition.mcpack"
+        {
+          "version": "1.14.0",
+          "tags": [
+            "Bedrock=Light"
+          ],
+          "file": "Dokucraft-Light-Bedrock-Edition.mcpack",
+          "date": "2020-01-28T17:24:44.586921+00:00",
+          "offset": 631
         },
-        { "version": "1.14",
-          "tags": [ "=Light" ],
-          "file": "1.14-Dokucraft-TSC-Light.zip"
+        {
+          "version": "1.14",
+          "tags": [
+            "=Light"
+          ],
+          "file": "1.14-Dokucraft-TSC-Light.zip",
+          "date": "2019-08-22T17:13:08.184067+00:00",
+          "offset": 39758
         },
-        { "version": "1.13",
-          "tags": [ "=Light" ],
-          "file": "1.13-Dokucraft-TSC-Light.zip"
+        {
+          "version": "1.13",
+          "tags": [
+            "=Light"
+          ],
+          "file": "1.13-Dokucraft-TSC-Light.zip",
+          "date": "2019-05-26T13:42:08.432715+00:00",
+          "offset": 2242
         },
-        { "version": "1.12",
-          "tags": [ "=Light" ],
-          "file": "1.12-Dokucraft-TSC-Light.zip"
+        {
+          "version": "1.12",
+          "tags": [
+            "=Light"
+          ],
+          "file": "1.12-Dokucraft-TSC-Light.zip",
+          "date": "2018-03-25T02:38:03.076966+00:00",
+          "offset": 51950
         },
-        { "version": "1.11",
-          "tags": [ "=Light" ],
-          "offset": 386,
-          "file": "1.11-Dokucraft-TSC-Light.zip"
+        {
+          "version": "1.11",
+          "tags": [
+            "=Light"
+          ],
+          "offset": 69568,
+          "file": "1.11-Dokucraft-TSC-Light.zip",
+          "date": "2017-01-11T16:56:42.917218+00:00"
         },
-        { "version": "1.10",
+        {
+          "version": "1.10",
           "note": "Compatible with 1.9, but not 1.8 and down",
-          "tags": [ "=Light" ],
-          "file": "1.10-Dokucraft-TSC-Light.zip"
+          "tags": [
+            "=Light"
+          ],
+          "file": "1.10-Dokucraft-TSC-Light.zip",
+          "date": "2016-08-25T19:05:22.166474+00:00",
+          "offset": 33869
         },
-        { "version": "1.8",
+        {
+          "version": "1.8",
           "note": "Compatible with 1.7.x and 1.6.x",
-          "tags": [ "=Light" ],
-          "file": "1.8.6-Dokucraft-TSC-Light.zip"
+          "tags": [
+            "=Light"
+          ],
+          "file": "1.8.6-Dokucraft-TSC-Light.zip",
+          "date": "2016-02-04T12:27:37.764059+00:00",
+          "offset": 50694
         }
       ]
     },
@@ -97,40 +136,79 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.15",
-          "tags": [ "=High" ],
-          "file": "1.15-Dokucraft-TSC-High.zip"
+        {
+          "version": "1.15",
+          "tags": [
+            "=High"
+          ],
+          "file": "1.15-Dokucraft-TSC-High.zip",
+          "date": "2020-01-08T17:26:21.955666+00:00",
+          "offset": 9861
         },
-        { "version": "1.14.0",
-          "tags": [ "Bedrock=High" ],
-          "file": "Dokucraft-High-Bedrock-Edition.mcpack"
+        {
+          "version": "1.14.0",
+          "tags": [
+            "Bedrock=High"
+          ],
+          "file": "Dokucraft-High-Bedrock-Edition.mcpack",
+          "date": "2020-01-28T17:24:44.584248+00:00",
+          "offset": 468
         },
-        { "version": "1.14",
-          "tags": [ "=High" ],
-          "file": "1.14-Dokucraft-TSC-High.zip"
+        {
+          "version": "1.14",
+          "tags": [
+            "=High"
+          ],
+          "file": "1.14-Dokucraft-TSC-High.zip",
+          "date": "2019-08-20T17:17:17.036124+00:00",
+          "offset": 34710
         },
-        { "version": "1.13",
-          "tags": [ "=High" ],
-          "file": "1.13-Dokucraft-TSC-High.zip"
+        {
+          "version": "1.13",
+          "tags": [
+            "=High"
+          ],
+          "file": "1.13-Dokucraft-TSC-High.zip",
+          "date": "2019-05-26T13:42:08.431435+00:00",
+          "offset": 1641
         },
-        { "version": "1.12",
-          "tags": [ "=High" ],
-          "file": "1.12-Dokucraft-TSC-High.zip"
+        {
+          "version": "1.12",
+          "tags": [
+            "=High"
+          ],
+          "file": "1.12-Dokucraft-TSC-High.zip",
+          "date": "2018-03-28T02:24:04.346676+00:00",
+          "offset": 46826
         },
-        { "version": "1.11",
-          "tags": [ "=High" ],
-          "offset": 274,
-          "file": "1.11-Dokucraft-TSC-High.zip"
+        {
+          "version": "1.11",
+          "tags": [
+            "=High"
+          ],
+          "offset": 52820,
+          "file": "1.11-Dokucraft-TSC-High.zip",
+          "date": "2017-01-11T16:56:42.915789+00:00"
         },
-        { "version": "1.10",
+        {
+          "version": "1.10",
           "note": "Compatible with 1.9, but not 1.8 and down",
-          "tags": [ "=High" ],
-          "file": "1.10-Dokucraft-TSC-High.zip"
+          "tags": [
+            "=High"
+          ],
+          "file": "1.10-Dokucraft-TSC-High.zip",
+          "date": "2016-08-25T19:05:22.165791+00:00",
+          "offset": 26144
         },
-        { "version": "1.8",
+        {
+          "version": "1.8",
           "note": "Compatible with 1.7.x and 1.6.x",
-          "tags": [ "=High" ],
-          "file": "1.8.6-Dokucraft-TSC-High.zip"
+          "tags": [
+            "=High"
+          ],
+          "file": "1.8.6-Dokucraft-TSC-High.zip",
+          "date": "2016-02-04T12:33:35.468250+00:00",
+          "offset": 37861
         }
       ]
     },
@@ -146,40 +224,79 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.15",
-          "tags": [ "=Dark" ],
-          "file": "1.15-Dokucraft-TSC-Dark.zip"
+        {
+          "version": "1.15",
+          "tags": [
+            "=Dark"
+          ],
+          "file": "1.15-Dokucraft-TSC-Dark.zip",
+          "date": "2020-01-08T17:26:21.954350+00:00",
+          "offset": 4394
         },
-        { "version": "1.14.0",
-          "tags": [ "Bedrock=Dark" ],
-          "file": "Dokucraft-Dark-Bedrock-Edition.mcpack"
+        {
+          "version": "1.14.0",
+          "tags": [
+            "Bedrock=Dark"
+          ],
+          "file": "Dokucraft-Dark-Bedrock-Edition.mcpack",
+          "date": "2020-01-28T17:24:44.582030+00:00",
+          "offset": 247
         },
-        { "version": "1.14",
-          "tags": [ "=Dark" ],
-          "file": "1.14-Dokucraft-TSC-Dark.zip"
+        {
+          "version": "1.14",
+          "tags": [
+            "=Dark"
+          ],
+          "file": "1.14-Dokucraft-TSC-Dark.zip",
+          "date": "2019-08-20T17:17:17.034341+00:00",
+          "offset": 16098
         },
-        { "version": "1.13",
-          "tags": [ "=Dark" ],
-          "file": "1.13-Dokucraft-TSC-Dark.zip"
+        {
+          "version": "1.13",
+          "tags": [
+            "=Dark"
+          ],
+          "file": "1.13-Dokucraft-TSC-Dark.zip",
+          "date": "2019-05-26T13:42:08.429647+00:00",
+          "offset": 746
         },
-        { "version": "1.12",
-          "tags": [ "=Dark" ],
-          "file": "1.12-Dokucraft-TSC-Dark.zip"
+        {
+          "version": "1.12",
+          "tags": [
+            "=Dark"
+          ],
+          "file": "1.12-Dokucraft-TSC-Dark.zip",
+          "date": "2018-03-28T02:05:52.886203+00:00",
+          "offset": 22787
         },
-        { "version": "1.11",
-          "tags": [ "=Dark" ],
-          "offset": 188,
-          "file": "1.11-Dokucraft-TSC-Dark.zip"
+        {
+          "version": "1.11",
+          "tags": [
+            "=Dark"
+          ],
+          "offset": 29297,
+          "file": "1.11-Dokucraft-TSC-Dark.zip",
+          "date": "2017-01-11T16:56:42.913567+00:00"
         },
-        { "version": "1.10",
+        {
+          "version": "1.10",
           "note": "Compatible with 1.9, but not 1.8 and down",
-          "tags": [ "=Dark" ],
-          "file": "1.10-Dokucraft-TSC-Dark.zip"
+          "tags": [
+            "=Dark"
+          ],
+          "file": "1.10-Dokucraft-TSC-Dark.zip",
+          "date": "2016-08-25T19:05:22.163743+00:00",
+          "offset": 17997
         },
-        { "version": "1.8",
+        {
+          "version": "1.8",
           "note": "Compatible with 1.7.x and 1.6.x",
-          "tags": [ "=Dark" ],
-          "file": "1.8.6-Dokucraft-TSC-Dark.zip"
+          "tags": [
+            "=Dark"
+          ],
+          "file": "1.8.6-Dokucraft-TSC-Dark.zip",
+          "date": "2016-02-04T12:34:43.502243+00:00",
+          "offset": 19092
         }
       ]
     },
@@ -195,31 +312,61 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.15",
-          "tags": [ "=Dwarven" ],
-          "file": "1.15-Dokucraft-Dwarven.zip"
+        {
+          "version": "1.15",
+          "tags": [
+            "=Dwarven"
+          ],
+          "file": "1.15-Dokucraft-Dwarven.zip",
+          "date": "2020-02-02T20:11:03.253026+00:00",
+          "offset": 1688
         },
-        { "version": "1.14.0",
-          "tags": [ "Bedrock=Dwarven" ],
-          "file": "Dokucraft-Dwarven-Bedrock-Edition.mcpack"
+        {
+          "version": "1.14.0",
+          "tags": [
+            "Bedrock=Dwarven"
+          ],
+          "file": "Dokucraft-Dwarven-Bedrock-Edition.mcpack",
+          "date": "2020-01-28T17:24:44.583326+00:00",
+          "offset": 218
         },
-        { "version": "1.13",
-          "tags": [ "=Dwarven", "Work In Progress=Dwarven" ],
-          "file": "WIP-1.13-Dokucraft-Dwarven-v2.zip"
+        {
+          "version": "1.13",
+          "tags": [
+            "=Dwarven",
+            "Work In Progress=Dwarven"
+          ],
+          "file": "WIP-1.13-Dokucraft-Dwarven-v2.zip",
+          "date": "2019-05-09T21:41:47.484414+00:00",
+          "offset": 11492
         },
-        { "version": "1.12",
-          "tags": [ "=Dwarven" ],
-          "file": "1.12-Dokucraft_Dwarven.zip"
+        {
+          "version": "1.12",
+          "tags": [
+            "=Dwarven"
+          ],
+          "file": "1.12-Dokucraft_Dwarven.zip",
+          "date": "2017-06-19T22:02:41.331990+00:00",
+          "offset": 28870
         },
-        { "version": "1.11",
-          "tags": [ "=Dwarven" ],
-          "file": "1.11.2-Dokucraft_Dwarven.zip"
+        {
+          "version": "1.11",
+          "tags": [
+            "=Dwarven"
+          ],
+          "file": "1.11.2-Dokucraft_Dwarven.zip",
+          "date": "2017-02-01T03:05:41.635018+00:00",
+          "offset": 7752
         },
-        { "version": "1.8",
+        {
+          "version": "1.8",
           "note": "Compatible with 1.7.x and 1.6.x",
-          "tags": [ "=Dwarven" ],
-          "offset": 26627,
-          "file": "1.8.7-Dokucraft-Dwarven.zip"
+          "tags": [
+            "=Dwarven"
+          ],
+          "offset": 31102,
+          "file": "1.8.7-Dokucraft-Dwarven.zip",
+          "date": "2016-11-20T00:35:20.871109+00:00"
         }
       ]
     },
@@ -235,81 +382,165 @@
       ],
       "enablePanorama": true,
       "downloads": [
-        { "version": "1.15",
-          "tags": [ "Work In Progress=Light" ],
-          "file": "1.15-MiniDoku-Light.zip"
+        {
+          "version": "1.15",
+          "tags": [
+            "Work In Progress=Light"
+          ],
+          "file": "1.15-MiniDoku-Light.zip",
+          "date": "2020-02-02T20:11:03.254119+00:00",
+          "offset": 263
         },
-        { "version": "1.13",
-          "tags": [ "Work In Progress=Light" ],
-          "file": "WIP-1.13-MiniDoku-Light.zip"
+        {
+          "version": "1.13",
+          "tags": [
+            "Work In Progress=Light"
+          ],
+          "file": "WIP-1.13-MiniDoku-Light.zip",
+          "date": "2018-08-10T05:59:30.854152+00:00",
+          "offset": 6943
         }
       ]
     },
     "mod-support/works-in-progress": {
       "name": "Works In Progress",
       "category": "Mod Support",
-      "gallery": ["0.jpg"],
+      "gallery": [
+        "0.jpg"
+      ],
       "disableDownloadButton": true,
       "downloads": [
-        { "name": "Actually Additions",
+        {
+          "name": "Actually Additions",
           "version": "1.12",
           "file": "1.12-Dokucraft-ActuallyAdditions_WIP-020119.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.258593+00:00",
+          "offset": 342
         },
-        { "name": "Aether II",
+        {
+          "name": "Aether II",
           "version": "1.12",
           "file": "1.12.2-Dokucraft-AetherII_WIP.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-19T17:27:30.162410+00:00",
+          "offset": 183
         },
-        { "name": "Astral Sorcery",
+        {
+          "name": "Astral Sorcery",
           "version": "1.12",
           "file": "Dokucraft_1.12.2_Astral_Sorcery.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-09-10T21:00:32.923246+00:00",
+          "offset": 226
         },
-        { "name": "Botania",
+        {
+          "name": "Botania",
           "version": "1.12",
           "file": "1.12-Dokucraft-Botania_WIP-160419.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.263806+00:00",
+          "offset": 404
         },
-        { "name": "Galacticraft",
+        {
+          "name": "Galacticraft",
           "version": "1.12",
           "file": "1.12-Dokucraft-Galacticraft-170619.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.268467+00:00",
+          "offset": 186
         },
-        { "name": "Immersive Engineering",
+        {
+          "name": "Immersive Engineering",
           "version": "1.12",
           "file": "1.12-Dokucraft-ImmersiveEngineering_WIP-170219.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.270402+00:00",
+          "offset": 452
         },
-        { "name": "IndustrialCraft 2",
+        {
+          "name": "IndustrialCraft 2",
           "version": "1.12",
           "file": "1.12-Dokucraft-IndustrialCraft2_WIP-070519.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.272586+00:00",
+          "offset": 347
         },
-        { "name": "Natura",
+        {
+          "name": "Natura",
           "version": "1.12",
           "file": "1.12-Dokucraft-Natura_WIP-240319.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.278572+00:00",
+          "offset": 293
         },
-        { "name": "Pam's Harvestcraft",
+        {
+          "name": "Pam's Harvestcraft",
           "version": "1.12",
           "file": "1.12-Dokucraft-PamsHarvestcraft_WIP-300319.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.280167+00:00",
+          "offset": 622
         },
-        { "name": "Primal Chests",
+        {
+          "name": "Primal Chests",
           "version": "1.12",
           "file": "1.12-Dokucraft-PrimalChests.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.281515+00:00",
+          "offset": 105
         },
-        { "name": "Refined Storage",
+        {
+          "name": "Refined Storage",
           "version": "1.12",
           "file": "1.12-Dokucraft-RefinedStorage_WIP-111118.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.282787+00:00",
+          "offset": 221
         },
-        { "name": "Thermal Foundation",
+        {
+          "name": "Thermal Foundation",
           "version": "1.12",
           "file": "1.12-Dokucraft-ThermalFoundation_WIP-060119.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.284978+00:00",
+          "offset": 407
         }
       ]
     },
@@ -328,28 +559,36 @@
           "file": "AdvancedHUD-Light-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-05T22:12:38.387517+00:00",
+          "offset": 1222
         },
         {
           "version": "1.7.10",
           "file": "AdvancedHUD-High-Dokucraft.zip",
           "tags": [
             "High"
-          ]
+          ],
+          "date": "2016-02-05T22:12:38.386999+00:00",
+          "offset": 496
         },
         {
           "version": "1.7.10",
           "file": "AdvancedHUD-Dark-Dokucraft.zip",
           "tags": [
             "Dark"
-          ]
+          ],
+          "date": "2016-02-05T22:12:38.386163+00:00",
+          "offset": 325
         }
       ]
     },
     "mod-support/advanced-machines": {
       "name": "Advanced Machines",
       "category": "Mod Support",
-      "gallery": ["Advanced-Machines-01.jpg"],
+      "gallery": [
+        "Advanced-Machines-01.jpg"
+      ],
       "modPage": "http://atomicstryker.net/advancedmachines.php",
       "downloads": [
         {
@@ -357,27 +596,37 @@
           "file": "Advanced_Machines-Dokucraft.zip",
           "tags": [
             "High"
-          ]
+          ],
+          "date": "2016-02-07T04:30:18.490415+00:00",
+          "offset": 1846
         }
       ]
     },
     "mod-support/aether-legacy": {
       "name": "Aether Legacy",
       "category": "Mod Support",
-      "gallery": ["2018-06-26_13.41.48.jpg"],
+      "gallery": [
+        "2018-06-26_13.41.48.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/aether-legacy",
       "downloads": [
         {
           "version": "1.12.2",
           "file": "1.12.2-Dokucraft-Aether-Legacy.zip",
-          "tags": [ "Work In Progress=Light" ]
+          "tags": [
+            "Work In Progress=Light"
+          ],
+          "date": "2018-06-26T04:35:18.052639+00:00",
+          "offset": 4008
         }
       ]
     },
     "mod-support/ancient-warfare": {
       "name": "Ancient Warfare",
       "category": "Mod Support",
-      "gallery": ["xZNYnvp.jpg"],
+      "gallery": [
+        "xZNYnvp.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1441547-1-7-10-ancient-warfare-forge-smp-wip-d-l",
       "downloads": [
         {
@@ -385,19 +634,28 @@
           "file": "Ancient_Warfare-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2017-01-09T17:48:25.847612+00:00",
+          "offset": 1920
         }
       ]
     },
     "mod-support/appleskin": {
       "name": "AppleSkin",
       "category": "Mod Support",
-      "gallery": ["saturation.jpg"],
+      "gallery": [
+        "saturation.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
       "downloads": [
-        { "version": "1.14",
+        {
+          "version": "1.14",
           "file": "1.14-Dokucraft-AppleSkin.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-11-21T23:04:30.931392+00:00",
+          "offset": 338
         }
       ]
     },
@@ -412,37 +670,60 @@
       ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/astikorcarts",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "Dokucraft-1.12.2-AstikorCarts.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-12-06T15:55:28.975318+00:00",
+          "offset": 130
         }
       ]
     },
     "mod-support/backpack": {
       "name": "Backpack",
       "category": "Mod Support",
-      "gallery": ["Backpack-01.jpg"],
+      "gallery": [
+        "Backpack-01.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/forge-backpacks",
       "downloads": [
         {
           "version": "1.12.2",
           "file": "Backpack-Dokucraft-1.12.2.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-05-23T21:21:10.157731+00:00",
+          "offset": 3290
         },
         {
           "version": "1.10.2",
           "file": "Backpack-Dokucraft-1.10.2.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-05-23T21:21:10.154062+00:00",
+          "offset": 57
         },
         {
           "version": "1.8.9",
           "file": "Backpack-Dokucraft-1.8.9.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-05-23T21:21:10.152566+00:00",
+          "offset": 40
         },
         {
           "version": "1.8",
           "file": "Backpack-v2-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T04:31:40.321898+00:00",
+          "offset": 3901
         }
       ]
     },
@@ -461,14 +742,18 @@
           "file": "Balkons-Weapon-Mod-Dokucraft-Light.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-07T04:33:34.390026+00:00",
+          "offset": 3130
         },
         {
           "version": "1.7.10",
           "file": "Balkons-Weapon-Mod-Dokucraft-High.zip",
           "tags": [
             "High"
-          ]
+          ],
+          "date": "2016-02-07T04:34:15.186912+00:00",
+          "offset": 1111
         }
       ]
     },
@@ -485,108 +770,166 @@
         {
           "version": "1.12",
           "file": "1.12-Battle-Towers-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-06-05T01:30:22.237249+00:00",
+          "offset": 1370
         },
         {
           "version": "1.7.10",
           "file": "Battle-Towers-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T04:36:39.980446+00:00",
+          "offset": 1514
         }
       ]
     },
     "mod-support/baubles": {
       "name": "Baubles",
       "category": "Mod Support",
-      "gallery": ["sFBuiJ5.jpg"],
+      "gallery": [
+        "sFBuiJ5.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/baubles",
       "downloads": [
         {
           "version": "1.12",
           "file": "1.12-Baubles-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-05-22T17:18:23.883691+00:00",
+          "offset": 4740
         },
         {
           "version": "1.10",
           "note": "8 bauble slots",
           "file": "Post-1.3BETA8-Baubles-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2017-07-07T17:13:00.172825+00:00",
+          "offset": 901
         },
         {
           "version": "1.9",
           "note": "4 bauble slots",
           "file": "Pre-1.3BETA8-Baubles-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2017-07-07T17:13:00.176544+00:00",
+          "offset": 582
         }
       ]
     },
     "mod-support/baubley-heart-canisters": {
       "name": "Baubley Heart Canisters",
       "category": "Mod Support",
-      "gallery": ["2019-12-28_05.50.29.jpg"],
+      "gallery": [
+        "2019-12-28_05.50.29.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "BaubleyHeartCanisters-Doku-1.12.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2020-02-04T05:20:48.104380+00:00",
+          "offset": 43
         }
       ]
     },
     "mod-support/better-builders-wands": {
       "name": "Better Builder's Wands",
       "category": "Mod Support",
-      "gallery": [ "2020-01-24_04.47.27.jpg" ],
+      "gallery": [
+        "2020-01-24_04.47.27.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "BetterBuildersWands-Doku-1.12.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2020-02-04T05:20:48.105141+00:00",
+          "offset": 60
         }
       ]
     },
     "mod-support/better-foliage": {
       "name": "Better Foliage",
       "category": "Mod Support",
-      "gallery": ["635490683108214550.jpg"],
+      "gallery": [
+        "635490683108214550.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/better-foliage",
       "downloads": [
         {
           "version": "1.12",
           "file": "1.12-BetterFoliage-Dokucraft-v3.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-05-19T17:08:24.875671+00:00",
+          "offset": 3365
         },
         {
           "version": "1.11",
           "file": "BetterFoliage-Dokucraft-v3.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2017-01-04T15:38:38.729776+00:00",
+          "offset": 1596
         },
         {
           "version": "1.7.10",
           "file": "Better-Foliage-v2-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T04:37:15.864446+00:00",
+          "offset": 1741
         }
       ]
     },
     "mod-support/better-furnaces": {
       "name": "Better Furnaces",
       "category": "Mod Support",
-      "gallery": ["BFurnaces-01.jpg"],
+      "gallery": [
+        "BFurnaces-01.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279439-better-furnaces-mod",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Better-Furnaces-Dokucraft.zip"
+          "file": "Better-Furnaces-Dokucraft.zip",
+          "date": "2016-02-07T04:37:48.967443+00:00",
+          "offset": 2369
         }
       ]
     },
     "mod-support/big-reactors": {
       "name": "Big Reactors",
       "category": "Mod Support",
-      "gallery": ["Big-Reactors-001.jpg"],
+      "gallery": [
+        "Big-Reactors-001.jpg"
+      ],
       "modPage": "http://www.big-reactors.com/",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Big-Reactors-v2-Dokucraft.zip"
+          "file": "Big-Reactors-v2-Dokucraft.zip",
+          "date": "2016-02-07T04:38:38.548913+00:00",
+          "offset": 2769
         }
       ]
     },
@@ -602,48 +945,87 @@
       ],
       "modPage": "https://minecraft.curseforge.com/projects/biomes-o-plenty",
       "downloads": [
-        { "version": "1.14",
+        {
+          "version": "1.14",
           "file": "1.14-Dokucraft-BiomesOPlenty_WIP-130120.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2020-01-13T07:25:51.073679+00:00",
+          "offset": 436
         },
-        { "version": "1.13.2",
+        {
+          "version": "1.13.2",
           "file": "1.13.2-BiomesOPlenty-Dokucraft.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-06-18T06:17:09.172568+00:00",
+          "offset": 483
         },
-        { "version": "1.12.2",
+        {
+          "version": "1.12.2",
           "file": "1.12.2-BiomesOPlenty.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-08-27T23:31:04.035501+00:00",
+          "offset": 1836
         },
-        { "version": "1.10.2",
+        {
+          "version": "1.10.2",
           "file": "BiomesOPlenty-DokucraftTSC-1.10.2_03.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-08-06T09:04:56.393196+00:00",
+          "offset": 5524
         },
-        { "version": "1.7.10",
+        {
+          "version": "1.7.10",
           "file": "BiomesO-Plenty-1.7.10-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T04:41:44.538358+00:00",
+          "offset": 4591
         },
-        { "version": "1.6.4",
+        {
+          "version": "1.6.4",
           "file": "BiomesO-Plenty-1.6.4-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T04:42:17.711677+00:00",
+          "offset": 321
         }
       ]
     },
     "mod-support/buildcraft": {
       "name": "Buildcraft",
       "category": "Mod Support",
-      "gallery": ["Buildcraft-02.jpg"],
+      "gallery": [
+        "Buildcraft-02.jpg"
+      ],
       "modPage": "http://www.mod-buildcraft.com/pages/download.html",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Buildcraft-v2-Dokucraft.zip"
+          "file": "Buildcraft-v2-Dokucraft.zip",
+          "date": "2016-02-07T04:43:01.926912+00:00",
+          "offset": 5936
         }
       ]
     },
     "mod-support/carpenters-blocks": {
       "name": "Carpenter's Blocks",
       "category": "Mod Support",
-      "gallery": ["UhapFgL.jpg"],
+      "gallery": [
+        "UhapFgL.jpg"
+      ],
       "modPage": "http://www.carpentersblocks.com/index.html",
       "downloads": [
         {
@@ -651,35 +1033,55 @@
           "file": "Carpenters_Blocks-Dokucraft-v2.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2017-02-14T02:30:50.536517+00:00",
+          "offset": 3068
         }
       ]
     },
     "mod-support/chickenchunks": {
       "name": "ChickenChunks",
       "category": "Mod Support",
-      "gallery": ["2014-11-19_22.10.33.jpg"],
+      "gallery": [
+        "2014-11-19_22.10.33.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/chicken-chunks-1-8",
       "downloads": [
         {
           "version": "1.12.2",
           "file": "ChickenChunks-Dokucraft-1.12.2.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-05-24T19:05:57.418153+00:00",
+          "offset": 980
         },
         {
           "version": "1.11.2",
           "file": "ChickenChunks-Dokucraft-1.11.2.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-05-24T19:05:57.416745+00:00",
+          "offset": 11
         },
         {
           "version": "1.10.2",
           "file": "ChickenChunks-Dokucraft-1.10.2.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-05-24T19:05:57.415180+00:00",
+          "offset": 33
         },
         {
           "version": "1.8",
           "file": "ChickenChunks-Light-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T04:43:53.902066+00:00",
+          "offset": 1107
         }
       ]
     },
@@ -699,59 +1101,88 @@
           "tags": [
             "Light",
             "Work In Progress=Light"
-          ]
+          ],
+          "date": "2018-04-08T17:12:35.065892+00:00",
+          "offset": 5710
         }
       ]
     },
     "mod-support/chisels-and-bits": {
       "name": "Chisels & Bits",
       "category": "Mod Support",
-      "gallery": ["636177518539575023.jpg"],
+      "gallery": [
+        "636177518539575023.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/chisels-bits",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "1.12-Dokucraft-Chisels-and-Bits.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-09-08T20:17:58.364643+00:00",
+          "offset": 577
         },
-        { "version": "1.11",
+        {
+          "version": "1.11",
           "note": "Compatible with 1.10.2",
           "file": "Chisels-and-Bits-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-12-21T09:49:03.096752+00:00",
+          "offset": 2460
         }
       ]
     },
     "mod-support/cofh-vanilla-satchels": {
       "name": "CoFH: Vanilla+ Satchels",
       "category": "Mod Support",
-      "gallery": [ "2019-12-26_01.41.22.jpg" ],
+      "gallery": [
+        "2019-12-26_01.41.22.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/cofh-vanilla-satchels",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "VanillaSatchels-Doku-1.12.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2020-02-04T05:20:48.106525+00:00",
+          "offset": 45
         }
       ]
     },
     "mod-support/compactsolars": {
       "name": "CompactSolars",
       "category": "Mod Support",
-      "gallery": ["CompactSolars-01.jpg"],
+      "gallery": [
+        "CompactSolars-01.jpg"
+      ],
       "modPage": "http://forum.industrial-craft.net/?page=Thread&threadID=4827",
       "downloads": [
         {
           "version": "1.10.2",
-          "file": "CompactSolars-Dokucraft-v2.zip"
+          "file": "CompactSolars-Dokucraft-v2.zip",
+          "date": "2017-01-04T15:38:38.735323+00:00",
+          "offset": 616
         },
         {
           "version": "1.7.10",
-          "file": "Compact-Solars-Dokucraft.zip"
+          "file": "Compact-Solars-Dokucraft.zip",
+          "date": "2016-02-07T04:46:41.973584+00:00",
+          "offset": 545
         }
       ]
     },
     "mod-support/computercraft": {
       "name": "ComputerCraft",
       "category": "Mod Support",
-      "gallery": ["ComputerCraft-02.jpg"],
+      "gallery": [
+        "ComputerCraft-02.jpg"
+      ],
       "modPage": "http://www.computercraft.info/",
       "downloads": [
         {
@@ -759,26 +1190,37 @@
           "file": "ComputerCraft 1.79 Support.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-05-31T18:10:34.307354+00:00",
+          "offset": 2032
         }
       ]
     },
     "mod-support/coralreef": {
       "name": "CoralReef",
       "category": "Mod Support",
-      "gallery": [ "2020-02-03_04.43.47.jpg" ],
+      "gallery": [
+        "2020-02-03_04.43.47.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/coralreef",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "CoralReef-Doku-1.12.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2020-02-04T05:20:48.108137+00:00",
+          "offset": 62
         }
       ]
     },
     "mod-support/cosmetic-armor-reworked": {
       "name": "Cosmetic Armor Reworked",
       "category": "Mod Support",
-      "gallery": ["ey1btdM.jpg"],
+      "gallery": [
+        "ey1btdM.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/cosmetic-armor-reworked",
       "downloads": [
         {
@@ -786,21 +1228,27 @@
           "file": "Post-1.9v2-Cosmetic-Armor-Reworked-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2017-07-07T17:13:00.175132+00:00",
+          "offset": 1115
         },
         {
           "version": "1.8",
           "file": "Pre-1.9v2-Cosmetic-Armor-Reworked-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2017-07-07T17:13:00.177731+00:00",
+          "offset": 155
         }
       ]
     },
     "mod-support/custom-npcs": {
       "name": "Custom NPCs",
       "category": "Mod Support",
-      "gallery": ["CustomNPC-002.jpg"],
+      "gallery": [
+        "CustomNPC-002.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1278956-custom-npcs",
       "downloads": [
         {
@@ -808,35 +1256,53 @@
           "file": "Custom-NPCs-180b-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-07T04:47:59.924567+00:00",
+          "offset": 5984
         }
       ]
     },
     "mod-support/davincis-vessels": {
       "name": "Davinci's Vessels",
       "category": "Mod Support",
-      "gallery": ["JkTLOb0.jpg"],
+      "gallery": [
+        "JkTLOb0.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/davincis-vessels",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "1.12-Dokucraft-DaViniciVessels.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-06-07T02:46:49.230138+00:00",
+          "offset": 382
         },
-        { "version": "1.10",
+        {
+          "version": "1.10",
           "file": "Davinci's Vessels-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-12-01T14:50:57.768600+00:00",
+          "offset": 770
         }
       ]
     },
     "mod-support/elemental-creepers": {
       "name": "Elemental Creepers",
       "category": "Mod Support",
-      "gallery": ["Elemental-Creepers-01.jpg"],
+      "gallery": [
+        "Elemental-Creepers-01.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2111959-1-7-x-1-8-elemental-creepers-rebooted",
       "downloads": [
         {
           "version": "1.8",
-          "file": "Elemental-Creepers-v2-Dokucraft.zip"
+          "file": "Elemental-Creepers-v2-Dokucraft.zip",
+          "date": "2016-02-07T04:48:41.278800+00:00",
+          "offset": 904
         }
       ]
     },
@@ -852,20 +1318,27 @@
       ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/enchanting-plus",
       "downloads": [
-        { "version": "1.12",
-          "file": "EnchantingPlus-Doku-1.12.zip"
+        {
+          "version": "1.12",
+          "file": "EnchantingPlus-Doku-1.12.zip",
+          "date": "2020-02-12T22:52:26.368246+00:00",
+          "offset": 33
         }
       ]
     },
     "mod-support/ender-storage": {
       "name": "Ender Storage",
       "category": "Mod Support",
-      "gallery": ["ES-01.jpg"],
+      "gallery": [
+        "ES-01.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods",
       "downloads": [
         {
           "version": "1.8",
-          "file": "EnderStorage-Dokucraft.zip"
+          "file": "EnderStorage-Dokucraft.zip",
+          "date": "2016-02-07T04:49:29.767028+00:00",
+          "offset": 3298
         }
       ]
     },
@@ -882,14 +1355,18 @@
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Enhanced-Biomes-v2-Dokucraft.zip"
+          "file": "Enhanced-Biomes-v2-Dokucraft.zip",
+          "date": "2016-02-07T04:52:13.547609+00:00",
+          "offset": 1006
         }
       ]
     },
     "mod-support/extra-doors": {
       "name": "Extra Doors",
       "category": "Mod Support",
-      "gallery": ["ExtraDoors-01.jpg"],
+      "gallery": [
+        "ExtraDoors-01.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288372-1-7-x-1-6-x-extra-doors-more-doors-for-minecraft",
       "downloads": [
         {
@@ -897,66 +1374,92 @@
           "file": "Extra-Doors-Light-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-07T04:52:51.040024+00:00",
+          "offset": 1213
         },
         {
           "version": "1.7.10",
           "file": "Extra-Doors-High-Dokucraft.zip",
           "tags": [
             "High"
-          ]
+          ],
+          "date": "2016-02-07T04:53:16.338606+00:00",
+          "offset": 438
         }
       ]
     },
     "mod-support/extrabiomesxl": {
       "name": "ExtrabiomesXL",
       "category": "Mod Support",
-      "gallery": ["EBXL-01.jpg"],
+      "gallery": [
+        "EBXL-01.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1282126-extrabiomesxl-universal-3-16-0-for-mc-1-7-10",
       "downloads": [
         {
           "version": "1.8",
-          "file": "Extrabiomes-XL-Dokucraft.zip"
+          "file": "Extrabiomes-XL-Dokucraft.zip",
+          "date": "2016-02-07T04:53:59.964327+00:00",
+          "offset": 1852
         }
       ]
     },
     "mod-support/flower-tea": {
       "name": "Flower Tea",
       "category": "Mod Support",
-      "gallery": ["PaQQgS8.jpg"],
+      "gallery": [
+        "PaQQgS8.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294215-flower-tea-new-drinks-that-can-heal-feed-or-poison",
       "downloads": [
         {
           "version": "1.8",
-          "file": "Flower Tea-Dokucraft.zip"
+          "file": "Flower Tea-Dokucraft.zip",
+          "date": "2017-01-04T15:38:38.737542+00:00",
+          "offset": 406
         }
       ]
     },
     "mod-support/forestry": {
       "name": "Forestry",
       "category": "Mod Support",
-      "gallery": ["Forestry-01.jpg"],
+      "gallery": [
+        "Forestry-01.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1277638-forestry-for-minecraft-trees-bees-and-more",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "1.12-Dokucraft-Forestry-180619.zip",
-          "tags": [ "Work In Progress=Light" ]
+          "tags": [
+            "Work In Progress=Light"
+          ],
+          "date": "2019-07-16T22:39:34.266265+00:00",
+          "offset": 790
         },
-        { "version": "1.7.10",
-          "file": "Forestry-Dokucraft.zip"
+        {
+          "version": "1.7.10",
+          "file": "Forestry-Dokucraft.zip",
+          "date": "2016-02-07T04:54:51.259321+00:00",
+          "offset": 3573
         }
       ]
     },
     "mod-support/forge": {
       "name": "Forge",
       "category": "Mod Support",
-      "gallery": ["636177518569647937.jpg"],
+      "gallery": [
+        "636177518569647937.jpg"
+      ],
       "modPage": "https://files.minecraftforge.net/",
       "downloads": [
         {
           "version": "1.11",
           "note": "Compatible with 1.10.2",
-          "file": "Forge-Dokucraft.zip"
+          "file": "Forge-Dokucraft.zip",
+          "date": "2016-12-21T09:49:03.098470+00:00",
+          "offset": 1865
         }
       ]
     },
@@ -971,7 +1474,9 @@
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Galacticraft-Dokucraft.zip"
+          "file": "Galacticraft-Dokucraft.zip",
+          "date": "2016-07-01T01:39:21.590685+00:00",
+          "offset": 2694
         }
       ]
     },
@@ -984,17 +1489,35 @@
       ],
       "modPage": "https://minecraft.curseforge.com/projects/geolosys",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "WIP-1.12-Dokucraft-Geolosys.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2018-08-20T00:19:40.795885+00:00",
+          "offset": 610
         },
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "WIP-1.12-Dokucraft-High-Geolosys.zip",
-          "tags": [ "High", "Work In Progress=High" ]
+          "tags": [
+            "High",
+            "Work In Progress=High"
+          ],
+          "date": "2018-08-20T05:52:45.317774+00:00",
+          "offset": 99
         },
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "WIP-1.12-Dokucraft-Dark-Geolosys.zip",
-          "tags": [ "Dark", "Work In Progress=Dark" ]
+          "tags": [
+            "Dark",
+            "Work In Progress=Dark"
+          ],
+          "date": "2018-08-20T05:52:45.316257+00:00",
+          "offset": 59
         }
       ]
     },
@@ -1013,54 +1536,89 @@
         {
           "version": "1.8",
           "note": "Compatible with 1.7.x and 1.6.x",
-          "file": "Highlands-v4-Dokucraft.zip"
+          "file": "Highlands-v4-Dokucraft.zip",
+          "date": "2016-02-07T05:01:24.784293+00:00",
+          "offset": 929
         }
       ]
     },
     "mod-support/hopper-ducts": {
       "name": "Hopper Ducts",
       "category": "Mod Support",
-      "gallery": ["Hopper-Ducts-02.jpg"],
+      "gallery": [
+        "Hopper-Ducts-02.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-hopper-ducts-mod",
       "downloads": [
         {
           "version": "1.8",
-          "file": "Hopper-Ducts-Dokucraft.zip"
+          "file": "Hopper-Ducts-Dokucraft.zip",
+          "date": "2016-02-07T05:12:50.213095+00:00",
+          "offset": 1092
         }
       ]
     },
     "mod-support/iron-chest": {
       "name": "Iron Chest",
       "category": "Mod Support",
-      "gallery": ["Iron-Chest-02.jpg"],
+      "gallery": [
+        "Iron-Chest-02.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
       "downloads": [
-        { "version": "1.14",
+        {
+          "version": "1.14",
           "file": "1.14-Dokucraft-IronChests-Light.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-11-20T01:35:23.946191+00:00",
+          "offset": 235
         },
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "1.12-Dokucraft-IronChests-231118.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-07-16T22:39:34.274698+00:00",
+          "offset": 1228
         },
-        { "version": "1.10.2",
+        {
+          "version": "1.10.2",
           "file": "IronChest-Light-Dokucraft-v3.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2017-01-04T15:38:38.742784+00:00",
+          "offset": 2165
         },
         {
           "version": "1.8",
           "file": "IronChest-Light-v2-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T05:13:26.337479+00:00",
+          "offset": 1908
         },
         {
           "version": "1.10.2",
           "file": "IronChest-High-Dokucraft-1.10.2.zip",
-          "tags": [ "High" ]
+          "tags": [
+            "High"
+          ],
+          "date": "2018-05-19T17:27:51.584745+00:00",
+          "offset": 225
         },
         {
           "version": "1.8",
           "file": "IronChest-High-v2-Dokucraft.zip",
-          "tags": [ "High" ]
+          "tags": [
+            "High"
+          ],
+          "date": "2016-02-07T05:14:01.119453+00:00",
+          "offset": 1411
         }
       ]
     },
@@ -1078,13 +1636,21 @@
         {
           "version": "1.12",
           "file": "1.12-JEI-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-08-27T23:31:04.032461+00:00",
+          "offset": 1408
         },
         {
           "version": "1.11",
           "note": "Compatible with 1.10.2",
           "file": "JEI-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-12-22T11:25:02.120023+00:00",
+          "offset": 1978
         }
       ]
     },
@@ -1097,80 +1663,129 @@
       ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/light-the-night",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "LightTheNight-Doku-1.12.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2020-02-04T05:20:48.105856+00:00",
+          "offset": 21
         }
       ]
     },
     "mod-support/lucky-block": {
       "name": "Lucky Block",
       "category": "Mod Support",
-      "gallery": ["brImglm.jpg"],
+      "gallery": [
+        "brImglm.jpg"
+      ],
       "modPage": "http://www.minecraftascending.com/projects/lucky_block/lucky_block.html",
       "downloads": [
-        { "version": "1.12.2",
+        {
+          "version": "1.12.2",
           "file": "1.12.2-Dokucraft-Light-LuckyBlock.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-10-11T19:10:13.319630+00:00",
+          "offset": 461
         },
-        { "version": "1.9",
+        {
+          "version": "1.9",
           "file": "Dokucraft Light-LuckyBlock.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-05-14T22:03:58.712282+00:00",
+          "offset": 811
         },
-        { "version": "1.9",
+        {
+          "version": "1.9",
           "file": "Dokucraft High-LuckyBlock.zip",
-          "tags": [ "High" ]
+          "tags": [
+            "High"
+          ],
+          "date": "2016-05-14T22:02:05.212518+00:00",
+          "offset": 301
         },
-        { "version": "1.9",
+        {
+          "version": "1.9",
           "file": "Dokucraft Dark-LuckyBlock.zip",
-          "tags": [ "Dark" ]
+          "tags": [
+            "Dark"
+          ],
+          "date": "2016-05-14T22:02:05.210356+00:00",
+          "offset": 195
         }
       ]
     },
     "mod-support/mekanism": {
       "name": "Mekanism",
       "category": "Mod Support",
-      "gallery": ["Mekanism-01.jpg"],
+      "gallery": [
+        "Mekanism-01.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1284681-mekanism-v8-1-0-fusion-reactors-5x-ore-duplication",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Mekanism-Dokucraft.zip"
+          "file": "Mekanism-Dokucraft.zip",
+          "date": "2016-02-07T05:14:42.329108+00:00",
+          "offset": 2952
         }
       ]
     },
     "mod-support/metallurgy-iv": {
       "name": "Metallurgy IV",
       "category": "Mod Support",
-      "gallery": ["MIV-00.jpg"],
+      "gallery": [
+        "MIV-00.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1295123-metallurgy-4",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Metallurgy-lV-Dokucraft.zip"
+          "file": "Metallurgy-lV-Dokucraft.zip",
+          "date": "2016-02-07T05:16:16.305043+00:00",
+          "offset": 2248
         }
       ]
     },
     "mod-support/millenaire": {
       "name": "Millenaire",
       "category": "Mod Support",
-      "gallery": ["Millenaire-05.jpg"],
+      "gallery": [
+        "Millenaire-05.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/millenaire",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "1.12-Dokucraft-Millenaire.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-10-10T23:40:28.288338+00:00",
+          "offset": 2192
         },
-        { "version": "1.7.10",
+        {
+          "version": "1.7.10",
           "file": "Millenaire-v2-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T05:16:51.765796+00:00",
+          "offset": 2445
         }
       ]
     },
     "mod-support/minions": {
       "name": "Minions",
       "category": "Mod Support",
-      "gallery": ["Minions-02.jpg"],
+      "gallery": [
+        "Minions-02.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280951-1-8-minecraft-minions-evil-always-finds-a-way",
       "downloads": [
         {
@@ -1178,49 +1793,63 @@
           "file": "Minions-Light-Dokucraft-v2.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2017-01-04T15:38:38.746691+00:00",
+          "offset": 537
         },
         {
           "version": "1.8",
           "file": "Minions-Light-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-07T05:18:03.175493+00:00",
+          "offset": 292
         },
         {
           "version": "1.11",
           "file": "Minions-High-Dokucraft-v2.zip",
           "tags": [
             "High"
-          ]
+          ],
+          "date": "2017-01-04T15:38:38.745528+00:00",
+          "offset": 95
         },
         {
           "version": "1.8",
           "file": "Minions-High-Dokucraft.zip",
           "tags": [
             "High"
-          ]
+          ],
+          "date": "2016-02-07T05:18:03.174907+00:00",
+          "offset": 201
         },
         {
           "version": "1.11",
           "file": "Minions-Dark-Dokucraft-v2.zip",
           "tags": [
             "Dark"
-          ]
+          ],
+          "date": "2017-01-04T15:38:38.744404+00:00",
+          "offset": 98
         },
         {
           "version": "1.8",
           "file": "Minions-Dark-Dokucraft.zip",
           "tags": [
             "Dark"
-          ]
+          ],
+          "date": "2016-02-07T05:18:03.173795+00:00",
+          "offset": 184
         }
       ]
     },
     "mod-support/moolands": {
       "name": "Moolands",
       "category": "Mod Support",
-      "gallery": ["LRRm598.jpg"],
+      "gallery": [
+        "LRRm598.jpg"
+      ],
       "modPage": "https://mods.curse.com/mc-mods/minecraft/253571-moolands",
       "downloads": [
         {
@@ -1228,26 +1857,37 @@
           "file": "Moolands-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-12-21T10:06:46.566073+00:00",
+          "offset": 232
         }
       ]
     },
     "mod-support/more-furnaces": {
       "name": "More Furnaces",
       "category": "Mod Support",
-      "gallery": ["mf.jpg"],
+      "gallery": [
+        "mf.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/more-furnaces",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "1.12-Dokucraft-MoreFurnaces-170819.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-08-17T14:12:16.393102+00:00",
+          "offset": 215
         }
       ]
     },
     "mod-support/more-swords": {
       "name": "More Swords",
       "category": "Mod Support",
-      "gallery": ["kh9d5F6.jpg"],
+      "gallery": [
+        "kh9d5F6.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1282601-more-swords-mod",
       "downloads": [
         {
@@ -1255,71 +1895,95 @@
           "file": "More-Swords-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-08-30T20:22:48.899754+00:00",
+          "offset": 1224
         }
       ]
     },
     "mod-support/mystcraft": {
       "name": "Mystcraft",
       "category": "Mod Support",
-      "gallery": ["9z6gaSk.jpg"],
+      "gallery": [
+        "9z6gaSk.jpg"
+      ],
       "modPage": "http://xcompwiz.com/mystcraft-dev-page/",
       "downloads": [
         {
           "version": "1.7.10",
-          "offset": 533,
+          "offset": 2264,
           "file": "Mystcraft-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-12-03T04:38:08.507505+00:00"
         }
       ]
     },
     "mod-support/not-enough-items": {
       "name": "Not Enough Items",
       "category": "Mod Support",
-      "gallery": ["2014-11-19_23.21.111.jpg"],
+      "gallery": [
+        "2014-11-19_23.21.111.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Not-Enough-Items-Light-Dokucraft-v2.zip"
+          "file": "Not-Enough-Items-Light-Dokucraft-v2.zip",
+          "date": "2016-02-07T05:19:35.530914+00:00",
+          "offset": 9279
         }
       ]
     },
     "mod-support/olympia": {
       "name": "Olympia",
       "category": "Mod Support",
-      "gallery": ["Olympia-03.jpg"],
+      "gallery": [
+        "Olympia-03.jpg"
+      ],
       "modPage": "http://robinomicon.com/olympia/downloads/olympia/",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Olympia-DokuCraft.zip"
+          "file": "Olympia-DokuCraft.zip",
+          "date": "2016-02-07T05:22:17.457802+00:00",
+          "offset": 856
         },
         {
           "name": "Hephestus",
           "version": "1.7.10",
-          "file": "Hephestus-DokuCraft.zip"
+          "file": "Hephestus-DokuCraft.zip",
+          "date": "2016-02-07T05:44:24.349489+00:00",
+          "offset": 271
         }
       ]
     },
     "mod-support/oreberries": {
       "name": "Oreberries",
       "category": "Mod Support",
-      "gallery": [ "2020-01-21_06.47.14.jpg" ],
+      "gallery": [
+        "2020-01-21_06.47.14.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/oreberries",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "OreBerries-Doku-1.12.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2020-02-04T05:20:48.103125+00:00",
+          "offset": 32
         }
       ]
     },
     "mod-support/progressive-automation": {
       "name": "Progressive Automation",
       "category": "Mod Support",
-      "gallery": ["PA-02.jpg"],
+      "gallery": [
+        "PA-02.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076388-progressive-automation-upgradeable-machines",
       "downloads": [
         {
@@ -1327,38 +1991,54 @@
           "file": "ProgressiveAutomation_1.10.2.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2017-11-05T20:00:00.550909+00:00",
+          "offset": 297
         },
         {
           "version": "1.8",
           "file": "Progressive-Automation-v3-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-07T05:46:00.819377+00:00",
+          "offset": 604
         }
       ]
     },
     "mod-support/project-e": {
       "name": "Project E",
       "category": "Mod Support",
-      "gallery": ["Project-E.jpg"],
+      "gallery": [
+        "Project-E.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2326684-projecte-equivalent-exchange-2-ee2-for-modern",
       "downloads": [
         {
           "version": "1.8",
-          "file": "Project-E-Dokucraft.zip"
+          "file": "Project-E-Dokucraft.zip",
+          "date": "2016-02-07T05:46:29.623975+00:00",
+          "offset": 2445
         }
       ]
     },
     "mod-support/quark": {
       "name": "Quark",
       "category": "Mod Support",
-      "gallery": ["2018-06-29_16.30.39.jpg"],
+      "gallery": [
+        "2018-06-29_16.30.39.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/quark",
       "downloads": [
-        { "version": "1.12.2",
+        {
+          "version": "1.12.2",
           "file": "1.12.2-Dokucraft-Quark.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2018-06-29T20:33:48.560059+00:00",
+          "offset": 2658
         }
       ]
     },
@@ -1378,94 +2058,132 @@
           "file": "Railcraft-10-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2017-02-14T02:30:50.538145+00:00",
+          "offset": 1676
         },
         {
           "version": "1.7.10",
           "file": "Railcraft-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-07T05:47:11.392265+00:00",
+          "offset": 2260
         }
       ]
     },
     "mod-support/realistic-torches": {
       "name": "Realistic Torches",
       "category": "Mod Support",
-      "gallery": [ "2019-10-02_18.24.15.jpg" ],
+      "gallery": [
+        "2019-10-02_18.24.15.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/realistic-torches",
       "downloads": [
-        { "version": "1.12.2",
+        {
+          "version": "1.12.2",
           "file": "1.12.2-Dokucraft-RealisticTorches.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-10-02T23:33:26.379427+00:00",
+          "offset": 205
         }
       ]
     },
     "mod-support/redstone-paste": {
       "name": "Redstone Paste",
       "category": "Mod Support",
-      "gallery": ["635616898273743382.jpg"],
+      "gallery": [
+        "635616898273743382.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291890-redstone-paste-mod",
       "downloads": [
         {
           "version": "1.8",
-          "file": "Redstone-Paste-v3-Dokucraft.zip"
+          "file": "Redstone-Paste-v3-Dokucraft.zip",
+          "date": "2016-02-07T05:47:48.754878+00:00",
+          "offset": 857
         }
       ]
     },
     "mod-support/reforged": {
       "name": "Reforged",
       "category": "Mod Support",
-      "gallery": ["2018-06-03_11.17.19.jpg"],
+      "gallery": [
+        "2018-06-03_11.17.19.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/reforged",
       "downloads": [
         {
           "version": "1.12",
           "file": "1.12-Reforged-Dokucraft-light.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-06-03T13:38:54.102315+00:00",
+          "offset": 1118
         }
       ]
     },
     "mod-support/reis-minimap": {
       "name": "Rei’s Minimap",
       "category": "Mod Support",
-      "gallery": ["minimaps-1.jpg"],
+      "gallery": [
+        "minimaps-1.jpg"
+      ],
       "modPage": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1275219-jul-08-reis-minimap-v3-4_01",
       "downloads": [
         {
           "version": "1.8",
-          "file": "ReiMinimap-Light-Dokucraft.zip"
+          "file": "ReiMinimap-Light-Dokucraft.zip",
+          "date": "2016-02-07T05:48:12.158389+00:00",
+          "offset": 4069
         }
       ]
     },
     "mod-support/rustic": {
       "name": "Rustic",
       "category": "Mod Support",
-      "gallery": ["2018-06-29_17.16.09.jpg"],
+      "gallery": [
+        "2018-06-29_17.16.09.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/rustic",
       "downloads": [
-        { "version": "1.12.2",
+        {
+          "version": "1.12.2",
           "file": "1.12.2-Dokucraft-Rustic.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-07-10T20:21:09.044039+00:00",
+          "offset": 2176
         }
       ]
     },
     "mod-support/simple-fluid-tanks": {
       "name": "Simple Fluid Tanks",
       "category": "Mod Support",
-      "gallery": ["SFTanks-01.jpg"],
+      "gallery": [
+        "SFTanks-01.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294146-simple-fluid-tanks",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Simple-Fluid-Tanks-Dokucraft.zip"
+          "file": "Simple-Fluid-Tanks-Dokucraft.zip",
+          "date": "2016-02-07T05:48:39.817029+00:00",
+          "offset": 648
         }
       ]
     },
     "mod-support/solar-flux": {
       "name": "Solar Flux",
       "category": "Mod Support",
-      "gallery": ["ZZEin2Z.jpg"],
+      "gallery": [
+        "ZZEin2Z.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2187592-solar-flux-a-k-a-compactsolars-for-redstone-flux",
       "downloads": [
         {
@@ -1473,14 +2191,18 @@
           "file": "SolarFlux-Light-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-05-30T21:41:22.248516+00:00",
+          "offset": 769
         }
       ]
     },
     "mod-support/soul-shards-the-old-ways": {
       "name": "Soul Shards: The Old Ways",
       "category": "Mod Support",
-      "gallery": ["2AT0PsR.jpg"],
+      "gallery": [
+        "2AT0PsR.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2329877-soul-shards-the-old-ways-rc9-update",
       "downloads": [
         {
@@ -1488,14 +2210,18 @@
           "file": "Soul-Shards-TOW-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-08-30T20:22:48.901304+00:00",
+          "offset": 708
         }
       ]
     },
     "mod-support/spartan": {
       "name": "Spartan Weaponry & Shields",
       "category": "Mod Support",
-      "gallery": ["2018-04-06_23.19.21.jpg"],
+      "gallery": [
+        "2018-04-06_23.19.21.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/spartan-weaponry",
       "downloads": [
         {
@@ -1504,26 +2230,37 @@
           "tags": [
             "Light",
             "Work In Progress=Light"
-          ]
+          ],
+          "date": "2018-04-06T20:19:35.055742+00:00",
+          "offset": 2009
         }
       ]
     },
     "mod-support/speedy-ladders": {
       "name": "Speedy Ladders",
       "category": "Mod Support",
-      "gallery": ["2019-12-31_06.45.25.jpg"],
+      "gallery": [
+        "2019-12-31_06.45.25.jpg"
+      ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/speedy-ladders",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "SpeedyLadders-Doku-1.12.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2020-02-04T05:20:48.107223+00:00",
+          "offset": 27
         }
       ]
     },
     "mod-support/survivalist": {
       "name": "Survivalist",
       "category": "Mod Support",
-      "gallery": ["636042896719463502.jpg"],
+      "gallery": [
+        "636042896719463502.jpg"
+      ],
       "modPage": "http://minecraft.curseforge.com/projects/survivalist",
       "downloads": [
         {
@@ -1532,19 +2269,25 @@
           "mirror": "http://ramireztime.com/minecraft/Survivalist.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-07-17T04:20:54.346109+00:00",
+          "offset": 627
         }
       ]
     },
     "mod-support/tainted-magic": {
       "name": "Tainted Magic",
       "category": "Mod Support",
-      "gallery": ["GkZlZZc.jpg"],
+      "gallery": [
+        "GkZlZZc.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2437825-tainted-magic-1-1-6-4-a-thaumcraft-addon",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Tainted-Magic-v1.1-Dokucraft.zip"
+          "file": "Tainted-Magic-v1.1-Dokucraft.zip",
+          "date": "2016-02-07T05:50:50.760555+00:00",
+          "offset": 1721
         }
       ]
     },
@@ -1559,9 +2302,15 @@
       "preview": 1,
       "modPage": "https://minecraft.curseforge.com/projects/tinkers-construct",
       "downloads": [
-        { "version": "1.12",
+        {
+          "version": "1.12",
           "file": "WIP-1.12-Dokucraft-TinkersConstruct.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-04-12T20:32:37.069214+00:00",
+          "offset": 3524
         }
       ]
     },
@@ -1576,64 +2325,96 @@
       ],
       "modPage": "https://minecraft.curseforge.com/projects/thaumcraft",
       "downloads": [
-        { "name": "Thaumcraft VI",
+        {
+          "name": "Thaumcraft VI",
           "version": "1.12.2",
           "file": "1.12-Dokucraft-Thaumcraft.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2019-08-27T23:31:04.034315+00:00",
+          "offset": 1639
         },
-        { "name": "Thaumcraft IV",
+        {
+          "name": "Thaumcraft IV",
           "version": "1.7.10",
           "file": "Thaumcraft-IV-v3.2.1-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-04T12:50:37.510716+00:00",
+          "offset": 7205
         }
       ]
     },
     "mod-support/thaumic-exploration": {
       "name": "Thaumic Exploration",
       "category": "Mod Support",
-      "gallery": ["FS0wxxo.jpg"],
+      "gallery": [
+        "FS0wxxo.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445786-1-6-4-1-7-10-thaumic-exploration-0-6-0-thaumcraft",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Thaumic-Exploration-V1-Dokucraft.zip"
+          "file": "Thaumic-Exploration-V1-Dokucraft.zip",
+          "date": "2016-02-07T05:51:15.755285+00:00",
+          "offset": 1984
         }
       ]
     },
     "mod-support/tubes": {
       "name": "Tubes",
       "category": "Mod Support",
-      "gallery": ["2014-10-28_10.38.35.jpg"],
+      "gallery": [
+        "2014-10-28_10.38.35.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292474-1-7-10-tubes-2-0-5-9-nov-2014",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "Tubes-Dokucraft.zip"
+          "file": "Tubes-Dokucraft.zip",
+          "date": "2016-02-07T06:00:40.858324+00:00",
+          "offset": 859
         }
       ]
     },
     "mod-support/twilight-forest": {
       "name": "The Twilight Forest",
       "category": "Mod Support",
-      "gallery": ["TForest-01.jpg"],
+      "gallery": [
+        "TForest-01.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/the-twilight-forest",
       "downloads": [
         {
           "version": "1.12.2",
           "file": "1.12.2-Dokucraft-Twilight-Forest.zip",
-          "tags": [ "Light", "Work In Progress=Light" ]
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ],
+          "date": "2018-06-12T13:48:13.428509+00:00",
+          "offset": 6879
         },
         {
           "version": "1.7.10",
           "file": "Twilight-Forest-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T06:01:21.348680+00:00",
+          "offset": 4486
         }
       ]
     },
     "mod-support/ultra-compression": {
       "name": "Ultra Compression",
       "category": "Mod Support",
-      "gallery": ["6JfFXKb.jpg"],
+      "gallery": [
+        "6JfFXKb.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2142800-1-7-10-ultra-block-compression-mod-v0-5-1",
       "downloads": [
         {
@@ -1641,7 +2422,9 @@
           "file": "Ultra_Compressed-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-07T06:01:53.496044+00:00",
+          "offset": 588
         }
       ]
     },
@@ -1659,80 +2442,115 @@
       "downloads": [
         {
           "version": "1.7",
-          "file": "Undergound-Biomes-Constructs-Dokucraft.zip"
+          "file": "Undergound-Biomes-Constructs-Dokucraft.zip",
+          "date": "2016-02-07T06:03:56.745535+00:00",
+          "offset": 1103
         }
       ]
     },
     "mod-support/voxelmap": {
       "name": "VoxelMap",
       "category": "Mod Support",
-      "gallery": ["minimaps-1.jpg"],
+      "gallery": [
+        "minimaps-1.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/voxelmap",
       "downloads": [
-        { "version": "1.14.2",
+        {
+          "version": "1.14.2",
           "file": "1.14.2-Dokucraft-VoxelMap.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2019-05-28T21:54:12.745133+00:00",
+          "offset": 767
         },
-        { "version": "1.12.2",
+        {
+          "version": "1.12.2",
           "file": "1.12.2-Dokucraft-VoxelMap.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2018-06-26T04:45:31.980582+00:00",
+          "offset": 1169
         },
-        { "version": "1.8",
+        {
+          "version": "1.8",
           "file": "VoxelMap-Light-Dokucraft.zip",
-          "tags": [ "Light" ]
+          "tags": [
+            "Light"
+          ],
+          "date": "2016-02-07T06:04:33.096662+00:00",
+          "offset": 1553
         }
       ]
     },
     "mod-support/warp-book": {
       "name": "Warp Book",
       "category": "Mod Support",
-      "gallery": ["mWtaSSM.jpg"],
+      "gallery": [
+        "mWtaSSM.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1293310-teleportation-warp-book",
       "downloads": [
-      	{
+        {
           "version": "1.8",
           "file": "Warp-Book-v2-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2017-06-03T11:12:46.378566+00:00",
+          "offset": 246
         },
         {
           "version": "1.7.10",
           "file": "Warp-Book-v1-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-07T06:05:01.667580+00:00",
+          "offset": 471
         }
       ]
     },
     "mod-support/waystones": {
       "name": "Waystones",
       "category": "Mod Support",
-      "gallery": ["636177518598503080.jpg"],
+      "gallery": [
+        "636177518598503080.jpg"
+      ],
       "modPage": "https://minecraft.curseforge.com/projects/waystones",
       "downloads": [
         {
           "version": "1.10.2",
-          "file": "Waystones-Dokucraft.zip"
+          "file": "Waystones-Dokucraft.zip",
+          "date": "2016-12-21T09:49:03.100324+00:00",
+          "offset": 1732
         }
       ]
     },
     "mod-support/wildcaves-3": {
       "name": "WildCaves 3",
       "category": "Mod Support",
-      "gallery": ["Wildcaves-02.jpg"],
+      "gallery": [
+        "Wildcaves-02.jpg"
+      ],
       "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287599-gotolink-updates-swordpedestal-fixes-2015-02-28#WildCaves",
       "downloads": [
         {
           "version": "1.7.10",
-          "file": "WildCaves-3-Dokucraft.zip"
+          "file": "WildCaves-3-Dokucraft.zip",
+          "date": "2016-02-07T06:05:26.593276+00:00",
+          "offset": 1141
         }
       ]
     },
     "mod-support/xaeros-minimap": {
       "name": "Xaero’s Minimap",
       "category": "Mod Support",
-      "gallery": ["2015-03-13_15.55.03.jpg"],
+      "gallery": [
+        "2015-03-13_15.55.03.jpg"
+      ],
       "modPage": "http://www.planetminecraft.com/mod/xaeros-minimap/",
       "downloads": [
         {
@@ -1740,38 +2558,44 @@
           "file": "Xaeros_Minimap-Light-Dokucraft.zip",
           "tags": [
             "Light"
-          ]
+          ],
+          "date": "2016-02-07T06:06:05.402534+00:00",
+          "offset": 1640
         },
         {
           "version": "1.8",
           "file": "Xaeros_Minimap-High-Dokucraft.zip",
           "tags": [
             "High"
-          ]
+          ],
+          "date": "2016-02-07T06:06:05.401920+00:00",
+          "offset": 479
         },
         {
           "version": "1.8",
           "file": "Xaeros_Minimap-Dark-Dokucraft.zip",
           "tags": [
             "Dark"
-          ]
+          ],
+          "date": "2016-02-07T06:06:05.401046+00:00",
+          "offset": 294
         }
       ]
     }
   },
   "unavailable": {
-    "portfolio/minidoku-high":          "Minidoku High",
-    "portfolio/minidoku-dark":          "Minidoku Dark",
-    "portfolio/megadoku-light":         "MegaDoku Light",
-    "portfolio/megadoku-high":          "MegaDoku High",
-    "portfolio/megadoku-dark":          "MegaDoku Dark",
-    "portfolio/pocket-doku":            "Pocket Doku",
-    "portfolio/pocketdoku-light":       "Pocket Doku",
-    "portfolio/pocketdoku-high":        "Pocket Doku",
-    "portfolio/pocketdoku-dark":        "Pocket Doku",
-    "portfolio/creative-pack":          "Dokucraft Creative",
-    "portfolio/dokucraft-light-music":  "Dokucraft Music Pack",
-    "portfolio/dokucraft-lush":         "Dokucraft Lush"
+    "portfolio/minidoku-high": "Minidoku High",
+    "portfolio/minidoku-dark": "Minidoku Dark",
+    "portfolio/megadoku-light": "MegaDoku Light",
+    "portfolio/megadoku-high": "MegaDoku High",
+    "portfolio/megadoku-dark": "MegaDoku Dark",
+    "portfolio/pocket-doku": "Pocket Doku",
+    "portfolio/pocketdoku-light": "Pocket Doku",
+    "portfolio/pocketdoku-high": "Pocket Doku",
+    "portfolio/pocketdoku-dark": "Pocket Doku",
+    "portfolio/creative-pack": "Dokucraft Creative",
+    "portfolio/dokucraft-light-music": "Dokucraft Music Pack",
+    "portfolio/dokucraft-lush": "Dokucraft Lush"
   },
   "redirect": {
     "faq": "about",
@@ -1779,16 +2603,16 @@
     "home/download": "",
     "resource-packs": "",
     "mod-support": "",
-    "portfolio/dokucraft-light":   "resource-packs/light",
-    "portfolio/dokucraft-high":    "resource-packs/high",
-    "portfolio/dokucraft-dark":    "resource-packs/dark",
+    "portfolio/dokucraft-light": "resource-packs/light",
+    "portfolio/dokucraft-high": "resource-packs/high",
+    "portfolio/dokucraft-dark": "resource-packs/dark",
     "portfolio/dokucraft-dwarven": "resource-packs/dwarven",
-    "downloads/dokucraft-light":   "resource-packs/light",
-    "downloads/dokucraft-high":    "resource-packs/high",
-    "downloads/dokucraft-dark":    "resource-packs/dark",
+    "downloads/dokucraft-light": "resource-packs/light",
+    "downloads/dokucraft-high": "resource-packs/high",
+    "downloads/dokucraft-dark": "resource-packs/dark",
     "downloads/dokucraft-dwarven": "resource-packs/dwarven",
-    "portfolio/minidoku-light":    "resource-packs/minidoku-light",
-    "portfolio/minidoku":          "resource-packs/minidoku-light",
-    "mod-support/thaumcraft-iv":   "mod-support/thaumcraft"
+    "portfolio/minidoku-light": "resource-packs/minidoku-light",
+    "portfolio/minidoku": "resource-packs/minidoku-light",
+    "mod-support/thaumcraft-iv": "mod-support/thaumcraft"
   }
 }

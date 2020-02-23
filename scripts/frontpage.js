@@ -133,8 +133,8 @@ $(document).ready(function() {
     for (var key in featurablePacks) {
       var dls = 0
       for (var i = featurablePacks[key].downloads.length - 1; i >= 0; i--) {
-        var file = files[featurablePacks[key].downloads[i].file]||{downloads:0}
-        dls += file.downloads + (featurablePacks[key].downloads[i].offset||0)
+        var file = files[featurablePacks[key].downloads[i].file]||{downloadCount:0}
+        dls += file.downloadCount + (featurablePacks[key].downloads[i].offset||0)
       }
       totalDLs.push({key: key, dls: dls})
     }
@@ -179,7 +179,7 @@ $(document).ready(function() {
       var date = new Date(0)
       for (var i = featurablePacks[key].downloads.length - 1; i >= 0; i--) {
         var file = files[featurablePacks[key].downloads[i].file]||{created_on:0}
-        var fileDate = new Date(file.created_on)
+        var fileDate = new Date(featurablePacks[key].downloads[i].date || file.updatedAt)
         date = date < fileDate ? fileDate : date
       }
       dates.push({key: key, date: date})

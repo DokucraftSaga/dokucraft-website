@@ -1,15 +1,37 @@
-function getDownloadsInfo(cb, url, result) {
-  url = url || 'https://api.bitbucket.org/2.0/repositories/DokucraftSaga/dokucraft-website/downloads?pagelen=100&fields=-values.links,-values.user,-values.type'
+function getDownloadsInfo(cb, result, endCursor, offset) {
   result = result || {}
-  $.getJSON(url, function(data) {
-    for (var i = data.values.length - 1; i >= 0; i--) {
-      var file = data.values[i]
-      var fileName = file.name
-      delete file.name
-      result[fileName] = file
-    }
-    if (data.hasOwnProperty('next')) {
-      getDownloadsInfo(cb, data.next, result)
+  offset = offset || 0
+  var graphQLQuery = JSON.stringify({query: [
+    'query {',
+    '  user(login:"DokucraftSaga") {',
+    '    repository(name:"Dokucraft-Releases") {',
+    '      release(tagName:"v1.0") {',
+    '        releaseAssets(first:100'+(endCursor ? ', after:"' + endCursor + '"' : '')+') {',
+    '          totalCount',
+    '          nodes {',
+    '            name',
+    '            size',
+    '            downloadCount',
+    '            updatedAt',
+    '          }',
+    '          pageInfo {',
+    '            endCursor',
+    '          }',
+    '        }',
+    '      }',
+    '    }',
+    '  }',
+    '}'].join('\n')})
+  $.ajax({
+    method: 'POST',
+    dataType: 'json',
+    url: 'https://api.github.com/graphql',
+    data: graphQLQuery,
+    headers: { 'Authorization': 'bearer acff4bca713a370d8baf95a5536088bcbbb9dd8c' }
+  }).done(function(data) {
+    data.data.user.repository.release.releaseAssets.nodes.forEach(function(file) {result[file.name] = file})
+    if (data.data.user.repository.release.releaseAssets.totalCount > offset) {
+      getDownloadsInfo(cb, result, data.data.user.repository.release.releaseAssets.pageInfo.endCursor, offset + 100)
     } else {
       cb(result)
     }

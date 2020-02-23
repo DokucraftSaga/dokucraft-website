@@ -59,11 +59,10 @@ html(lang='en')
                 th Date
                 th Downloads
                 th Size
-                th Mirror
               each dl in pack.downloads
                 - var dlLink = dl.file
                 - if (!dlLink.match(/^https?:\/\//i)) dlLink = fileRepo + dl.file
-                tr.download-row(file=dl.file, offset=dl.offset || 0, onclick='window.location = \'' + dlLink + '\'')
+                tr.download-row(file=dl.file, offset=dl.offset || 0, date=dl.date, onclick='window.location = \'' + dlLink + '\'')
                   td.name 
                     = dl.name || pack.name
                     - var versionStyle = tagStyles['neutral']
@@ -86,10 +85,6 @@ html(lang='en')
                   td.date
                   td.count
                   td.size
-                  if dl.hasOwnProperty('mirror')
-                    td: a(href=dl.mirror): include /src/resources/icons/download.svg
-                  else
-                    td.n-a n/a
             script: include /dist/scripts/downloads.min.js
           else
             i No downloads are available right now, come back later!
