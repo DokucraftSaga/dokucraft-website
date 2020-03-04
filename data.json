@@ -1634,6 +1634,13 @@
       "modPage": "https://minecraft.curseforge.com/projects/just-enough-items-jei",
       "downloads": [
         {
+          "version": "1.15",
+          "file": "1.15-JEI-Dokucraft-Light.zip",
+          "tags": [
+            "Light"
+          ]
+        },
+        {
           "version": "1.12",
           "file": "1.12-JEI-Dokucraft.zip",
           "tags": [
