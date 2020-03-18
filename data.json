@@ -1927,6 +1927,23 @@
         }
       ]
     },
+    "mod-support/natures-compass": {
+      "name": "Nature's Compass",
+      "category": "Mod Support",
+      "gallery": [
+        "2020-03-17_20.55.08.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
+      "downloads": [
+        {
+          "version": "1.12",
+          "file": "Natures-Compass-Doku-1.12.zip",
+          "tags": [
+            "Light"
+          ]
+        }
+      ]
+    },
     "mod-support/not-enough-items": {
       "name": "Not Enough Items",
       "category": "Mod Support",
