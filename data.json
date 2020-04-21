@@ -969,11 +969,8 @@
           "version": "1.12.2",
           "file": "1.12.2-BiomesOPlenty.zip",
           "tags": [
-            "Light",
-            "Work In Progress=Light"
-          ],
-          "date": "2019-08-27T23:31:04.035501+00:00",
-          "offset": 1836
+            "Light"
+          ]
         },
         {
           "version": "1.10.2",
@@ -1120,9 +1117,7 @@
           "file": "1.12-Dokucraft-Chisels-and-Bits.zip",
           "tags": [
             "Light"
-          ],
-          "date": "2019-09-08T20:17:58.364643+00:00",
-          "offset": 577
+          ]
         },
         {
           "version": "1.11",
