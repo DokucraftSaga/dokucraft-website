@@ -499,17 +499,6 @@
           "offset": 293
         },
         {
-          "name": "Pam's Harvestcraft",
-          "version": "1.12",
-          "file": "1.12-Dokucraft-PamsHarvestcraft_WIP-300319.zip",
-          "tags": [
-            "Light",
-            "Work In Progress=Light"
-          ],
-          "date": "2019-07-16T22:39:34.280167+00:00",
-          "offset": 622
-        },
-        {
           "name": "Primal Chests",
           "version": "1.12",
           "file": "1.12-Dokucraft-PrimalChests.zip",
@@ -1994,6 +1983,24 @@
           ],
           "date": "2020-02-04T05:20:48.103125+00:00",
           "offset": 32
+        }
+      ]
+    },
+    "mod-support/pams-harvestcraft": {
+      "name": "Pam's HarvestCraft",
+      "category": "Mod Support",
+      "gallery": [
+        "HarvestCraft.jpg",
+        "2020-04-24_00.20.25.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft",
+      "downloads": [
+        {
+          "version": "1.12",
+          "file": "1.12-Dokucraft-PamsHarvestCraftMod.zip",
+          "tags": [
+            "Light"
+          ]
         }
       ]
     },
