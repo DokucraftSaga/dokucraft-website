@@ -2204,6 +2204,23 @@
         }
       ]
     },
+    "mod-support/simple-grinder": {
+      "name": "Simple Grinder",
+      "category": "Mod Support",
+      "gallery": [
+        "Screenshot_237.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/simple-grinder",
+      "downloads": [
+        {
+          "version": "1.12.2",
+          "file": "1.12.2-Dokucraft-SimpleGrinder.zip",
+          "tags": [
+            "Light"
+          ]
+        }
+      ]
+    },
     "mod-support/solar-flux": {
       "name": "Solar Flux",
       "category": "Mod Support",
@@ -2568,6 +2585,23 @@
           "file": "Waystones-Dokucraft.zip",
           "date": "2016-12-21T09:49:03.100324+00:00",
           "offset": 1732
+        }
+      ]
+    },
+    "mod-support/wearable-backpacks": {
+      "name": "Wearable Backpacks",
+      "category": "Mod Support",
+      "gallery": [
+        "Screenshot_238.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks",
+      "downloads": [
+        {
+          "version": "1.12.2",
+          "file": "1.12.2-Dokucraft_WearableBackpacks-High.zip",
+          "tags": [
+            "High"
+          ]
         }
       ]
     },
