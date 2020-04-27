@@ -1542,6 +1542,26 @@
         }
       ]
     },
+    "mod-support/iron-backpacks": {
+      "name": "Iron Backpacks",
+      "category": "Mod Support",
+      "gallery": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/iron-backpacks",
+      "downloads": [
+        {
+          "version": "1.12",
+          "file": "1.12-Dokucraft-IronBackpacks.zip",
+          "tags": [
+            "Light"
+          ]
+        }
+      ]
+    },
     "mod-support/iron-chest": {
       "name": "Iron Chest",
       "category": "Mod Support",
