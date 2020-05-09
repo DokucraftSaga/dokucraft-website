@@ -2372,6 +2372,16 @@
             "Light",
             "Work In Progress=Light"
           ]
+        },
+        {
+          "version": "1.12",
+          "note": "Loads faster than the other version, but tools will look a bit different",
+          "file": "1.12-Dokucraft-TinkersConstruct-Lite_WIP-08052020.zip",
+          "tags": [
+            "Light",
+            "Work In Progress=Light",
+            "Lite=Light"
+          ]
         }
       ]
     },
