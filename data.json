@@ -2214,7 +2214,8 @@
       "gallery": [
         "Screenshot-Ores.jpg",
         "Screenshot-Buckets.jpg",
-        "Screenshot-Alloys.jpg"
+        "Screenshot-Alloys.jpg",
+        "Screenshot-Items.jpg"
       ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/silents-mechanisms",
       "downloads": [
@@ -2222,16 +2223,14 @@
           "version": "1.15",
           "file": "1.15-Dokucraft-Silents-Mechanisms-Light.zip",
           "tags": [
-            "Light",
-            "Work In Progress=Light"
+            "Light"
           ]
         },
         {
           "version": "1.14",
           "file": "1.14-Dokucraft-Silents-Mechanisms-Light.zip",
           "tags": [
-            "Light",
-            "Work In Progress=Light"
+            "Light"
           ]
         }
       ]
