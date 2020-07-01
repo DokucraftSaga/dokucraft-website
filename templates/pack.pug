@@ -19,14 +19,30 @@ html(lang='en')
             h1#pack-title= pack.name
             h3#pack-category= pack.category
             if pack.downloads.length > 0 && !pack.disableDownloadButton
-              - var dl = pack.downloads[pack.featuredFile || 0]
+              - var dl = pack.downloads[pack.featuredJavaFile || 0]
               - var dlLink = dl.file
               - if (!dlLink.match(/^https?:\/\//i)) dlLink = fileRepo + dl.file
               a.header-button(href=dlLink)
                 .icon: include /src/resources/icons/download.svg
                 .text
                   h4 Download Pack
-                  = pack.featuredText || 'For Minecraft ' + pack.downloads[pack.featuredFile || 0].version
+                  | For Minecraft 
+                  span
+                    | Java Edition 
+                    = dl.version
+              br.toggle-nl
+            if pack.hasOwnProperty('featuredBedrockFile') && !pack.disableDownloadButton
+              - var dl = pack.downloads[pack.featuredBedrockFile]
+              - var dlLink = dl.file
+              - if (!dlLink.match(/^https?:\/\//i)) dlLink = fileRepo + dl.file
+              a.header-button(href=dlLink)
+                .icon: include /src/resources/icons/download.svg
+                .text
+                  h4 Download Pack
+                  | For Minecraft 
+                  span
+                    | Bedrock Edition 
+                    = dl.version
               br.toggle-nl
             if pack.enablePanorama
               a#panorama-button.header-button

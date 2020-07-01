@@ -59,6 +59,10 @@
   transform: translateY(-50%);
 }
 
+.header-button span {
+  color: #ffcf01;
+}
+
 .header-button>.text {
   display: inline-block;
   margin-left: 32px;

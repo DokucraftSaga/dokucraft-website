@@ -47,7 +47,22 @@
         "Mf8Gnew.jpg"
       ],
       "enablePanorama": true,
+      "featuredBedrockFile": 1,
       "downloads": [
+        {
+          "version": "1.16",
+          "tags": [
+            "=Light"
+          ],
+          "file": "1.16-Dokucraft-TSC-Light.zip"
+        },
+        {
+          "version": "1.16",
+          "tags": [
+            "Bedrock=Light"
+          ],
+          "file": "Dokucraft-Light-Bedrock-Edition.mcpack"
+        },
         {
           "version": "1.15",
           "tags": [
@@ -56,15 +71,6 @@
           "file": "1.15-Dokucraft-TSC-Light.zip",
           "date": "2020-01-08T17:26:21.956601+00:00",
           "offset": 13465
-        },
-        {
-          "version": "1.14.0",
-          "tags": [
-            "Bedrock=Light"
-          ],
-          "file": "Dokucraft-Light-Bedrock-Edition.mcpack",
-          "date": "2020-01-28T17:24:44.586921+00:00",
-          "offset": 631
         },
         {
           "version": "1.14",
@@ -135,6 +141,7 @@
         "1QLVTrD.jpg"
       ],
       "enablePanorama": true,
+      "featuredBedrockFile": 1,
       "downloads": [
         {
           "version": "1.15",
@@ -146,7 +153,7 @@
           "offset": 9861
         },
         {
-          "version": "1.14.0",
+          "version": "1.14",
           "tags": [
             "Bedrock=High"
           ],
@@ -223,6 +230,7 @@
         "KFBnuE8.jpg"
       ],
       "enablePanorama": true,
+      "featuredBedrockFile": 1,
       "downloads": [
         {
           "version": "1.15",
@@ -234,7 +242,7 @@
           "offset": 4394
         },
         {
-          "version": "1.14.0",
+          "version": "1.14",
           "tags": [
             "Bedrock=Dark"
           ],
