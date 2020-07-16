@@ -28,7 +28,7 @@ html(lang='en')
                   h4 Download Pack
                   | For Minecraft 
                   span
-                    | Java Edition 
+                    = (dl.mcEdition || 'Java Edition') + ' '
                     = dl.version
               br.toggle-nl
             if pack.hasOwnProperty('featuredBedrockFile') && !pack.disableDownloadButton
@@ -104,6 +104,9 @@ html(lang='en')
             script: include /dist/scripts/downloads.min.js
           else
             i No downloads are available right now, come back later!
-        include /src/templates/install-instructions.pug
+        if !pack.noJava
+          include /src/templates/install-instructions.pug
         if pack.bedrock
           include /src/templates/install-instructions-bedrock.pug
+        if pack.dungeons
+          include /src/templates/install-instructions-dungeons.pug
