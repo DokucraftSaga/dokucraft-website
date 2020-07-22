@@ -676,6 +676,13 @@
           ],
           "date": "2019-11-21T23:04:30.931392+00:00",
           "offset": 338
+        },
+        {
+          "version": "1.12",
+          "file": "AppleSkin-Doku-High-1.12.zip",
+          "tags": [
+            "High"
+          ]
         }
       ]
     },
@@ -1018,6 +1025,23 @@
           ],
           "date": "2016-02-07T04:42:17.711677+00:00",
           "offset": 321
+        }
+      ]
+    },
+    "mod-support/bonsai-trees": {
+      "name": "Bonsai Trees",
+      "category": "Mod Support",
+      "gallery": [
+        "2020-07-21_22.40.57.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/bonsai-trees",
+      "downloads": [
+        {
+          "version": "1.12",
+          "file": "Bonsai-Doku-1.12.zip",
+          "tags": [
+            "High"
+          ]
         }
       ]
     },
@@ -2357,22 +2381,42 @@
         }
       ]
     },
+    "mod-support/speedy-hoppers": {
+      "name": "Speedy Hoppers",
+      "category": "Mod Support",
+      "gallery": [
+        "2020-07-21_22.45.49.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/speedy-hoppers",
+      "downloads": [
+        {
+          "version": "1.12",
+          "file": "SpeedyHoppers-Dokucraft-Light-1.12.zip",
+          "tags": [
+            "Light"
+          ]
+        },
+        {
+          "version": "1.12",
+          "file": "SpeedyHoppers-Dokucraft-High-1.12.zip",
+          "tags": [
+            "High"
+          ]
+        }
+      ]
+    },
     "mod-support/speedy-ladders": {
       "name": "Speedy Ladders",
       "category": "Mod Support",
       "gallery": [
-        "2019-12-31_06.45.25.jpg"
+        "2019-12-31_06.45.25.jpg",
+        "2020-07-21_23.03.10.jpg"
       ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/speedy-ladders",
       "downloads": [
         {
           "version": "1.12",
-          "file": "SpeedyLadders-Doku-1.12.zip",
-          "tags": [
-            "Light"
-          ],
-          "date": "2020-02-04T05:20:48.107223+00:00",
-          "offset": 27
+          "file": "SpeedyLadders-Doku-1.12.zip"
         }
       ]
     },
