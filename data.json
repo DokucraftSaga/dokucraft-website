@@ -50,11 +50,11 @@
       "featuredBedrockFile": 1,
       "downloads": [
         {
-          "version": "1.16",
+          "version": "1.16.2",
           "tags": [
             "=Light"
           ],
-          "file": "1.16-Dokucraft-TSC-Light.zip"
+          "file": "1.16.2-Dokucraft-TSC-Light.zip"
         },
         {
           "version": "1.16",
@@ -62,6 +62,13 @@
             "Bedrock=Light"
           ],
           "file": "Dokucraft-Light-Bedrock-Edition.mcpack"
+        },
+        {
+          "version": "1.16",
+          "tags": [
+            "=Light"
+          ],
+          "file": "1.16-Dokucraft-TSC-Light.zip"
         },
         {
           "version": "1.15",
