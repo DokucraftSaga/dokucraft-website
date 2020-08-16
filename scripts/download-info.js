@@ -3,7 +3,7 @@ function getDownloadsInfo(cb, result, endCursor, offset) {
   offset = offset || 0
   var graphQLQuery = JSON.stringify({query: [
     'query {',
-    '  user(login:"DokucraftSaga") {',
+    '  organization(login:"Dokucraft") {',
     '    repository(name:"Dokucraft-Releases") {',
     '      release(tagName:"v1.0") {',
     '        releaseAssets(first:100'+(endCursor ? ', after:"' + endCursor + '"' : '')+') {',
@@ -29,9 +29,9 @@ function getDownloadsInfo(cb, result, endCursor, offset) {
     data: graphQLQuery,
     headers: { 'Authorization': 'bearer acff4bca713a370d8baf95a5536088bcbbb9dd8c' }
   }).done(function(data) {
-    data.data.user.repository.release.releaseAssets.nodes.forEach(function(file) {result[file.name] = file})
-    if (data.data.user.repository.release.releaseAssets.totalCount > offset) {
-      getDownloadsInfo(cb, result, data.data.user.repository.release.releaseAssets.pageInfo.endCursor, offset + 100)
+    data.data.organization.repository.release.releaseAssets.nodes.forEach(function(file) {result[file.name] = file})
+    if (data.data.organization.repository.release.releaseAssets.totalCount > offset) {
+      getDownloadsInfo(cb, result, data.data.organization.repository.release.releaseAssets.pageInfo.endCursor, offset + 100)
     } else {
       cb(result)
     }
