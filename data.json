@@ -1242,6 +1242,13 @@
       "modPage": "http://www.computercraft.info/",
       "downloads": [
         {
+          "version": "1.16",
+          "file": "1.16-ComputerCraft-Dokucraft.zip",
+          "tags": [
+            "Light"
+          ]
+        },
+        {
           "version": "1.8.9",
           "file": "ComputerCraft-Dokucraft.zip",
           "tags": [
