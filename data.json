@@ -520,6 +520,15 @@
           "offset": 186
         },
         {
+          "name": "Ice and Fire",
+          "version": "1.12",
+          "file": "IceandFire-Dokucraft-1.12.2.zip",
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ]
+        },
+        {
           "name": "Immersive Engineering",
           "version": "1.12",
           "file": "1.12-Dokucraft-ImmersiveEngineering_WIP-170219.zip",
