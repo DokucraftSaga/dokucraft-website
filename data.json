@@ -1675,12 +1675,17 @@
         },
         {
           "version": "1.12",
-          "file": "1.12-Dokucraft-IronChests-231118.zip",
+          "file": "1.12-Dokucraft-IronChests-Light.zip",
           "tags": [
             "Light"
-          ],
-          "date": "2019-07-16T22:39:34.274698+00:00",
-          "offset": 1228
+          ]
+        },
+        {
+          "version": "1.12",
+          "file": "1.12-Dokucraft-IronChests-High.zip",
+          "tags": [
+            "High"
+          ]
         },
         {
           "version": "1.10.2",
