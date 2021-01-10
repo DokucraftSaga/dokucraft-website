@@ -13,8 +13,8 @@ getDownloadsInfo(function(files) {
     var row = $(e)
     var file = files[row.attr('file')]
     row.find('.size').text(formatBytes(file.size))
-    row.find('.count').text(file.downloadCount + parseInt(row.attr("offset")))
-    var date = new Date(row.attr("date") || file.updatedAt)
+    row.find('.count').text(file.download_count + parseInt(row.attr("offset")))
+    var date = new Date(row.attr("date") || file.updated_at)
     row.find('.date').text(months[date.getMonth()] + ' ' + date.getDate() + ', ' + date.getFullYear())
     if (((new Date) - date) < 1209600000) { // Two weeks
       row.find('.name span:last-of-type').after($('<span>').addClass('tag new').text("New"))

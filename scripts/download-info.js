@@ -1,4 +1,4 @@
-function getDownloadsInfo(cb, result, endCursor, offset) {
+/*function getDownloadsInfo(cb, result, endCursor, offset) {
   result = result || {}
   offset = offset || 0
   var graphQLQuery = JSON.stringify({query: [
@@ -27,7 +27,7 @@ function getDownloadsInfo(cb, result, endCursor, offset) {
     dataType: 'json',
     url: 'https://api.github.com/graphql',
     data: graphQLQuery,
-    headers: { 'Authorization': 'bearer fd059d24db08bf89606be39aab3f8ac635986fa2' }
+    headers: { 'Authorization': 'bearer __________________________________________' }
   }).done(function(data) {
     data.data.organization.repository.release.releaseAssets.nodes.forEach(function(file) {result[file.name] = file})
     if (data.data.organization.repository.release.releaseAssets.totalCount > offset) {
@@ -36,11 +36,12 @@ function getDownloadsInfo(cb, result, endCursor, offset) {
       cb(result)
     }
   })
-}
-
-/*async function getDownloadsInfoUnauthorized(cb) {
-  const data = await fetch('https://api.github.com/repos/Dokucraft/Dokucraft-Releases/releases/23891043').then(e => e.json())
-  const result = {}
-  data.assets.forEach(file => {result[file.name] = file})
-  cb(result)
 }*/
+
+function getDownloadsInfo(cb) {
+  fetch('https://api.github.com/repos/Dokucraft/Dokucraft-Releases/releases/23891043').then(function(e) {return e.json()}).then(function(data) {
+    var result = {}
+    data.assets.forEach(function(file) {result[file.name] = file})
+    cb(result)
+  })
+}
