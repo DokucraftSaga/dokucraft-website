@@ -499,6 +499,15 @@
         },
         {
           "name": "Botania",
+          "version": "1.16",
+          "file": "1.16-Dokucraft-Botania_WIP-100101.zip",
+          "tags": [
+            "Light",
+            "Work In Progress=Light"
+          ]
+        },
+        {
+          "name": "Botania",
           "version": "1.12",
           "file": "1.12-Dokucraft-Botania_WIP-160419.zip",
           "tags": [
