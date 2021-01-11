@@ -50,14 +50,14 @@
       "featuredBedrockFile": 1,
       "downloads": [
         {
-          "version": "1.16.2",
+          "version": "1.16.4",
           "tags": [
             "=Light"
           ],
-          "file": "1.16.2-Dokucraft-TSC-Light.zip"
+          "file": "1.16.4-Dokucraft-TSC-Light.zip"
         },
         {
-          "version": "1.16.2",
+          "version": "1.16.4",
           "tags": [
             "Bedrock=Light"
           ],
@@ -153,14 +153,14 @@
       "featuredBedrockFile": 1,
       "downloads": [
         {
-          "version": "1.16.2",
+          "version": "1.16.4",
           "tags": [
             "=High"
           ],
-          "file": "1.16.2-Dokucraft-TSC-High.zip"
+          "file": "1.16.4-Dokucraft-TSC-High.zip"
         },
         {
-          "version": "1.16.2",
+          "version": "1.16.4",
           "tags": [
             "Bedrock=High"
           ],
@@ -249,14 +249,14 @@
       "featuredBedrockFile": 1,
       "downloads": [
         {
-          "version": "1.16.2",
+          "version": "1.16.4",
           "tags": [
             "=Dark"
           ],
-          "file": "1.16.2-Dokucraft-TSC-Dark.zip"
+          "file": "1.16.4-Dokucraft-TSC-Dark.zip"
         },
         {
-          "version": "1.16.2",
+          "version": "1.16.4",
           "tags": [
             "Bedrock=Dark"
           ],
