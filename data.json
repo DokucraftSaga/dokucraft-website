@@ -1765,6 +1765,20 @@
           "offset": 1408
         },
         {
+          "version": "1.12",
+          "file": "1.12-JEI-Dokucraft-high.zip",
+          "tags": [
+            "High"
+          ]
+        },
+        {
+          "version": "1.12",
+          "file": "1.12-JEI-Dokucraft-dark.zip",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
           "version": "1.11",
           "note": "Compatible with 1.10.2",
           "file": "JEI-Dokucraft.zip",
