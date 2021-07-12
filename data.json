@@ -1495,6 +1495,24 @@
         }
       ]
     },
+    "mod-support/figura": {
+      "name": "Figura",
+      "category": "Mod Support",
+      "gallery": [
+        "2021-07-12_23.23.36.jpg",
+        "2021-07-12_23.25.04.jpg"
+      ],
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/figura",
+      "downloads": [
+        {
+          "version": "1.17.0",
+          "file": "Dokucraft_Figura_GUI_1.17.zip",
+          "tags": [
+            "Light"
+          ]
+        }
+      ]
+    },
     "mod-support/flower-tea": {
       "name": "Flower Tea",
       "category": "Mod Support",
