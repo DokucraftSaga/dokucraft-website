@@ -404,6 +404,52 @@
         }
       ]
     },
+    "resource-packs/pbr": {
+      "name": "DokuPBR",
+      "category": "PBR Resource Pack",
+      "preview": 1,
+      "gallery": [
+        "dokupbr_allblocks_01.jpg",
+        "dokupbr_ironblock_01.jpg",
+        "dokupbr_slabs.jpg",
+        "dokupbr_concretepowder_01.jpg"
+      ],
+      "featuredJavaFile": 2,
+      "downloads": [
+        {
+          "name": "DokuPBR 128x",
+          "version": "1.16",
+          "tags": [
+            "=Light"
+          ],
+          "file": "DokuPBR_1.16_128x.zip"
+        },
+        {
+          "name": "DokuPBR 256x",
+          "version": "1.16",
+          "tags": [
+            "=Light"
+          ],
+          "file": "DokuPBR_1.16_256x.zip"
+        },
+        {
+          "name": "DokuPBR 512x",
+          "version": "1.16",
+          "tags": [
+            "=Light"
+          ],
+          "file": "DokuPBR_1.16_512x.zip"
+        },
+        {
+          "name": "DokuPBR 1024x",
+          "version": "1.16",
+          "tags": [
+            "=Light"
+          ],
+          "file": "DokuPBR_1.16_1024x.zip"
+        }
+      ]
+    },
     "resource-packs/dungeons": {
       "name": "Dokucraft Dungeons",
       "category": "32x Resource Pack",
