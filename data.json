@@ -420,33 +420,33 @@
           "name": "DokuPBR 128x",
           "version": "1.16",
           "tags": [
-            "=Light"
+            "Work In Progress=Light"
           ],
-          "file": "DokuPBR_1.16_128x.zip"
+          "file": "DokuCraft.PBR.128x.V0.2.zip"
         },
         {
           "name": "DokuPBR 256x",
           "version": "1.16",
           "tags": [
-            "=Light"
+            "Work In Progress=Light"
           ],
-          "file": "DokuPBR_1.16_256x.zip"
+          "file": "DokuCraft.PBR.256x.V0.2.zip"
         },
         {
           "name": "DokuPBR 512x",
           "version": "1.16",
           "tags": [
-            "=Light"
+            "Work In Progress=Light"
           ],
-          "file": "DokuPBR_1.16_512x.zip"
+          "file": "DokuCraft.PBR.512x.V0.2.zip"
         },
         {
           "name": "DokuPBR 1024x",
           "version": "1.16",
           "tags": [
-            "=Light"
+            "Work In Progress=Light"
           ],
-          "file": "DokuPBR_1.16_1024x.zip"
+          "file": "DokuCraft.PBR.1024x.V0.2.zip"
         }
       ]
     },
