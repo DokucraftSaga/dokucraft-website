@@ -54,7 +54,8 @@
           "tags": [
             "=Light"
           ],
-          "file": "1.17-Dokucraft-Light.zip"
+          "file": "1.17-Dokucraft-Light.zip",
+          "offset": 288
         },
         {
           "version": "1.17",
