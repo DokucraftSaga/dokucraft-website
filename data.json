@@ -50,21 +50,26 @@
       "featuredBedrockFile": 1,
       "downloads": [
         {
+          "version": "1.17",
+          "tags": [
+            "=Light"
+          ],
+          "file": "1.17-Dokucraft-Light.zip"
+        },
+        {
+          "version": "1.17",
+          "tags": [
+            "Bedrock=Light"
+          ],
+          "file": "Dokucraft-Light-Bedrock-Edition.mcpack"
+        },
+        {
           "version": "1.16.4",
           "tags": [
             "=Light"
           ],
           "file": "1.16.4-Dokucraft-TSC-Light.zip",
           "date": "2020-09-29T23:32:20Z"
-        },
-        {
-          "version": "1.16.4",
-          "tags": [
-            "Bedrock=Light"
-          ],
-          "file": "Dokucraft-Light-Bedrock-Edition.mcpack",
-          "date": "2020-09-29T23:32:20Z",
-          "offset": 5361
         },
         {
           "version": "1.16",
