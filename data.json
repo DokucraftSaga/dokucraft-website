@@ -62,7 +62,8 @@
           "tags": [
             "Bedrock=Light"
           ],
-          "file": "Dokucraft-Light-Bedrock-Edition.mcpack"
+          "file": "Dokucraft-Light-Bedrock-Edition.mcpack",
+          "offset": 219
         },
         {
           "version": "1.16.4",
