@@ -739,14 +739,22 @@
       ]
     },
     "mod-support/ancient-warfare": {
-      "name": "Ancient Warfare",
+      "name": "Ancient Warfare 2",
       "category": "Mod Support",
       "gallery": [
-        "xZNYnvp.jpg"
+        "AncientWarfare2Dokucraft.jpg"
       ],
-      "modPage": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1441547-1-7-10-ancient-warfare-forge-smp-wip-d-l",
+      "modPage": "https://www.curseforge.com/minecraft/mc-mods/ancient-warfare-2",
       "downloads": [
         {
+          "version": "1.12",
+          "file": "1.12-Ancient-Warfare-2-Dokucraft.zip",
+          "tags": [
+            "Light"
+          ]
+        },
+        {
+          "name": "Ancient Warfare",
           "version": "1.7.10",
           "file": "Ancient_Warfare-Dokucraft.zip",
           "tags": [
