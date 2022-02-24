@@ -175,21 +175,40 @@
       "featuredBedrockFile": 1,
       "downloads": [
         {
+          "version": "1.18.1",
+          "tags": [
+            "=High"
+          ],
+          "file": "1.18.1-Dokucraft-High.zip"
+        },
+        {
+          "version": "1.18",
+          "tags": [
+            "Bedrock=High"
+          ],
+          "file": "Dokucraft-High-Bedrock-Edition.mcpack"
+        },
+        {
+          "version": "1.18",
+          "tags": [
+            "=High"
+          ],
+          "file": "1.18-Dokucraft-High.zip"
+        },
+        {
+          "version": "1.17",
+          "tags": [
+            "=High"
+          ],
+          "file": "1.17-Dokucraft-High.zip"
+        },
+        {
           "version": "1.16.4",
           "tags": [
             "=High"
           ],
           "file": "1.16.4-Dokucraft-TSC-High.zip",
           "date": "2020-09-29T23:32:20Z"
-        },
-        {
-          "version": "1.16.4",
-          "tags": [
-            "Bedrock=High"
-          ],
-          "file": "Dokucraft-High-Bedrock-Edition.mcpack",
-          "date": "2020-09-29T23:32:12Z",
-          "offset": 3164
         },
         {
           "version": "1.15",
@@ -272,21 +291,40 @@
       "featuredBedrockFile": 1,
       "downloads": [
         {
+          "version": "1.18.1",
+          "tags": [
+            "=Dark"
+          ],
+          "file": "1.18.1-Dokucraft-Dark.zip"
+        },
+        {
+          "version": "1.18",
+          "tags": [
+            "Bedrock=Dark"
+          ],
+          "file": "Dokucraft-Dark-Bedrock-Edition.mcpack"
+        },
+        {
+          "version": "1.18",
+          "tags": [
+            "=Dark"
+          ],
+          "file": "1.18-Dokucraft-Dark.zip"
+        },
+        {
+          "version": "1.17",
+          "tags": [
+            "=Dark"
+          ],
+          "file": "1.17-Dokucraft-Dark.zip"
+        },
+        {
           "version": "1.16.4",
           "tags": [
             "=Dark"
           ],
           "file": "1.16.4-Dokucraft-TSC-Dark.zip",
           "date": "2020-09-29T23:32:20Z"
-        },
-        {
-          "version": "1.16.4",
-          "tags": [
-            "Bedrock=Dark"
-          ],
-          "file": "Dokucraft-Dark-Bedrock-Edition.mcpack",
-          "date": "2020-09-29T23:32:28Z",
-          "offset": 1458
         },
         {
           "version": "1.15",
@@ -368,6 +406,34 @@
       "enablePanorama": true,
       "downloads": [
         {
+          "version": "1.18.1",
+          "tags": [
+            "=Dwarven"
+          ],
+          "file": "1.18.1-Dokucraft-Dwarven.zip"
+        },
+        {
+          "version": "1.18",
+          "tags": [
+            "Bedrock=Dwarven"
+          ],
+          "file": "Dokucraft-Dwarven-Bedrock-Edition.mcpack"
+        },
+        {
+          "version": "1.18",
+          "tags": [
+            "=Dwarven"
+          ],
+          "file": "1.18-Dokucraft-Dwarven.zip"
+        },
+        {
+          "version": "1.17",
+          "tags": [
+            "=Dwarven"
+          ],
+          "file": "1.17-Dokucraft-Dwarven.zip"
+        },
+        {
           "version": "1.15",
           "tags": [
             "=Dwarven"
@@ -377,19 +443,9 @@
           "offset": 1688
         },
         {
-          "version": "1.14.0",
-          "tags": [
-            "Bedrock=Dwarven"
-          ],
-          "file": "Dokucraft-Dwarven-Bedrock-Edition.mcpack",
-          "date": "2020-01-28T17:24:44.583326+00:00",
-          "offset": 218
-        },
-        {
           "version": "1.13",
           "tags": [
-            "=Dwarven",
-            "Work In Progress=Dwarven"
+            "=Dwarven"
           ],
           "file": "WIP-1.13-Dokucraft-Dwarven-v2.zip",
           "date": "2019-05-09T21:41:47.484414+00:00",
