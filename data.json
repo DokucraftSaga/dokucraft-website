@@ -867,23 +867,31 @@
     "mod-support/appleskin": {
       "name": "AppleSkin",
       "category": "Mod Support",
+      "preview": 1,
       "gallery": [
-        "saturation.jpg"
+        "high.jpg",
+        "saturation.jpg",
+        "dark.jpg"
       ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
       "downloads": [
         {
-          "version": "1.14",
-          "file": "1.14-Dokucraft-AppleSkin.zip",
+          "version": "1.10.2+",
+          "file": "1.10.2-Dokucraft-AppleSkin-Light.zip",
           "tags": [
             "Light"
-          ],
-          "date": "2019-11-21T23:04:30.931392+00:00",
-          "offset": 338
+          ]
         },
         {
-          "version": "1.12",
-          "file": "AppleSkin-Doku-High-1.12.zip",
+          "version": "1.10.2+",
+          "file": "1.10.2-Dokucraft-AppleSkin-Dark.zip",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "version": "1.10.2+",
+          "file": "1.10.2-Dokucraft-AppleSkin-High.zip",
           "tags": [
             "High"
           ]
