@@ -1855,13 +1855,27 @@
       ]
     },
     "mod-support/iron-chest": {
-      "name": "Iron Chest",
+      "name": "Iron Chests",
       "category": "Mod Support",
       "gallery": [
         "Iron-Chest-02.jpg"
       ],
       "modPage": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
       "downloads": [
+        {
+          "version": "1.19",
+          "file": "1.19-Dokucraft-IronChests-Light.zip",
+          "tags": [
+            "Light"
+          ]
+        },
+        {
+          "version": "1.19",
+          "file": "1.19-Dokucraft-IronChests-High.zip",
+          "tags": [
+            "High"
+          ]
+        },
         {
           "version": "1.14",
           "file": "1.14-Dokucraft-IronChests-Light.zip",
